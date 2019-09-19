@@ -1,0 +1,385 @@
+
+
+\appendix{Apêndice A}
+
+\section{Programa Dijkstra Escrito em Linguagem de Programação \texttt{C}}
+
+\scriptsize
+\begin{verbatim}
+#include <stdio.h>
+
+#define GRAPHSIZEM1 5
+#define GRAPHSIZE 6
+#define INFINITY FF
+
+int dist[GRAPHSIZE][GRAPHSIZE] = {   {32, 32, 54, 12, 52, 56},
+                                 {76, 54, 65, 14, 89, 69},
+                                 {38, 31, 75, 40, 61, 21},
+                                 {80, 16, 53, 14, 94, 29},
+                                 {59, 7, 14, 78, 79, 45}, 
+                                 {94, 41, 3, 61, 27, 19} 
+                              };   
+
+int d[GRAPHSIZE];
+int visited[GRAPHSIZE];
+
+void dijkstra(int s) {
+    int i, k, mini;
+
+    for (i = 0; i < GRAPHSIZE; ++i) {
+        d[i] = INFINITY;
+        visited[i] = 0;
+    }
+    d[s] = 0;
+    for (k = 0; k < GRAPHSIZE; ++k) {
+            mini = -1;
+            for (i = 0; i < GRAPHSIZE; ++i)
+                if (!visited[i] && ((mini == -1) || (d[i] < d[mini])))
+	                mini = i;
+
+            visited[mini] = 1;
+
+            for (i = 0; i < GRAPHSIZE; ++i)
+                if (dist[mini][i])
+	                if (d[mini] + dist[mini][i] < d[i]) 
+		                d[i] = d[mini] + dist[mini][i];
+
+       
+    }
+   
+}
+
+int main() {
+	dijkstra(1);
+	return 0;
+}
+
+\end{verbatim}
+
+\section{Código \texttt{Assembly} do Programa Dijkstra}
+\scriptsize
+\begin{verbatim}
+ .equ GRAPHSIZEM1,5 
+    .equ GRAPHSIZE,6
+    .equ INFINITY,0xFFFF
+    .equ INODE,1
+    .equ M1_H,0xFF
+    .equ M1_L,0xFE  
+
+    xor $sp,$sp,$sp             ; $sp Aponta para final da memória   
+    lui $t0,0xFF
+    sft $t0,-8
+    lui $t0,0xFE
+    or  $sp,$t0,$sp
+         
+    lui $t0,hi(.main)
+    sft $t0,-8
+    j $t0,lo(.main)  
+
+.dist:
+
+    .short 32,32,54,12,52,56
+    .short 76,54,65,14,89,69
+    .short 38,31,75,40,61,21
+    .short 80,16,53,14,94,29 
+    .short 59,07,14,78,79,45
+    .short 94,71,03,61,27,19
+
+
+.d: 
+    .short INFINITY,INFINITY,INFINITY,INFINITY,INFINITY,INFINITY
+
+.visited:
+    .short 0,0,0,0,0,0
+
+.dijkstra:
+    xor $t0,$t0,$t0 
+    lui $t0,6                ;alocar espaço para i k e mini na pilha      
+    sub $sp,$sp,$t0          
+    
+    xor $s0,$s0,$s0                            
+    add $s0,$sp,$zero
+    addi $s0,6  
+    lw $s0,$s0,$zero         ; $s0 = s
+    
+    xor $t0,$t0,$t0 
+    add $t0,$s0,$zero        ; $t0 = s   
+    sft $t0,-1               ; $t0*2  
+    
+    xor $t1,$t1,$t1          ;
+    lui $t1,.d               ; 
+    add $t0,$t0,$t1          ; $t0 endereço de d na posição s
+    sw $zero,$t0,$zero       ; d[s] = 0
+
+    xor $s2,$s2,$s2          ; k = 0  do primeiro for
+
+.codigoPrimeiroFor:
+    xor $s3,$s3,$s3           ;
+    lui $s3,M1_L              ;
+    lui $t0,M1_H              ;
+    sft $t0,-8                ; 
+    or $s3,$s3,$t0            ; mini = -1
+
+    xor $s1,$s1,$s1           ; i = 0  do segundo for
+ 
+.codigoSegundoFor:
+    xor $t0,$t0,$t0
+    add $t0,$s1,$zero        ; $t0 = i   
+    sft $t0,-1               ; $t0*2  
+    
+    xor $t1,$t1,$t1          ;
+    lui $t1,.visited         ; 
+    add $t0,$t0,$t1          ; $t0 endereço de visited na posição i
+    lw  $t0,$t0,$zero        ; $t0 = visited[i]
+    
+    beq $t0,$zero,.corpoPrimeiroIf       ;Primeiro if  
+    xor $t0,$t0,$t0      
+    lui $t0,.fimPrimeiroIf
+    j $t0,0
+
+.corpoPrimeiroIf:        
+    xor $t0,$t0,$t0           ;
+    lui $t0,M1_L              ;
+    lui $t1,M1_H              ;
+    sft $t1,-8                ; 
+    or $t0,$t0,$t1            ; $t0 = -1
+
+    beq $t0,$s3,.gotoX1       ; Primeiro if interno
+    xor $t0,$t0,$t0 
+    lui $t0,.segundoIfInterno
+    j $t0,0
+
+.gotoX1:
+    xor $t0,$t0,$t0
+    lui $t0,.X
+    j $t0,0
+
+.segundoIfInterno:                   
+    xor $t0,$t0,$t0
+    add $t0,$s1,$zero        ; $t0 = i   
+    sft $t0,-1               ; $t0*2  
+    
+    xor $t1,$t1,$t1          ;
+    lui $t1,.d               ; 
+    add $t0,$t0,$t1          ; $t0 endereço de d na posição i
+    lw  $t0,$t0,$zero        ; $t0 = d na posição i
+
+    xor $t1,$t1,$t1
+    add $t1,$s3,$zero        ; $t1 = mini   
+    sft $t1,-1               ; $t1*2  
+    
+    xor $t2,$t2,$t2          ;
+    lui $t2,.d               ; 
+    add $t1,$t1,$t2          ; $t1 endereço de d na posição mini
+    lw  $t1,$t1,$zero        ; $t1 = d na posição mini
+
+    
+    blt $t0,$t1,.X
+    xor $t0,$t0,$t0
+    lui $t0,.fimPrimeiroIf
+    j $t0,0 
+
+.X:
+    add $s3,$s1,$zero     
+
+.fimPrimeiroIf:
+    
+    addi $s1,1               ; Incremento do segundo for
+    xor $t0,$t0,$t0 
+    lui  $t0,GRAPHSIZE
+    
+    beq  $t0,$s1,.fimSegundoFor  
+    xor $t0,$t0,$t0     
+    lui $t0,.codigoSegundoFor  
+    j $t0,0
+
+.fimSegundoFor:
+    xor $t0,$t0,$t0 
+    add $t0,$s3,$zero        ; $t0 = mini   
+    sft $t0,-1               ; $t0*2  
+    
+    xor $t1,$t1,$t1          ;
+    lui $t1,.visited         ; 
+    add $t0,$t0,$t1          ; $t0 endereço de visited na posição mini
+    lui $t1,1
+    sw  $t1,$t0,$zero        ; $t0 = visited na posição mini
+        
+    xor $s1,$s1,$s1  
+    
+
+.codigoTerceiroFor:
+
+    xor $t2,$t2,$t2   
+    ;addi $t2,1     
+    xor $t0,$t0,$t0
+    ;lui $t0,GRAPHSIZE
+
+.mult1:
+    ;blt $t2,$s3,.fimMult1
+    beq $t2,$s3,.fimMult1
+    addi $t2,1 
+    addi $t0,GRAPHSIZE
+    lui $t1,hi(.mult1)
+    sft $t1,-8 
+    j $t1,lo(.mult1)
+
+.fimMult1:
+
+    sft $t0,-1                  ; Graphsize * mini * 2
+
+    xor $t1,$t1,$t1
+    add $t1,$s1,$zero           ; $t1 = i * 2
+    sft $t1,-1
+    
+    add $t0,$t0,$t1  
+    addi $t0,.dist              ; $t0 é o endereço de dist[mini][i] 
+    lw $t0,$t0,$zero            ; $t0 = dist[mini][i]
+
+    beq $t0,$zero,.finalizarSegundoIf     ; Segundo If
+    lui $t1,hi(.terceiroIf)
+    sft $t1,-8        
+    j $t1,lo(.terceiroIf)
+
+.finalizarSegundoIf:
+
+    lui $t0,hi(.fimSegundoIf)
+    sft $t0,-8
+    j $t0,lo(.fimSegundoIf)
+   
+    
+.terceiroIf:                 
+    
+    ; Lembrando $t0 = dist[mini][i] 
+    xor $t1,$t1,$t1
+    add $t1,$s3,$zero        ; $t1 = mini           
+    sft $t1,-1               ; $t1*2  
+    
+    xor $t2,$t2,$t2          ;
+    lui $t2,.d               ; 
+    add $t1,$t1,$t2          ; $t1 endereço de d na posição mini
+    lw  $t1,$t1,$zero        ; $t1 = d na posição mini
+     
+    add $t0,$t0,$t1          ; $t0 = d[mini] + dist[mini][i]   
+    
+    xor $t1,$t1,$t1
+    add $t1,$s1,$zero        ; $t1 = i           
+    sft $t1,-1               ; $t1*2  
+    
+    xor $t2,$t2,$t2          ;
+    lui $t2,.d               ; 
+    add $t1,$t1,$t2          ; $t1 endereço de d na posição i
+    lw  $t1,$t1,$zero        ; $t1 = d na posição i
+        
+
+                             ; Terceiro If
+    blt $t0,$t1,.atualizarDi        
+    lui $t2,hi(.fimTerceiroIf)
+    sft $t2,-8
+    j $t2,lo(.fimTerceiroIf)
+   
+.atualizarDi:
+
+    xor $t1,$t1,$t1
+    add $t1,$s1,$zero        ; $t1 = i           
+    sft $t1,-1               ; $t1*2  
+    
+    xor $t2,$t2,$t2          ;
+    lui $t2,.d               ; 
+    add $t1,$t1,$t2          ; $t1 endereço de d na posição i
+
+    sw $t0,$t1,$zero
+
+.fimTerceiroIf:
+.fimSegundoIf:
+
+    addi $s1,1               ; Incremento do terceiro for
+    xor $t0,$t0,$t0 
+    lui  $t0,GRAPHSIZE
+    
+    beq  $t0,$s1,.fimTerceiroFor  
+    lui $t0,hi(.codigoTerceiroFor)
+    sft $t0,-8
+    j $t0,lo(.codigoTerceiroFor)
+
+.fimTerceiroFor:
+
+
+    addi $s2,1               ; Incremento do primeiro for
+    xor $t0,$t0,$t0 
+    lui  $t0,GRAPHSIZE
+    
+    beq  $t0,$s2,.fimPrimeiroFor  
+    xor $t0,$t0,$t0     
+    lui $t0,.codigoPrimeiroFor  
+    j $t0,0
+
+.fimPrimeiroFor:
+
+    j $ra,0
+
+.main:
+    xor $t0,$t0,$t0
+    lui $t0,.dijkstra
+    xor $t1,$t1,$t1  
+    lui $t1,INODE
+    sw $t1,$sp,$zero
+    jal $t0,0
+    addi $gp,0xff 
+
+
+
+\end{verbatim}
+
+\section{Arquivo de Configuração Utilizado no Modo Dinâmico}
+\scriptsize
+\begin{verbatim}
+.dynamic
+
+custom-device { 
+        device:  communication 45, serial 2 , ad-conversor 4 
+        batery-amount: 2 
+        batery-charge: 2300 
+         
+} 
+custom-sleep { 
+	
+    each: 4000000 500
+    event-queue-empty: 15000000
+} 
+
+like-rtime
+
+
+.appcontext
+
+
+cycles-period  10000000 0:  
+
+
+on-the-cycle   10  2,  
+on-the-cycle    5 2, 
+on-the-cycle    540  1,
+on-the-cycle    45 0 
+
+.time
+
+on-the-time 5 2
+on-the-time 2 1
+
+\end{verbatim}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,148 @@
+\chapter{Proposta de Dissertação}
+\label{sec:proposta}
+
+
+\section{Motivação}
+\label{sec:repres_e}
+Apesar de teste de software ser altamente difundido atualmente, assim como o conceito de LPS, sempre encontramos pontos onde devemos tomar atenção com relação ao resultado final do produto, isso impacta diretamente na qualidade e custo de um produto de software, principalmente em se tratando de uma LPS \cite{engstrom2011testing}. Além do fator teste em uma LPS, devemos considerar as particularidades individuais de cada produto gerado, e assim temos um outro ponto preocupante que é a variabilidade. Além de um sério problema na questão de gerenciamento das mesmas, impactando diretamente nas métricas e formas de medição de qualidade \cite{junior2013systematic}. 
+
+A literatura apresenta muitas soluções para teste de LPS, porém muitas delas não possuem foco na variabilidade quando o assunto é uma LPS. Assim, um dos fatores motivantes é considerar variabilidade na decisão de teste. Outro ponto motivante é a abordagem \textit{SMarty} \cite{junior2010systematic} que permite a representação de variabilidade em modelos iniciais do ciclo de vida de LPS. Quando se fala em teste, a literatura apresenta várias soluções voltadas a LPS, dentre elas o TBM, embora trabalhe com MEF, seria interessante que pudesse ser trabalhado o teste com artefatos do tipo casos de uso, diagramas de sequência e de atividades, além de diagramas de estado que já é bastante utilizado. Assim, entende-se como uma oportunidade que pesquise o TBM em conjunto \textit{SMarty} para utilização em casos de uso e diagrama de sequência, para se obter casos de teste que possam ser utilizados a nível de sistema.
+\newpage
+\section{Objetivos}
+\label{sec:repres}
+Conforme a motivação apresentada, este projeto de dissertação tem como objetivo especificar a abordagem \textit{SMartyTesting} que permita utilizar TBM em nível de sistema, considerando especificamente diagramas de caso de uso e de sequência pelo alto grau de representação de variabilidade onde tais artefatos sejam modelados por \textbf{SMarty}. Com objetivos específicos tem-se:
+
+\begin{itemize}
+	\item investigar na literatura soluções que envolvam tais artefatos UML em TBM para LPS;
+	\item especificar a etapa inicial, transformação de modelos e geração de casos de teste, e;
+	\item avaliar empiricamente a abordagem \textit{SMartyTesting}.
+\end{itemize} 
+
+Utilizando o guia de orientação adaptado, apresentamos o possível caminho que a pesquisa irá seguir em relação ao tema TBM em LPS com \textit{SMarty} (\ref{fig:caminho}). Essa figura representa uma instância da \ref{fig:guiaestudo} para esta pesquisa em particular.
+
+\begin{landscape}
+	
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[scale=0.40]{caminho.png}
+		\caption{Processos que \textit{SMartyTesting} poderá seguir}
+		\label{fig:caminho}
+	\end{figure}
+	
+\end{landscape}
+
+
+\section{Metodologia de Desenvolvimento}
+\label{sec:repres_e_fob}
+
+Para atingir o objetivo proposto neste trabalho, será necessário realizar as etapas apresentadas na \ref{fig:fluxometodo}.
+
+	\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.60]{fluxometodo.png}
+	\caption{Etapas da Metodologia de Desenvolvimento de Pesquisa}
+	\label{fig:fluxometodo}
+\end{figure}
+
+\begin{itemize}
+	\item \textbf{Revisão Bibliográfica:} Estudo do conceitos sobre os principais temas que farão parte do objetivos da pesquisa, como: Perfis UML, Diagramas de caso de uso e sequência, teste em LPS, TBM, conceitos de LPS, gerenciamento de variabilidade, a abordagem \textit{SMarty} que está no Anexo \ref{Abordagem_SMarty}. 
+	
+	\item \textbf{Estudo secundário:} Realização de uma Revisão Sistemática de Literatura (RSL), de estudos primários, onde o tema é TBM para LPS, que encontra-se no (Apêndice A). A análise dos estudos da RSL permitiu a identificação de formatos diferenciados de aplicação de TBM em LPS.
+	
+	\item \textbf{Proposta da Técnica \textit{SMartyTensting}:} Elaborar e apresentar a proposta da técnica \textit{SMartyTesting} que visa a utilização de TBM para LPS modeladas por \textit{SMarty} para geração de casos de teste em nível de sistema a partir de um modelo formal.
+	
+	\item \textbf{Exemplo de aplicação da Técnica \textit{SMartyTesting}:} Utilização da LPS acadêmica \textit{Arcade Game Maker}(AGM) para aplicar a técnica \textit{SMartyTesting} para a aprendizagem dos conceitos de SPL através de uma abordagem prática. Esta LPS pode ser usado para derivar três jogos eletrônicos diferentes, ou seja, Bowling, Brickles e Pong, que são usados pela comunidade científica para avaliar e validar suas abordagens \cite{costa2016split}.
+		
+	\item \textbf{Avaliação Empírica da Técnica \textit{SMartyTesting}:} trata dos estudos empíricos que serão conduzidos com a finalidade de validar \textit{SMartyTesting} em relação a geração de caso de teste a partir de modelos \textit{SMarty} utilizando-se de diagrama de caso de uso e sequência. Nas avaliações serão utilizadas as LPS \textit{Mobile Media}(MM) e M-SPLlearning.
+	
+	\item \textbf{Redação e Publicação de Resultados:} é escrita e submissão de artigos sobre a técnica proposta e os estudos empíricos conduzidos, bem a escrita e publicação sobre a RSL gerada como estudo secundário, além da escrita e defesa da dissertação.
+	
+	
+\end{itemize}
+
+\section{Contribuições Esperadas}
+\label{sec:repres_e_fo}
+
+Com a realização deste trabalho espera-se encontrar viabilidade de utilização de TBM para LPS modelada por UML para \textit{SMarty} a nível de sistema, visando proporcionar maior qualidade e confiabilidade aos artefatos de  produtos de software gerados em uma LPS. Além disso, espera-se poder completar o ciclo de vida de verificação e validação com \textit{SMarty}.
+
+\section{Métodos de Avaliação}
+\label{sec:repres_e_f}
+\begin{itemize}
+	\item Estudo Qualitativo - Utilização do modelo proposto em uma LPS real com foco na criação de produtos mobile para ensino de programação, uma vez a LPS constituída, os produtos modelados em engenharia de domínio previamente modelados notados em \textit{SMarty} seria submetidos a \textit{SMartyTesting}, podendo até ser comparada com outras abordagens como SPLiT- MBT.
+	\item Experimento controlado - Avaliar o modelo proposto com base em experimentos controlados, a partir de modelos \textit{SMarty} utilizando-se de diagrama de caso de uso e sequência. Nas avaliações serão utilizadas a LPS \textit{a Product Line of Model-Based Testing Tools} (PLETS) e M-SPLearning..	
+\end{itemize}
+
+\section{Cronograma}
+\label{sec:repres_e_fobj}
+As etapas que compõem o cronograma de execução desta proposta de dissertação são:
+
+\begin{itemize}
+	\item Etapa 1: Aprofundamento do referencial teórico sobre LPS, TBM e \textit{Smarty};
+	\item Etapa 2: Realização de uma revisão sistemática sobre TBM em LPS;
+	\item Etapa 3: Análise dos trabalhos relacionados;
+	\item Etapa 4: Escrita do Projeto de dissertação do Mestrado;
+	\item Etapa 5: Defesa do Projeto de dissertação do Mestrado;
+	\item Etapa 6: Especificação da abordagem \textit{SMartyTesting};
+	\item Etapa 7: Avaliação empírica da abordagem proposta;
+	\item Etapa 8: Divulgar os resultados por meio de artigos qualificados para eventos e periódicos;
+	\item Etapa 9: Escrever dissertação; e
+	\item Etapa 10: Defender dissertação.
+\end{itemize}
+
+
+\begin{table}[]
+	\centering
+	\caption{Cronograma da pesquisa em 2017}
+	\label{table:2017}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|l|l|c|l|c|c|c|c|c|c|c|c|}
+			\hline
+			\multicolumn{12}{|c|}{\textbf{Período}} \\ \hline
+			Etapas & 02/17 & \multicolumn{1}{l|}{03/17} & 04/17 & 05/17 & 06/17 & 07/17 & 08/17 & 09/17 & 10/17 & 11/17 & 12/17 \\ \hline
+			E1 & \multicolumn{1}{c|}{X} & X &  &  &  &  &  &  &  &  &  \\ \hline
+			E2 &  & X & \multicolumn{1}{c|}{X} & X & X & X & X & X & X & X & X \\ \hline
+		\end{tabular}%
+	}
+\end{table}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[]
+	\centering
+	\caption{Cronograma da pesquisa em 2018}
+	\label{table:2018}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|}
+			\hline
+			\multicolumn{13}{|c|}{\textbf{Período}} \\ \hline
+			Etapas & 01/18 & 02/18 & 03/18 & 04/18 & 05/18 & 06/18 & 07/18 & 08/18 & 09/18 & 10/18 & 11/18 & 12/18 \\ \hline
+			E2 & X & X &  &  &  &  &  &  &  &  &  &  \\ \hline
+			E3 &  & X & X &  &  &  &  &  &  &  &  &  \\ \hline
+			E4 &  & X & X &  &  &  &  &  &  &  &  &  \\ \hline
+			E5 &  &  &  & X &  &  &  &  &  &  &  &  \\ \hline
+			E6 &  &  &  &  & X & X & X & X & X & X &  &  \\ \hline
+			E7 &  &  &  &  &  &  &  &  & X & X & X & X \\ \hline
+			E8 &  &  &  & X & X & X & X & X & X & X & X & X \\ \hline
+			E9 &  &  &  &  &  &  &  & X & X & X & X & X \\ \hline
+		\end{tabular}%
+	}
+\end{table}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[]
+	\centering
+	\caption{Cronograma da pesquisa em 2019}
+	\label{table:2019}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|}
+			\hline
+			\multicolumn{12}{|c|}{\textbf{Período}} \\ \hline
+			Etapas & 01/19 & 02/19 & 03/19 & 04/19 & 05/19 & 06/19 & 07/19 & 08/19 & 09/19 & 10/19 & 11/19 \\ \hline
+			E7 & X &  &  &  &  &  &  &  &  &  &  \\ \hline
+			E8 & X & X & X &  &  &  &  &  &  &  &  \\ \hline
+			E9 & X & X &  &  &  &  &  &  &  &  &  \\ \hline
+			E10 &  &  & X &  &  &  &  &  &  &  &  \\ \hline
+		\end{tabular}%
+	}
+\end{table}

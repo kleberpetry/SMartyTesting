@@ -1,0 +1,42 @@
+\select@language {brazil}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figura - 2.1}{\ignorespaces Adaptado de (SEI 2010) }}{16}{figure.2.1}
+\contentsline {figure}{\numberline {Figura - 2.2}{\ignorespaces \textit {Framework} de Engenharia de LPS \citep {pohl2005software}. Traduzido por Geraldi (2015)}}{17}{figure.2.2}
+\contentsline {figure}{\numberline {Figura - 2.3}{\ignorespaces O Processo de Gerenciamento de Variabilidades SMartyProcess e sua Intera\c c\~ao entre as Atividades com o Processo de Desenvolvimento de LPS, traduzido de (OliveiraJr et al., 2010b)}}{20}{figure.2.3}
+\contentsline {figure}{\numberline {Figura - 2.4}{\ignorespaces Estere\'otipos e Meta-Atributos do Perfil SMartyProfile 5.1 com Suporte a Modelos de Casos de Uso, Classes, Componentes, Atividades e Sequ\^encia (Fiori et al., 2012; Marcolino, 2014; OliveiraJr et al., 2010a, 2013a). }}{21}{figure.2.4}
+\contentsline {figure}{\numberline {Figura - 2.5}{\ignorespaces Esquema simplificado que representa o modelo V }}{22}{figure.2.5}
+\contentsline {figure}{\numberline {Figura - 2.6}{\ignorespaces Modelo de proposta de implanta\c c\~ao do processo de teste de software segundo \citep {crespo2004metodologia}}}{23}{figure.2.6}
+\contentsline {figure}{\numberline {Figura - 2.7}{\ignorespaces Exemplo de uma MEF utilizado por \citealp {costa2016split}}}{24}{figure.2.7}
+\contentsline {figure}{\numberline {Figura - 2.8}{\ignorespaces Panorama da abordagem SPLiT-MBt por \citealp {costa2016split}}}{30}{figure.2.8}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figura - 3.1}{\ignorespaces Etapas da Metodologia de Desenvolvimento de Pesquisa}}{34}{figure.3.1}
+\contentsline {figure}{\numberline {Figura - 3.2}{\ignorespaces Guia de direcionamento de processo de TBM em LPS}}{36}{figure.3.2}
+\contentsline {figure}{\numberline {Figura - 3.3}{\ignorespaces Ciclo da etapa 1}}{40}{figure.3.3}
+\contentsline {figure}{\numberline {Figura - 3.4}{\ignorespaces Ciclo da etapa 2}}{41}{figure.3.4}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figura - 1.1}{\ignorespaces Vis\~ao geral do nosso processo de mapeamento sistem\'atico}}{60}{figure.1.1}
+\contentsline {figure}{\numberline {Figura - 1.2}{\ignorespaces Processo de pesquisa por SMS}}{62}{figure.1.2}
+\contentsline {figure}{\numberline {Figura - 1.3}{\ignorespaces Processo Seletivo SMS}}{67}{figure.1.3}
+\contentsline {figure}{\numberline {Figura - 1.4}{\ignorespaces Processo de extra\c c\~ao de SMS}}{74}{figure.1.4}
+\contentsline {figure}{\numberline {Figura - 1.5}{\ignorespaces Processo de An\'alise SMS}}{77}{figure.1.5}
+\contentsline {figure}{\numberline {Figura - 1.6}{\ignorespaces Distribui\c c\~ao de estudos por ano}}{78}{figure.1.6}
+\contentsline {figure}{\numberline {Figura - 1.7}{\ignorespaces Automa\c c\~ao TBM para LPS de abordagens de teste}}{81}{figure.1.7}
+\contentsline {figure}{\numberline {Figura - 1.8}{\ignorespaces Compara\c c\~ao de n\'{\i }veis e tipos de TBM para LPS}}{85}{figure.1.8}
+\contentsline {figure}{\numberline {Figura - 1.9}{\ignorespaces Automa\c c\~ao TBM para LPS de abordagens de teste}}{87}{figure.1.9}
+\contentsline {figure}{\numberline {Figura - 1.10}{\ignorespaces Automa\c c\~ao de n\'{\i }veis de teste de TBM para LPS}}{87}{figure.1.10}
+\contentsline {figure}{\numberline {Figura - 1.11}{\ignorespaces Automa\c c\~ao TBM para LPS de abordagens de teste}}{88}{figure.1.11}
+\contentsline {figure}{\numberline {Figura - 1.12}{\ignorespaces Artefatos X N\'{\i }veis X Modelos}}{91}{figure.1.12}
+\contentsline {figure}{\numberline {Figura - 1.13}{\ignorespaces Tratamento da variabilidade por tipo de solu\c c\~ao}}{93}{figure.1.13}
+\contentsline {figure}{\numberline {Figura - 1.14}{\ignorespaces Tipos de Avalia\c c\~ao de Propostas e Ambientes}}{95}{figure.1.14}
+\contentsline {figure}{\numberline {Figura - 1.15}{\ignorespaces TBM4LPS: um roteiro de TBM para LPSs}}{98}{figure.1.15}
+\contentsline {figure}{\numberline {Figura - 1.16}{\ignorespaces Etapa inicial, mostrando a localiza\c c\~ao do estudo T31}}{99}{figure.1.16}
+\contentsline {figure}{\numberline {Figura - 1.17}{\ignorespaces Segunda etapa, mostrando a localiza\c c\~ao do estudo T31}}{100}{figure.1.17}
+\contentsline {figure}{\numberline {Figura - 1.18}{\ignorespaces Etapa final mostrando a localiza\c c\~ao do estudo T31}}{100}{figure.1.18}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figura - 2.1}{\ignorespaces Vers\~ao 5.2 do \textit {SMartyProfile}, com suporte a Componentes, Portas, Interfaces e Opera\c c\~oes \citep {Bera2015}.}}{103}{figure.B.1}
+\contentsline {figure}{\numberline {Figura - 2.2}{\ignorespaces Vis\~ao Geral SMarty 5.2 \citep {Bera2015}.}}{106}{figure.B.2}
+\contentsline {figure}{\numberline {Figura - 2.3}{\ignorespaces Diagrama de Classes da LPS AGM \citep {OliveiraJuniorJUCS2010}.}}{107}{figure.B.3}

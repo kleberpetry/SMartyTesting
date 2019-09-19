@@ -1,0 +1,23 @@
+\chapter{Contextualização}
+\pagestyle{plain}
+
+
+Atualmente, vivemos em um mercado cada vez mais competitivo, onde indicadores de investimento contabilizam e determinam a rentabilidade ou o fracasso de um produto. Nesse sentido, diversas abordagens têm sido desenvolvidas com propósito de aumentar a reusabilidade de software e, consequentemente, o retorno de investimento (ROI) \cite{delamaro2017introduccao}. Entre essas abordagens, está Linha de Produto de Software (LPS). LPS é uma alternativa de utilização como processo de desenvolvimento baseado em reuso de software, para proporcionar maior produtividade, redução de custo, de tempo, de risco e maior qualidade do produto.
+
+Uma LPS é um conjunto de sistemas de software que compartilham características (\textit{feature}) comuns e gerenciáveis, que satisfazem as necessidades de um segmento particular ou de uma missão \cite{clements2002software}. Esse conjunto de sistemas é denominado também, família de produtos.
+
+Uma LPS possui artefatos comuns e variáveis, assim, tendo em vista esse novo desafio de gerenciamento durante o desenvolvimento de software nota-se que em estudos publicados onde, os artefatos produzidos nos processos tradicionais de desenvolvimento de software já não são tão eficientes para o contexto de LPS, pois em sua maior parte não possui suporte a variabilidade. Assim, visando contornar este problema, várias abordagens foram propostas para o gerenciamento de variabilidade em LPS.
+
+Uma das abordagens é a \textit{Stereotype-based Management of Variability} (\textit{SMarty}) \cite{junior2010systematic} , que é composta de um perfil UML, o \textit{SMartyProfile}, e do processo denominado \textit{SMartyProcess}. \textit{SMarty} tem como objetivo permitir que as variabilidades de uma LPS possam ser gerenciadas de forma clara e explícita em modelos UML, e guia o usuário por meio do \textit{SMartyProcess} na identificação e representação de variabilidades em tais modelos ou artefatos, que podem ser de caso de uso, classe, sequência, atividade e componentes de uma LPS.
+
+\textit{SMarty} possui uma técnica de inspeção de software chamada \textit{SMartyCheck}, mas que para permitir maior qualidade dos seus modelos é interessante testá-los. Assim, teste baseado em modelo (TBM) pode ser usado visando a qualidade do produto de software e a garantia de uma estrutura com maior reuso em uma LPS. Nesse caso, surge oportunidade de investigar a possibilidade de criação de uma técnica de TBM para \textit{SMarty}, em que o teste de software a nível de sistema se apresente como algo essencial para garantir o sucesso e a qualidade do núcleo de artefatos da LPS. Visualizando a utilização de LPS sob o conceito de engenharia de domínio e considerando a abordagem \textit{SMarty}, fica evidente a possibilidade de utilização de TBM em nível de sistema, sob o domínio de aplicação e sobre as variabilidades de uma LPS.
+
+Teste em LPS é sempre um desafio, devido ao fator variabilidade \cite{chen2009variability,engstrom2011software,chen2011systematic,do2014strategies}. Neste caso, pensando em TBM, o teste em LPS é iniciando mais cedo, em tempo de modelagem, auxiliando na conversão do modelo em artefatos de máquinas de estado finito, permitindo a identificação de variabilidade e atuando na engenharia de domínio \cite{lamancha2010model,reales2011model,lamancha2009automated}. Por esse motivo, ele se candidata a ser uma técnica promissora para utilização em conjunto com \textit{SMarty}. 
+
+O objetivo deste trabalho é, portanto, especificar uma abordagem de TBM para modelos LPS de acordo com a abordagem \textit{SMarty}. Para tanto, deve-se considerar a variabilidade explícita em tais modelos, especialmente os modelos comportamentais como diagramas de caso de uso, sequência e, possivelmente, de estados. Espera-se, assim, gerar casos de teste a nível de sistema a partir de modelos \textit{SMarty}, sendo assim, espera-se responder à seguinte questão de pesquisa: \textbf{É possível utilizar técnicas de TBM para testar modelos \textit{SMarty} considerando variabilidade?}
+
+Analisando por essa perspectiva, acredita-se que exista a necessidade de se realizar uma pesquisa aprofundada para se obter o estado da arte sobre TBM aplicado em LPS com foco em variabilidade. 
+
+O trabalho está organizado como segue. No capítulo 2 é apresentada uma revisão de literatura sobre TBM, LPS e TBM em LPS e a abordagem \textit{SMarty}, assim como estudos que serão base para este trabalho. O Capítulo 3 descreve a proposta assim como as ferramentas e meios para se buscar indícios sobre uma possível utilização de TBM em conjunto com a abordagem \textit{SMarty}. O Capítulo 4 finaliza com as conclusões.
+
+
