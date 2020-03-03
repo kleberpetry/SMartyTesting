@@ -1,17 +1,49 @@
 \chapter{Conclusão}
-\label{sec:conclusao}
+\label{cap6:conclusao}
 \pagestyle{plain}
 
 \section{Contribuições}
-contribuições desta pesquisa
+\label{cap6sec:contribuicoes}
+
+O resultado principal desta pesquisa foi a especificação e a evidência preliminar de viabilidade da abordagem \textit{SMartyTesting} que permite a geração de sequências de teste para LPS considerando variabilidade modelada com suporte da abordagem \textit{SMarty}. \textit{SMartyTesting} tem como artefato de entrada um diagrama de sequência (DS) que possui estrutura definida. Com o objetivo principal de apoiar a cultura de TBM em fases iniciais de LPS, entende-se como uma contribuição a possibilidade de melhorar a qualidade de modelos de LPS.
+
+
+Sendo assim, após a especificação da abordagem, foi realizado um estudo de viabilidade com alguns critérios de comparação para que fosse possível responder a seguinte questão de pesquisa: \textbf{``Diagramas de sequência podem gerar mais sequências de teste do que diagramas de atividades?"}
+
+
+A geração de sequências de teste a partir de DS se mostrou viável por apresentar baixa complexidade ciclomática (CT.3) em suas conversões, demonstrando potencial para a sua utilização, o que se alinha aos resultados do MSL realizado.
+
+
+A quantidade de sequências de teste geradas é maior, conforme esperado, devido a quantidades de atividades geradas a partir do diagrama de sequência (CT.1). Isso impacta diretamente na diferenciação das sequências de teste geradas (CT.2).
+
+
+Devido a conversão manual de DS para DA, o esforço de utilização (CT.4) se torna maior com \textit{SMartyTesting}, mas isso já se era previsto por ser uma abordagem semi-automatizada.
+
+Além da contribuição principal, considera-se muito importante também a análise da abordagem SPLiT-MBt e de sua ferramenta de apoio. Assim, a Seção \ref{cap5sec:limitacaoconcorrencia} mostra como melhorias podem ser realizadas para as abordagens \textit{SMartyTesting} e SPLiT-MBt contribuindo para a evolução dessas.
+
+O MSL conduzido para a fundamentação desta pesquisa, além de contribuir com dados que apresentam o cenário de TBM para LPS, contribuiu também para a criação de um mapa de direcionamento de estudos relacionados por temas. Tal mapa permite entender como estudos de TBM para LPS têm sido realizados e como pesquisadores e profissionais podem utilizá-los ao tratar deste assunto em pesquisas e práticas na indústria.
+
+Em síntese, buscou-se com o desenvolvimento deste projeto contribuir para a comunidade acadêmica e industrial de LPS com uma abordagem de geração de sequências de teste, que considerem variabilidade na engenharia de domínio e para a engenharia de aplicação de LPS. 
+
 \section{Limitações}
-limitantes encontrados durante a pesquisa
+Foram encontradas duas situações em que SPLiT-MBt se torna limitante, a primeira delas é em relação a chamadas de fluxo concorrente, comentado na Seção \ref{cap5sec:limitacaoconcorrencia}, como não possui esse suporte ao \textit{Fork Node}, consequentemente, não possui suporte também ao \textit{Join Node}. Além disso, é visível a necessidade de suporte também a subsistemas em que um modelo possui mais de um elemento de \textit{Initial Node} ou \textit{End Node} estágios de início e fim, dado que quando se trabalha com subsistemas pode haver a finalização de um subprocesso para dar continuidade no processo principal exemplificado na Seção \ref{cap5sec:limitacaoconcorrencia}.
+
+Baseado nesses fatores, pode-se considerar que SPLiT-MBt não tem suporte à mensagens assíncronas, limitando-se apenas a mensagens síncronas em que toda mensagem deve possuir um retorno, não conformante com 100\% do metamodelo da UML.
+
+Quanto às limitações de \textit{SMartyTesting}, é uma abordagem que não converte DS para DA ou para MEF automaticamente, isso é um dos itens que estão considerados como trabalho futuro para a abordagem. Outro item está relacionado ao estudo de viabilidade conduzido com uma amostra pequena de LPS, DS e DA, o que não permite generalizar os resultados obtidos.
+
 \section{Trabalhos Futuros}
 
-o que pode ser feito e qual o caminho
+Com base na experiência de criação e especificação da abordagem \textit{SMartyTesting}, no processo de comparação e nas observações sobre sua utilização e, visando a continuidade do trabalho que possui um grande potencial, são apresentadas a seguir as principais perspectivas em relação a trabalhos futuros que possam decorrer deste estudo preliminar.
+
+\textbf{Implementação Total para \textit{SMartyTesting}:} após a análise dos dados comparativos e observações realizadas com a abordagem para se ter a certeza que era possível a geração de sequências de teste a partir de DSs, demonstra ser viável a implementação total da abordagem \textit{SMartyTesting}, isso não impede a continuidade da utilização de SPLiT-MBt, que também pode ser incorporada ao processo de \textit{SMartyTesting}.
+
+\textbf{Diminuição das Etapas do Processo:} no MSL foi apontado que diversos trabalhos fazem uso de conversão de DS para MEF, e \citet{pinheiro2012jplavisfsm} apresentam na Seção \ref{cap2subsec:plavis} motivos para a utilização de MEF. Sendo assim, seria interessante em um trabalho futuro analisar a viabilidade do processo de geração de sequências de teste a partir de um DS com conversão direta para MEF e, após essa transformação, utilizar outros métodos de geração de sequências de teste.
+
+\textbf{Incorporar \textit{SMartyTesting} à ferramenta \textit{SMartyModeling}:} em paralelo a este trabalho está sendo desenvolvida outra pesquisa sobre uma ferramenta para modelagem de LPS considerando \textit{SMarty}, em que os diagramas suportados pela versão 5.1 são: sequência, casos de uso, atividades, componentes e classes. Com isso, quando o engenheiro de software fizer a modelagem de uma LPS já tem a possibilidade de gerar das sequências de teste.
+
+\textbf{Aplicar métricas de teste aos modelos \textit{SMarty}:} considerar as métricas de teste no processo de teste e comparar as sequências de teste ou casos de teste em modelos \textit{SMarty}.
+
+\textbf{Estender o perfil de teste da OMG:} estender o perfil de teste da OMG \footnote{Disponível em: \url{https://www.omg.org/spec/UTP} - Acessado em 20/10/2019} \cite{Bagnato_et_al2013} para TBM de LPS, considerando o processo da \textit{SMartyTesting}.   
 
 
-%Com o crescimento da prática de reuso de software e inovação nos processos de desenvolvimento, visando maior produtividade e qualidade, é necessária uma abordagem de teste que seja condizente com a utilização de reuso e principalmente relacionado as características particulares do domínio de negócio (variabilidade) de cada produto em uma LPS.
-
-%Por isso, este trabalho se propôs a encontrar evidências que possam viabilizar a utilização de TBM em conjunto com a abordagem \textit{SMarty}
-%Sendo assim, identificou-se a necessidade de uma ampla pesquisa sobre teste, e ao qual,TBM se tornou uma das práticas que podem ser trabalhadas em conjunto com LPS e \textit{SMarty}, Estudos iniciais indicam que existe possibilidade que este trabalho possa apontar um caminho para uma nova abordagem agregada na utilização de teste de uma LPS com mais eficiência e com foco em variabilidade do produto, algo que hoje é considerado por alguns estudiosos o maior desafio e um gargalo no desenvolvimento de produtos de uma LPS.

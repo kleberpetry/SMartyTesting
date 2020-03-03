@@ -27,34 +27,50 @@
 %\renewcommand\cfttabpresnum{Tabela }
 %fim
 %
-\usepackage{listings,listings}
+\usepackage{pdflscape}
+%\usepackage{booktabs}
 \usepackage{array}
+\usepackage{algorithm}
+\usepackage{amssymb, amsmath}
+\usepackage{afterpage}
+\usepackage[toc,page]{appendix}
+\usepackage[brazil]{babel}
+\usepackage{color}
+\usepackage{clrscode3e}
+\usepackage{capaUEM}
+\usepackage{colortbl}
+\usepackage{epstopdf}
+\usepackage{enumerate}
+\usepackage{float}
+\usepackage{fancyhdr}
 \usepackage{graphicx}
-\usepackage{hyperref}
+\usepackage{listings,listings}
+\usepackage{lscape}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{pdfpages}
+\usepackage{placeins}
+\usepackage{rotating}
+\usepackage{setspace}
 \usepackage{scalefnt}
+\usepackage{subfigure}
+\usepackage{titlesec}
+\usepackage{textfit}
+\usepackage{tabularx}
+\usepackage[nottoc]{tocbibind}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage[utf8]{inputenc}
+% \usepackage{array}
+\usepackage{caption}
+% \usepackage{graphicx}
+
 %************************
 
 
-%\usepackage{amsmath}
-%\numberwithin{equation}{section}
-%\usepackage{amssymb}
-\usepackage{multicol}
-
-\usepackage{graphicx} 
-%5\usepackage{subfig}
-\usepackage{scalefnt}
-\usepackage{lscape}
-\usepackage{longtable}
-\usepackage{multirow}
-%\usepackage{tabularx}
-\usepackage{color}
-%*********************
-\usepackage{pdfpages}
-\usepackage[brazil]{babel}
-
-
 %Landir -------------------------------------------
-\usepackage{multirow}
+
 \newcommand{\conj}[4]{#1=\{#3~|~#2 \leq #3 \leq #4, ~#3 \in \mathbb{N}\}}
 \newcommand{\matrizz}[7]{#1_{#2 \times #3} \textrm{, } #4_{#5 #6} \in \mathbb{#7}}
 \newcommand{\matrizzz}[9]{#1_{#2 \times #3 \times #4} \textrm{, } #5_{#6 #7 #8} \in \mathbb{#9}}
@@ -69,30 +85,19 @@
 \newtheorem{conce}{Conceito}[chapter]
 \newtheorem{propo}{Proposição}[chapter]
 \newcommand{\dsum}{\displaystyle\sum}
-\usepackage{algorithm}
-\usepackage{clrscode3e}
-\usepackage{lscape}	%pagina em formato paisagem
+	%pagina em formato paisagem
 %--------------------------------------------------
 
-\usepackage[toc,page]{appendix}
-\usepackage{isoaccent}
-\usepackage{setspace}
-\usepackage{babel}
-\usepackage{float}
-\usepackage{longtable}
-\usepackage[nottoc]{tocbibind}
-\usepackage{graphicx}
-\usepackage{epstopdf}
 %--------------------------------------------------
-\usepackage{subfigure}
+
 \graphicspath{{figuras/}}
 
 %--------------------------------------------------
 
-\usepackage{amssymb, amsmath}
+
 %% --------------------------------------------------------------
 %% se for quali, substitua "capaUEM" por "capaUEMquali" 
-\usepackage{capaUEM}      % Para formatação de capa e folhas de rosto
+     % Para formatação de capa e folhas de rosto
 %%
 %% ---------------------------------------------------------------
 \usepackage[
@@ -100,21 +105,7 @@
     %numbers,
     authoryear,
     ]{natbib} % Para usar estilo novo de referências
-\usepackage{verbatim}
-\usepackage{titlesec}
-\usepackage{enumerate}
-\usepackage{pdfpages}
-\usepackage{colortbl}
-\usepackage{color}
-\usepackage{textfit}
-\usepackage{tabularx}
-\usepackage{rotating}
-\usepackage{fancyhdr}
-\usepackage{url}
-\usepackage{placeins}
-\usepackage{afterpage}
-\usepackage{setspace}
-\usepackage{amsmath}
+
 %\singlespacing
 \onehalfspacing
 %\doublespacing
@@ -316,16 +307,16 @@
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %% DADOS PARA CAPA, FOLHA DE ROSTO E FOLHA DE APROVAÇÃO
 
 % Dados autor
 \Jautor{KLEBER LOPES PETRY}
 
 % Dados trabalho: título e subtítulo (opcional)
-\Jtitulo{SMartyTesting: Uma Abordagem de Teste Baseado em Modelos
-	SMarty para Linha de Produto de Software}
+\Jtitulo{\textit{SMartyTesting}: uma abordagem de teste baseado em modelos \textit{SMarty} para linhas de produto de software}
 %\Jsubtitulo{: uma nova solução ...} %% descomente essa linha caso haja um subtítulo
-\Jtituloabs{SMartyTesting: An SMarty Model-Based Testing Approach for Software Product Line}
+\Jtituloabs{SMartyTesting: a SMarty model-based testing approach for software product lines}
 %\Jsubtituloabs{: a new solution...} %% descomente essa linha caso haja um subtítulo
 
 % Ano da defesa
@@ -375,7 +366,7 @@ Estadual de Maringá.}
 
 \geometry{left=3cm}
 %\include{dedicatoria}
-%\include{texto/_agradecimentos}
+\include{texto/_agradecimentos}
 
 \include{texto/_resumo}
 \include{texto/_abstract}

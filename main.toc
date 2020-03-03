@@ -1,0 +1,127 @@
+\babel@toc {brazil}{}
+\contentsline {chapter}{\numberline {1}Introdução}{14}%
+\contentsline {section}{\numberline {1.1}Contextualização}{14}%
+\contentsline {section}{\numberline {1.2}Motivação e Justificativa}{15}%
+\contentsline {section}{\numberline {1.3}Objetivo}{16}%
+\contentsline {section}{\numberline {1.4}Metodologia de Desenvolvimento}{17}%
+\contentsline {section}{\numberline {1.5}Organização do Texto}{19}%
+\contentsline {chapter}{\numberline {2}Fundamentação Teórica}{20}%
+\contentsline {section}{\numberline {2.1}Considerações Iniciais}{20}%
+\contentsline {section}{\numberline {2.2}Linha de Produto de Software e a Abordagem SMarty}{20}%
+\contentsline {section}{\numberline {2.3}Teste de Linha de Produto de Software}{25}%
+\contentsline {section}{\numberline {2.4}Teste Baseado em Modelos para LPS}{28}%
+\contentsline {section}{\numberline {2.5}A Abordagem SPLiT-MBt}{37}%
+\contentsline {subsection}{\numberline {2.5.1}Métodos de Geração de Casos de Teste}{39}%
+\contentsline {subsubsection}{Método TT}{40}%
+\contentsline {subsubsection}{Método W}{41}%
+\contentsline {subsubsection}{Método WP}{41}%
+\contentsline {subsubsection}{Método DS}{41}%
+\contentsline {subsubsection}{Método UIO}{41}%
+\contentsline {subsubsection}{Método UIOv}{42}%
+\contentsline {subsubsection}{Método HSI}{42}%
+\contentsline {subsection}{\numberline {2.5.2}Ferramenta de Geração de Sequências de Teste JPlavisFSM}{42}%
+\contentsline {section}{\numberline {2.6}Diagramas de Sequência e de Atividades}{44}%
+\contentsline {section}{\numberline {2.7}Considerações Finais}{46}%
+\contentsline {chapter}{\numberline {3}A Abordagem SMartyTesting}{47}%
+\contentsline {section}{\numberline {3.1}Considerações Iniciais}{47}%
+\contentsline {section}{\numberline {3.2}Caracterização da Abordagem \textit {SMartyTesting}}{47}%
+\contentsline {subsection}{\numberline {3.2.1}Definição do Processo Adotado pela Abordagem \textit {SMartyTesting}}{48}%
+\contentsline {subsection}{\numberline {3.2.2}Modelos Utilizados}{48}%
+\contentsline {subsection}{\numberline {3.2.3}Conversão de Diagramas de Sequência para Diagramas de Atividades}{50}%
+\contentsline {subsection}{\numberline {3.2.4}Ferramenta Utilizada}{54}%
+\contentsline {section}{\numberline {3.3}Especificação da Abordagem \textit {SMartyTesting}}{54}%
+\contentsline {subsection}{\numberline {3.3.1}Etapa 1 - Mapeamento de Diagramas de Sequência para Diagramas de Atividades}{55}%
+\contentsline {subsection}{\numberline {3.3.2}Etapa 2 - Geração de Sequências de Teste}{58}%
+\contentsline {subsection}{\numberline {3.3.3}Resolução da Variabilidade}{60}%
+\contentsline {subsection}{\numberline {3.3.4}Limitações de Uso da SPLiT-MBt}{61}%
+\contentsline {section}{\numberline {3.4}Considerações Finais}{62}%
+\contentsline {chapter}{\numberline {4}Estudo de Viabilidade}{63}%
+\contentsline {section}{\numberline {4.1}Considerações Iniciais}{63}%
+\contentsline {section}{\numberline {4.2}Objetivo}{63}%
+\contentsline {section}{\numberline {4.3}Planejamento}{64}%
+\contentsline {subsection}{\numberline {4.3.1}Critérios de Avaliação}{64}%
+\contentsline {subsection}{\numberline {4.3.2}Hipóteses do Estudo}{64}%
+\contentsline {subsection}{\numberline {4.3.3}Instrumentação}{66}%
+\contentsline {subsection}{\numberline {4.3.4}Procedimentos de Análise}{66}%
+\contentsline {section}{\numberline {4.4}Execução}{67}%
+\contentsline {subsection}{\numberline {4.4.1}Geração de Sequências de Teste com SPLiT-MBt}{67}%
+\contentsline {subsection}{\numberline {4.4.2}Geração de Sequências de Teste com \textit {SMartyTesting}}{72}%
+\contentsline {section}{\numberline {4.5}Análise e Interpretação}{87}%
+\contentsline {subsection}{\numberline {4.5.1}Quantidade de Sequências de Teste Geradas (CT.1)}{87}%
+\contentsline {subsection}{\numberline {4.5.2}Diferença entre as Sequências Geradas (CT.2)}{87}%
+\contentsline {subsection}{\numberline {4.5.3}Complexidade na Geração de Sequências de Teste (CT.3)}{88}%
+\contentsline {subsection}{\numberline {4.5.4}Esforço na Utilização das Abordagens (CT.4)}{89}%
+\contentsline {section}{\numberline {4.6}Ameaças à Validade}{89}%
+\contentsline {subsection}{\numberline {4.6.1}Validade Interna}{90}%
+\contentsline {subsection}{\numberline {4.6.2}Validade Externa}{90}%
+\contentsline {subsection}{\numberline {4.6.3}Validade de \textit {Constructo}}{90}%
+\contentsline {subsection}{\numberline {4.6.4}Validade de Conclusão}{90}%
+\contentsline {section}{\numberline {4.7}Considerações Finais}{91}%
+\contentsline {chapter}{\numberline {5}Melhorias Identificadas e Lições Aprendidas }{92}%
+\contentsline {section}{\numberline {5.1}Considerações Iniciais}{92}%
+\contentsline {section}{\numberline {5.2}Melhorias Identificadas}{92}%
+\contentsline {subsection}{\numberline {5.2.1}Automatização do Processo de Geração de Sequências de Teste}{92}%
+\contentsline {subsection}{\numberline {5.2.2}Utilização da Conversão de DS para MEF em \textit {SMartyTesting}}{93}%
+\contentsline {subsection}{\numberline {5.2.3}Suporte para Programação Concorrente e Sub-processo em SPLiT-MBt}{94}%
+\contentsline {subsection}{\numberline {5.2.4}Suporte para Outro Métodos de Geração de Sequências de Teste}{95}%
+\contentsline {section}{\numberline {5.3}Lições Aprendidas}{96}%
+\contentsline {subsection}{\numberline {5.3.1}Compreensão de SPLiT-MBt}{96}%
+\contentsline {subsection}{\numberline {5.3.2}Conversão Manual de DS para DA}{96}%
+\contentsline {subsection}{\numberline {5.3.3}ATLs para Conversão}{96}%
+\contentsline {subsection}{\numberline {5.3.4}Uso de Ferramentas}{97}%
+\contentsline {subsection}{\numberline {5.3.5}Teste Baseado em Modelos de LPS}{98}%
+\contentsline {section}{\numberline {5.4}Considerações Finais}{98}%
+\contentsline {chapter}{\numberline {6}Conclusão}{99}%
+\contentsline {section}{\numberline {6.1}Contribuições}{99}%
+\contentsline {section}{\numberline {6.2}Limitações}{100}%
+\contentsline {section}{\numberline {6.3}Trabalhos Futuros}{101}%
+\contentsline {chapter}{REFERÊNCIAS}{102}%
+\contentsline {chapter}{\numberline {A}Teste Baseado em Modelos para LPS: um Mapeamento Sistemático da Literatura}{115}%
+\contentsline {section}{\numberline {A.1}Planejamento do MSL}{115}%
+\contentsline {subsection}{\numberline {A.1.1}Objetivo da Pesquisa}{115}%
+\contentsline {section}{\numberline {A.2}Metodologia de Pesquisa}{115}%
+\contentsline {subsection}{\numberline {A.2.1}Objetivo e Questões de Pesquisa}{116}%
+\contentsline {subsection}{\numberline {A.2.2}Processo de Pesquisa}{117}%
+\contentsline {subsubsection}{Avaliação de protocolo}{119}%
+\contentsline {subsubsection}{Busca Eletrônica}{121}%
+\contentsline {subsubsection}{Busca Manual}{122}%
+\contentsline {subsection}{\numberline {A.2.3}Processo de Seleção}{122}%
+\contentsline {subsubsection}{Definição de Critérios de Inclusão e Exclusão}{123}%
+\contentsline {subsubsection}{Títulos de triagem e resumos de estudos}{123}%
+\contentsline {subsubsection}{Leitura Completa de Estudos}{126}%
+\contentsline {subsubsection}{Estudos derivados do Snowballing}{127}%
+\contentsline {subsection}{\numberline {A.2.4}Processo de Extração}{130}%
+\contentsline {subsubsection}{Definição do Esquema de Classificação}{131}%
+\contentsline {subsubsection}{Análise de Qualidade de Estudos}{131}%
+\contentsline {subsubsection}{Extração de dados}{132}%
+\contentsline {subsection}{\numberline {A.2.5}Processo de Análise}{133}%
+\contentsline {section}{\numberline {A.3}Resultados}{133}%
+\contentsline {subsection}{\numberline {A.3.1}Caracterização dos Estudos}{133}%
+\contentsline {subsubsection}{Estudos por ano}{133}%
+\contentsline {subsubsection}{Qualidade de Estudos}{134}%
+\contentsline {subsection}{\numberline {A.3.2}Resultados em questões de pesquisa}{136}%
+\contentsline {subsubsection}{\bf {RQ.1:Para quais domínios do aplicativo LPS, tipos de solução e propostas TBM são usados?}}{136}%
+\contentsline {paragraph}{\textbf {Aerospacial}}{136}%
+\contentsline {paragraph}{\textbf {Automotivo}}{136}%
+\contentsline {paragraph}{\textbf {Eletrônico}}{137}%
+\contentsline {paragraph}{\textbf {Fabricação}}{137}%
+\contentsline {paragraph}{\textbf {Medicina}}{138}%
+\contentsline {paragraph}{\textbf {Software}}{138}%
+\contentsline {paragraph}{\textbf {Telecomunicação}}{138}%
+\contentsline {subsubsection}{\bf {RQ.2:Quais abordagens de TBM, níveis de teste, artefatos, ferramentas e modelos foram usados para testar LPSs?}}{139}%
+\contentsline {paragraph}{\textbf {Abordagens Usadas}}{140}%
+\contentsline {paragraph}{\textbf {Níveis de teste}}{141}%
+\contentsline {paragraph}{\textbf {Automação de Testes}}{142}%
+\contentsline {paragraph}{\textbf {Artefatos Usados}}{143}%
+\contentsline {paragraph}{\textbf {Ferramentas usadas}}{143}%
+\contentsline {paragraph}{\textbf {Modelos LPS}}{147}%
+\contentsline {subsubsection}{\bf {RQ.3:Como a variabilidade e o tempo de ligação são tratados durante o TBM de LPSs?}}{149}%
+\contentsline {subsubsection}{\bf {RQ.4:O TBM suporta testes de requisitos não funcionais do LPS?}}{150}%
+\contentsline {subsubsection}{\bf {RQ.5:Como as propostas de TBM de LPS são avaliadas?}}{151}%
+\contentsline {subsubsection}{\bf {RQ.6:Como a rastreabilidade é considerada durante atividades de TBM para LPSs?}}{153}%
+\contentsline {subsection}{\numberline {A.3.3}Procedimentos de compartilhamento de dados do MSL}{153}%
+\contentsline {section}{\numberline {A.4}TBM4LPS:um roteiro para testes baseados em modelos de pesquisa de LPSs}{154}%
+\contentsline {subsection}{\numberline {A.4.1}Rota Primária Baseada no Estudo}{156}%
+\contentsline {subsection}{\numberline {A.4.2}Rota baseada em critérios}{158}%
+\contentsline {section}{\numberline {A.5}Observações Conclusivas}{158}%
+\contentsline {chapter}{\numberline {B}Anexo: Abordagem \textit {SMarty}}{160}%

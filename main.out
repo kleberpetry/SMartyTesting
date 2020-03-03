@@ -1,0 +1,88 @@
+\BOOKMARK [0][-]{chapter.1}{Introdução}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Contextualização}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Motivação e Justificativa}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Objetivo}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Metodologia de Desenvolvimento}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Organização do Texto}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Fundamentação Teórica}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Considerações Iniciais}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{Linha de Produto de Software e a Abordagem SMarty}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Teste de Linha de Produto de Software}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.4}{Teste Baseado em Modelos para LPS}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.5}{A Abordagem SPLiT-MBt}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.5.1}{Métodos de Geração de Casos de Teste}{section.2.5}% 13
+\BOOKMARK [2][-]{subsection.2.5.2}{Ferramenta de geração de sequência JPlavisFSM}{section.2.5}% 14
+\BOOKMARK [1][-]{section.2.6}{Diagrama de Sequência e Atividade}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.7}{Considerações Finais}{chapter.2}% 16
+\BOOKMARK [0][-]{chapter.3}{A Abordagem SMartyTesting}{}% 17
+\BOOKMARK [1][-]{section.3.1}{Considerações Iniciais}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.2}{Caracterização da Abordagem SMartyTesting}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.2.1}{Definição do Processo Adotado pela Abordagem SMartyTesting}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.2}{Modelos Utilizados}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.3}{Conversão de Diagrama de Sequência para Diagrama de Atividades}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.4}{Ferramenta Utilizada}{section.3.2}% 23
+\BOOKMARK [1][-]{section.3.3}{Especificação da Abordagem SMartyTesting}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.1}{Etapa 1 - Mapeamento de Diagrama de Sequência para Diagrama de Atividades}{section.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.2}{Etapa 2 - Geração de Sequências de Teste}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.3}{Resolução da Variabilidade}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.4}{Limitações de Uso da SPLiT-MBt}{section.3.3}% 28
+\BOOKMARK [1][-]{section.3.4}{Considerações Finais}{chapter.3}% 29
+\BOOKMARK [0][-]{chapter.4}{Estudo de Viabilidade}{}% 30
+\BOOKMARK [1][-]{section.4.1}{Considerações Iniciais}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.2}{Objetivo}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.3}{Planejamento}{chapter.4}% 33
+\BOOKMARK [2][-]{subsection.4.3.1}{Critérios de Avaliação}{section.4.3}% 34
+\BOOKMARK [2][-]{subsection.4.3.2}{Hipóteses}{section.4.3}% 35
+\BOOKMARK [2][-]{subsection.4.3.3}{Instrumentação}{section.4.3}% 36
+\BOOKMARK [2][-]{subsection.4.3.4}{Procedimento de Análise}{section.4.3}% 37
+\BOOKMARK [1][-]{section.4.4}{Execução}{chapter.4}% 38
+\BOOKMARK [2][-]{subsection.4.4.1}{Geração de Sequência de Teste com SPLiT-MBt e DA}{section.4.4}% 39
+\BOOKMARK [2][-]{subsection.4.4.2}{Geração de Sequência de Casos de Teste com SMartyTesting e DS }{section.4.4}% 40
+\BOOKMARK [1][-]{section.4.5}{Análise e Interpretação}{chapter.4}% 41
+\BOOKMARK [2][-]{subsection.4.5.1}{Quantidade de Casos de Teste Gerados \(CT.1\)}{section.4.5}% 42
+\BOOKMARK [2][-]{subsection.4.5.2}{Diferença Entre as Sequências Geradas \(CT.2\)}{section.4.5}% 43
+\BOOKMARK [2][-]{subsection.4.5.3}{Complexidade na Geração \(CT.3\)}{section.4.5}% 44
+\BOOKMARK [2][-]{subsection.4.5.4}{Esforço na Utilização das Abordagens \(CT.4\)}{section.4.5}% 45
+\BOOKMARK [1][-]{section.4.6}{Ameaças à Validade}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.6.1}{Validação Interna}{section.4.6}% 47
+\BOOKMARK [2][-]{subsection.4.6.2}{Validação Externa}{section.4.6}% 48
+\BOOKMARK [2][-]{subsection.4.6.3}{Validação de Constructo}{section.4.6}% 49
+\BOOKMARK [2][-]{subsection.4.6.4}{Validação de Conclusão}{section.4.6}% 50
+\BOOKMARK [1][-]{section.4.7}{Considerações Finais}{chapter.4}% 51
+\BOOKMARK [0][-]{chapter.5}{Melhorias Identificadas e Lições Aprendidas }{}% 52
+\BOOKMARK [1][-]{section.5.1}{Considerações Iniciais}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.2}{Melhorias}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.2.1}{Automatização do Processo de Geração para SMartyTesting}{section.5.2}% 55
+\BOOKMARK [2][-]{subsection.5.2.2}{Utilização da Conversão de DS para MEF em SMartyTesting}{section.5.2}% 56
+\BOOKMARK [2][-]{subsection.5.2.3}{Suporte para Programação Concorrente e Sub-processo em SPLiT-MBt}{section.5.2}% 57
+\BOOKMARK [2][-]{subsection.5.2.4}{Suporte para mais Métodos de Geração de Sequência}{section.5.2}% 58
+\BOOKMARK [1][-]{section.5.3}{Lições Aprendidas}{chapter.5}% 59
+\BOOKMARK [2][-]{subsection.5.3.1}{Compreensão de SPLiT-MBt}{section.5.3}% 60
+\BOOKMARK [2][-]{subsection.5.3.2}{Conversão Manual de DS para DA}{section.5.3}% 61
+\BOOKMARK [2][-]{subsection.5.3.3}{ATLs para Conversão}{section.5.3}% 62
+\BOOKMARK [2][-]{subsection.5.3.4}{Uso de Ferramentas}{section.5.3}% 63
+\BOOKMARK [2][-]{subsection.5.3.5}{Teste Baseado em Modelos de LPS}{section.5.3}% 64
+\BOOKMARK [1][-]{section.5.4}{Considerações Finais}{chapter.5}% 65
+\BOOKMARK [0][-]{chapter.6}{Conclusão}{}% 66
+\BOOKMARK [1][-]{section.6.1}{Contribuições}{chapter.6}% 67
+\BOOKMARK [1][-]{section.6.2}{Limitações}{chapter.6}% 68
+\BOOKMARK [1][-]{section.6.3}{Trabalhos Futuros}{chapter.6}% 69
+\BOOKMARK [0][-]{chapter*.1}{REFERÊNCIAS}{}% 70
+\BOOKMARK [0][-]{chapter.1}{Teste Baseado em Modelos para LPS:um Mapeamento Sistemático da Literatura}{}% 71
+\BOOKMARK [1][-]{section.1.1}{Planejamento da MSL}{chapter.1}% 72
+\BOOKMARK [2][-]{subsection.1.1.1}{Objetivo da Pesquisa}{section.1.1}% 73
+\BOOKMARK [1][-]{section.1.2}{Metodologia de Pesquisa}{chapter.1}% 74
+\BOOKMARK [2][-]{subsection.1.2.1}{Objetivo e Questões de Pesquisa}{section.1.2}% 75
+\BOOKMARK [2][-]{subsection.1.2.2}{Processo de pesquisa}{section.1.2}% 76
+\BOOKMARK [2][-]{subsection.1.2.3}{Processo de seleção}{section.1.2}% 77
+\BOOKMARK [2][-]{subsection.1.2.4}{Processo de Extração}{section.1.2}% 78
+\BOOKMARK [2][-]{subsection.1.2.5}{Processo de Análise}{section.1.2}% 79
+\BOOKMARK [1][-]{section.1.3}{Resultados}{chapter.1}% 80
+\BOOKMARK [2][-]{subsection.1.3.1}{Caracterização dos Estudos}{section.1.3}% 81
+\BOOKMARK [2][-]{subsection.1.3.2}{Resultados em questões de pesquisa}{section.1.3}% 82
+\BOOKMARK [2][-]{subsection.1.3.3}{Procedimentos de compartilhamento de dados do SMS}{section.1.3}% 83
+\BOOKMARK [1][-]{section.1.4}{TBM4LPS:um roteiro para testes baseados em modelos de pesquisa de LPSs}{chapter.1}% 84
+\BOOKMARK [2][-]{subsection.1.4.1}{Rota Primária Baseada no Estudo}{section.1.4}% 85
+\BOOKMARK [2][-]{subsection.1.4.2}{Rota baseada em critérios}{section.1.4}% 86
+\BOOKMARK [1][-]{section.1.5}{Observações Conclusivas}{chapter.1}% 87
+\BOOKMARK [0][-]{section*.2}{Anexo: Abordagem SMarty}{}% 88

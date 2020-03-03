@@ -1,42 +1,80 @@
-\select@language {brazil}
+\babel@toc {brazil}{}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figura - 1.1}{\ignorespaces Comparação entre desenvolvimento de sistemas únicos e linha de produtos \citep {Weiss:1999:SPE:317887}.}}{16}%
+\contentsline {figure}{\numberline {Figura - 1.2}{\ignorespaces Etapas da Metodologia de Desenvolvimento de Pesquisa}}{17}%
+\contentsline {figure}{\numberline {Figura - 1.3}{\ignorespaces Desenvolvimento da Abordagem \textit {SMartyTesting}}}{18}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figura - 2.1}{\ignorespaces \textit {Framework} de Engenharia de LPS, traduzido de \citet {pohl2005software}}}{21}%
+\contentsline {figure}{\numberline {Figura - 2.2}{\ignorespaces Estereótipos e Meta-Atributos do Perfil \textit {SMartyProfile} 5.2 com Suporte a Diagramas de Casos de Uso, Classes, Componentes, Atividades e Sequência \citep {bera2015evidence}}}{23}%
+\contentsline {figure}{\numberline {Figura - 2.3}{\ignorespaces O Processo de Gerenciamento de Variabilidades \textit {SMartyProcess} e sua Interação entre as Atividades com o Processo de Desenvolvimento de LPS, traduzido de \citet {de2005variability}}}{24}%
+\contentsline {figure}{\numberline {Figura - 2.4}{\ignorespaces Diagrama de casos de uso da LPS AGM contendo as notações \textit {SMarty} \citep {MarcolinoSEKE2013}}}{25}%
+\contentsline {figure}{\numberline {Figura - 2.5}{\ignorespaces Modelo de proposta de implantação do processo de teste de software segundo \citet {crespo2004metodologia}}}{27}%
+\contentsline {figure}{\numberline {Figura - 2.6}{\ignorespaces Representação de interesse em testes de SPL: seleção de instâncias do produto para testar. Traduzido de \citet {do2014strategies}}}{27}%
+\contentsline {figure}{\numberline {Figura - 2.7}{\ignorespaces Esquema simplificado que representa o modelo V de gerenciamento de atividades de engenharia de sistemas. Traduzido de \citet {do2014strategies}}}{28}%
+\contentsline {figure}{\numberline {Figura - 2.8}{\ignorespaces Ciclo de Processo de TBM, Traduzido de \citet {utting2010practical}}}{30}%
+\contentsline {figure}{\numberline {Figura - 2.9}{\ignorespaces Exemplo de grafo de uma MEF \citep {costa2016split}}}{30}%
+\contentsline {figure}{\numberline {Figura - 2.10}{\ignorespaces Mapeamento dos trabalhos relacionados ao TBM em LPS}}{36}%
+\contentsline {figure}{\numberline {Figura - 2.11}{\ignorespaces A abordagem SPLiT-MBt por \citet {costa2016split}}}{37}%
+\contentsline {figure}{\numberline {Figura - 2.12}{\ignorespaces Diagrama de atividades \textit {Game Menu} da LPS AGM \citep {costa2016split}}}{38}%
+\contentsline {figure}{\numberline {Figura - 2.13}{\ignorespaces Representação da MEF gerada a partir do DA da \ref {fig:costa1} \citep {costa2016split}}}{39}%
+\contentsline {figure}{\numberline {Figura - 2.14}{\ignorespaces representação de uma MEF utilizando a ferramenta JPlavisFSM \citep {pinheiro2012jplavisfsm}}}{43}%
+\contentsline {figure}{\numberline {Figura - 2.15}{\ignorespaces Geração de sequências de teste pela ferramenta JPlavisFSM \citep {pinheiro2012jplavisfsm}}}{44}%
+\contentsline {figure}{\numberline {Figura - 2.16}{\ignorespaces Exemplo de um diagrama de atividades}}{45}%
+\contentsline {figure}{\numberline {Figura - 2.17}{\ignorespaces Exemplo de um diagrama de sequência}}{46}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figura - 3.1}{\ignorespaces Processo de geração de sequência de teste com \textit {SMartyTesting} (instância da \ref {fig:roadmap} )}}{49}%
+\contentsline {figure}{\numberline {Figura - 3.2}{\ignorespaces Passos para a geração de sequências de teste usando \textit {SMartyTesting}}}{50}%
+\contentsline {figure}{\numberline {Figura - 3.3}{\ignorespaces Control Flow Analysis of UML 2.0 Sequence Diagrams metamodel (Diagramas de Atividades estendido) \citep {garousi2005control}}}{51}%
+\contentsline {figure}{\numberline {Figura - 3.4}{\ignorespaces Metamodelo de diagramas de sequência UML \citep {garousi2005control}}}{52}%
+\contentsline {figure}{\numberline {Figura - 3.5}{\ignorespaces Um diagrama de sequência com mensagens assíncronas \citep {garousi2005control}}}{52}%
+\contentsline {figure}{\numberline {Figura - 3.6}{\ignorespaces Resultado do mapeamento do DS da \ref {fig:mapeamento1}. Traduzido de \citet {garousi2005control}}}{53}%
+\contentsline {figure}{\numberline {Figura - 3.7}{\ignorespaces Ciclo da etapa 1}}{55}%
+\contentsline {figure}{\numberline {Figura - 3.8}{\ignorespaces Diagramas de sequência ilustrando o caso de uso \textit {game menu} da AGM}}{56}%
+\contentsline {figure}{\numberline {Figura - 3.9}{\ignorespaces Diagramas de atividades resultante do mapeamento do DS da \ref {fig:exemploDS}}}{56}%
+\contentsline {figure}{\numberline {Figura - 3.10}{\ignorespaces Exemplificação da parametrização dos \textit {controlflows} de um diagrama de atividades usando SPLiT-MBt \citep {costa2016split}}}{57}%
+\contentsline {figure}{\numberline {Figura - 3.11}{\ignorespaces Ciclo da etapa 2}}{58}%
+\contentsline {figure}{\numberline {Figura - 3.12}{\ignorespaces Tela de carregamento de arquivo da ferramenta SPLiT-MBt}}{59}%
+\contentsline {figure}{\numberline {Figura - 3.13}{\ignorespaces Validação da estrutura do arquivo carregado pela SPLiT-MBt}}{60}%
+\contentsline {figure}{\numberline {Figura - 3.14}{\ignorespaces Apresentação da estrutura do arquivo XML}}{60}%
+\contentsline {figure}{\numberline {Figura - 3.15}{\ignorespaces Mensagem de sucesso na geração dos casos de teste}}{61}%
+\contentsline {figure}{\numberline {Figura - 3.16}{\ignorespaces Arquivo XLSx com os casos de testes gerados}}{61}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figura - 4.1}{\ignorespaces Estudo de viabilidade e hipóteses definidas}}{65}%
+\contentsline {figure}{\numberline {Figura - 4.2}{\ignorespaces Diagrama de Atividades \textit {Play Selected Game} \citep {costa2016split}}}{68}%
+\contentsline {figure}{\numberline {Figura - 4.3}{\ignorespaces Diagrama de Atividades \textit {Save Game} \citep {costa2016split}}}{69}%
+\contentsline {figure}{\numberline {Figura - 4.4}{\ignorespaces Diagrama de Atividades \textit {Pong Moves} \citep {costa2016split}}}{70}%
+\contentsline {figure}{\numberline {Figura - 4.5}{\ignorespaces Diagrama de Sequência \textit {Play Selected Game} \citep {marcolino2017variability}}}{73}%
+\contentsline {figure}{\numberline {Figura - 4.6}{\ignorespaces Diagrama de Atividades resultantes do Diagrama de Sequência da \ref {fig:GamemenuKleber}}}{74}%
+\contentsline {figure}{\numberline {Figura - 4.7}{\ignorespaces Diagrama de Sequência \textit {Save Game} \citep {marcolino2017variability}}}{76}%
+\contentsline {figure}{\numberline {Figura - 4.8}{\ignorespaces Diagrama de Atividades resultante dos Diagrama de Sequência da \ref {fig:SaveGameKleber}}}{77}%
+\contentsline {figure}{\numberline {Figura - 4.9}{\ignorespaces Diagrama de Sequência \textit {Pong Moves} 1 \citep {marcolino2017variability}}}{79}%
+\contentsline {figure}{\numberline {Figura - 4.10}{\ignorespaces Diagramas de Sequência \textit {Pong Moves} 2 \citep {marcolino2017variability}}}{80}%
+\contentsline {figure}{\numberline {Figura - 4.11}{\ignorespaces Diagrama de Atividades resultante do Diagrama de Sequência da \ref {fig:pong_movesKleber1} e da \ref {fig:pong_movesKleber2} parte 1}}{81}%
+\contentsline {figure}{\numberline {Figura - 4.12}{\ignorespaces Diagrama de Atividades resultante do Diagrama de Sequência da \ref {fig:pong_movesKleber1} e da \ref {fig:pong_movesKleber2} parte 2}}{82}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figura - 5.1}{\ignorespaces Exemplo de DS com mensagens representando programação concorrente em uma função de \textit {login}}}{94}%
+\contentsline {figure}{\numberline {Figura - 5.2}{\ignorespaces DA com mensagens representando programação concorrente em uma função de \textit {login}}}{95}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {Figura - 2.1}{\ignorespaces Adaptado de (SEI 2010) }}{16}{figure.2.1}
-\contentsline {figure}{\numberline {Figura - 2.2}{\ignorespaces \textit {Framework} de Engenharia de LPS \citep {pohl2005software}. Traduzido por Geraldi (2015)}}{17}{figure.2.2}
-\contentsline {figure}{\numberline {Figura - 2.3}{\ignorespaces O Processo de Gerenciamento de Variabilidades SMartyProcess e sua Intera\c c\~ao entre as Atividades com o Processo de Desenvolvimento de LPS, traduzido de (OliveiraJr et al., 2010b)}}{20}{figure.2.3}
-\contentsline {figure}{\numberline {Figura - 2.4}{\ignorespaces Estere\'otipos e Meta-Atributos do Perfil SMartyProfile 5.1 com Suporte a Modelos de Casos de Uso, Classes, Componentes, Atividades e Sequ\^encia (Fiori et al., 2012; Marcolino, 2014; OliveiraJr et al., 2010a, 2013a). }}{21}{figure.2.4}
-\contentsline {figure}{\numberline {Figura - 2.5}{\ignorespaces Esquema simplificado que representa o modelo V }}{22}{figure.2.5}
-\contentsline {figure}{\numberline {Figura - 2.6}{\ignorespaces Modelo de proposta de implanta\c c\~ao do processo de teste de software segundo \citep {crespo2004metodologia}}}{23}{figure.2.6}
-\contentsline {figure}{\numberline {Figura - 2.7}{\ignorespaces Exemplo de uma MEF utilizado por \citealp {costa2016split}}}{24}{figure.2.7}
-\contentsline {figure}{\numberline {Figura - 2.8}{\ignorespaces Panorama da abordagem SPLiT-MBt por \citealp {costa2016split}}}{30}{figure.2.8}
+\contentsline {figure}{\numberline {Figura - 1.1}{\ignorespaces Visão geral do processo de mapeamento sistemático}}{116}%
+\contentsline {figure}{\numberline {Figura - 1.2}{\ignorespaces Processo de pesquisa por MSL}}{117}%
+\contentsline {figure}{\numberline {Figura - 1.3}{\ignorespaces Processo Seletivo MSL}}{123}%
+\contentsline {figure}{\numberline {Figura - 1.4}{\ignorespaces Processo de extração de MSL}}{130}%
+\contentsline {figure}{\numberline {Figura - 1.5}{\ignorespaces Processo de Análise MSL}}{133}%
+\contentsline {figure}{\numberline {Figura - 1.6}{\ignorespaces Distribuição de estudos por ano}}{134}%
+\contentsline {figure}{\numberline {Figura - 1.7}{\ignorespaces Automação TBM para LPS de abordagens de teste}}{137}%
+\contentsline {figure}{\numberline {Figura - 1.8}{\ignorespaces Comparação de níveis e tipos de TBM para LPS}}{141}%
+\contentsline {figure}{\numberline {Figura - 1.9}{\ignorespaces Automação TBM para LPS de abordagens de teste}}{143}%
+\contentsline {figure}{\numberline {Figura - 1.10}{\ignorespaces Automação de níveis de teste de TBM para LPS}}{144}%
+\contentsline {figure}{\numberline {Figura - 1.11}{\ignorespaces Automação TBM para LPS de abordagens de teste}}{145}%
+\contentsline {figure}{\numberline {Figura - 1.12}{\ignorespaces Artefatos X Níveis X Modelos}}{148}%
+\contentsline {figure}{\numberline {Figura - 1.13}{\ignorespaces Tratamento da variabilidade por tipo de solução}}{150}%
+\contentsline {figure}{\numberline {Figura - 1.14}{\ignorespaces Tipos de Avaliação de Propostas e Ambientes}}{152}%
+\contentsline {figure}{\numberline {Figura - 1.15}{\ignorespaces TBM4LPS: um roteiro de TBM para LPSs}}{155}%
+\contentsline {figure}{\numberline {Figura - 1.16}{\ignorespaces Etapa inicial, mostrando a localização do estudo T31}}{156}%
+\contentsline {figure}{\numberline {Figura - 1.17}{\ignorespaces Segunda etapa, mostrando a localização do estudo T31}}{157}%
+\contentsline {figure}{\numberline {Figura - 1.18}{\ignorespaces Etapa final mostrando a localização do estudo T31}}{158}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {Figura - 3.1}{\ignorespaces Etapas da Metodologia de Desenvolvimento de Pesquisa}}{34}{figure.3.1}
-\contentsline {figure}{\numberline {Figura - 3.2}{\ignorespaces Guia de direcionamento de processo de TBM em LPS}}{36}{figure.3.2}
-\contentsline {figure}{\numberline {Figura - 3.3}{\ignorespaces Ciclo da etapa 1}}{40}{figure.3.3}
-\contentsline {figure}{\numberline {Figura - 3.4}{\ignorespaces Ciclo da etapa 2}}{41}{figure.3.4}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {Figura - 1.1}{\ignorespaces Vis\~ao geral do nosso processo de mapeamento sistem\'atico}}{60}{figure.1.1}
-\contentsline {figure}{\numberline {Figura - 1.2}{\ignorespaces Processo de pesquisa por SMS}}{62}{figure.1.2}
-\contentsline {figure}{\numberline {Figura - 1.3}{\ignorespaces Processo Seletivo SMS}}{67}{figure.1.3}
-\contentsline {figure}{\numberline {Figura - 1.4}{\ignorespaces Processo de extra\c c\~ao de SMS}}{74}{figure.1.4}
-\contentsline {figure}{\numberline {Figura - 1.5}{\ignorespaces Processo de An\'alise SMS}}{77}{figure.1.5}
-\contentsline {figure}{\numberline {Figura - 1.6}{\ignorespaces Distribui\c c\~ao de estudos por ano}}{78}{figure.1.6}
-\contentsline {figure}{\numberline {Figura - 1.7}{\ignorespaces Automa\c c\~ao TBM para LPS de abordagens de teste}}{81}{figure.1.7}
-\contentsline {figure}{\numberline {Figura - 1.8}{\ignorespaces Compara\c c\~ao de n\'{\i }veis e tipos de TBM para LPS}}{85}{figure.1.8}
-\contentsline {figure}{\numberline {Figura - 1.9}{\ignorespaces Automa\c c\~ao TBM para LPS de abordagens de teste}}{87}{figure.1.9}
-\contentsline {figure}{\numberline {Figura - 1.10}{\ignorespaces Automa\c c\~ao de n\'{\i }veis de teste de TBM para LPS}}{87}{figure.1.10}
-\contentsline {figure}{\numberline {Figura - 1.11}{\ignorespaces Automa\c c\~ao TBM para LPS de abordagens de teste}}{88}{figure.1.11}
-\contentsline {figure}{\numberline {Figura - 1.12}{\ignorespaces Artefatos X N\'{\i }veis X Modelos}}{91}{figure.1.12}
-\contentsline {figure}{\numberline {Figura - 1.13}{\ignorespaces Tratamento da variabilidade por tipo de solu\c c\~ao}}{93}{figure.1.13}
-\contentsline {figure}{\numberline {Figura - 1.14}{\ignorespaces Tipos de Avalia\c c\~ao de Propostas e Ambientes}}{95}{figure.1.14}
-\contentsline {figure}{\numberline {Figura - 1.15}{\ignorespaces TBM4LPS: um roteiro de TBM para LPSs}}{98}{figure.1.15}
-\contentsline {figure}{\numberline {Figura - 1.16}{\ignorespaces Etapa inicial, mostrando a localiza\c c\~ao do estudo T31}}{99}{figure.1.16}
-\contentsline {figure}{\numberline {Figura - 1.17}{\ignorespaces Segunda etapa, mostrando a localiza\c c\~ao do estudo T31}}{100}{figure.1.17}
-\contentsline {figure}{\numberline {Figura - 1.18}{\ignorespaces Etapa final mostrando a localiza\c c\~ao do estudo T31}}{100}{figure.1.18}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {Figura - 2.1}{\ignorespaces Vers\~ao 5.2 do \textit {SMartyProfile}, com suporte a Componentes, Portas, Interfaces e Opera\c c\~oes \citep {Bera2015}.}}{103}{figure.B.1}
-\contentsline {figure}{\numberline {Figura - 2.2}{\ignorespaces Vis\~ao Geral SMarty 5.2 \citep {Bera2015}.}}{106}{figure.B.2}
-\contentsline {figure}{\numberline {Figura - 2.3}{\ignorespaces Diagrama de Classes da LPS AGM \citep {OliveiraJuniorJUCS2010}.}}{107}{figure.B.3}
+\contentsline {figure}{\numberline {Figura - 2.1}{\ignorespaces Versão 5.2 do \textit {SMartyProfile}, com suporte a Componentes, Portas, Interfaces e Operações \citep {Bera2015}.}}{161}%
+\contentsline {figure}{\numberline {Figura - 2.2}{\ignorespaces Visão Geral SMarty 5.2 \citep {Bera2015}.}}{164}%
+\contentsline {figure}{\numberline {Figura - 2.3}{\ignorespaces Diagrama de Classes da LPS AGM \citep {OliveiraJuniorJUCS2010}.}}{165}%

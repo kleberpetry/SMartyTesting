@@ -1,0 +1,1204 @@
+\begin{thebibliography}{127}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname bibbhook\endcsname\relax\let\bibbhook\relax\fi
+\expandafter\ifx\csname bibehook\endcsname\relax\let\bibehook\relax\fi
+\input babelbst.tex
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+
+\bibitem[{Al-Hajjaji \bbletal{}(2016)Al-Hajjaji, Krieter, Th{\"u}m, Lochau e
+  Saake}]{al2016incling}
+
+\bibbhook\relax
+\textsc{Al-Hajjaji, M.; Krieter, S.; Th{\"u}m, T.; Lochau, M.; Saake, G.}\ \ \
+  Incling: efficient product-line testing using incremental pairwise sampling.\
+  \ \ \capitalize\bblin{}: \textit{ACM SIGPLAN Notices}, ACM, 2016, \bblpp{}
+  144--155.
+\bibehook\relax
+
+\bibitem[{Ali \bbletal{}(2012)Ali, Yue, Briand e Walawege}]{ali2012product}
+
+\bibbhook\relax
+\textsc{Ali, S.; Yue, T.; Briand, L.; Walawege, S.}\ \ \  A product line
+  modeling and configuration methodology to support model-based testing: an
+  industrial case study.\ \ \ \capitalize\bblin{}: \textit{International
+  Conference on Model Driven Engineering Languages and Systems}, Springer,
+  2012, \bblpp{} 726--742.
+\bibehook\relax
+
+\bibitem[{Allilaire \bbletal{}(2006)Allilaire, B{\'e}zivin, Jouault e
+  Kurtev}]{allilaire2006atl}
+
+\bibbhook\relax
+\textsc{Allilaire, F.; B{\'e}zivin, J.; Jouault, F.; Kurtev, I.}\ \ \
+  Atl-eclipse support for model transformation.\ \ \ \capitalize\bblin{}:
+  \textit{Proceedings of the Eclipse Technology eXchange workshop (eTX) at the
+  ECOOP 2006 Conference, Nantes, France}, Citeseer, 2006.
+\bibehook\relax
+
+\bibitem[{Alves \bbletal{}(2009)Alves, Schneider, Becker, Iese, Platz, Bencomo
+  e Grace}]{Alves_et_al2009}
+
+\bibbhook\relax
+\textsc{Alves, V.; Schneider, D.; Becker, M.; Iese, F.; Platz, F.; Bencomo, N.;
+  Grace, P.}\ \ \  Comparitive study of variability management in software
+  product lines and runtime adaptable systems.\ \ \ \capitalize\bblin{}:
+  \textit{International Workshop on Variability Modelling of Software-Intensive
+  Systems}, 2009, \bblpp{} 9--17.
+\bibehook\relax
+
+\bibitem[{Apel \bbletal{}(2013{\natexlab{a}})Apel, Batory, K{\"a}stner e
+  Saake}]{apel2016feature}
+
+\bibbhook\relax
+\textsc{Apel, S.; Batory, D.; K{\"a}stner, C.; Saake, G.}\ \ \
+  \emph{Feature-oriented software product lines}.\ \ \ Springer,
+  2013{\natexlab{a}}.
+\bibehook\relax
+
+\bibitem[{Apel \bbletal{}(2013{\natexlab{b}})Apel, Batory, Kstner e
+  Saake}]{Apel:2013:FSP:2541773}
+
+\bibbhook\relax
+\textsc{Apel, S.; Batory, D.; Kstner, C.; Saake, G.}\ \ \
+  \emph{Feature-oriented software product lines: Concepts and implementation}.\
+  \ \ Springer Publishing Company, Incorporated, 2013{\natexlab{b}}.
+\bibehook\relax
+
+\bibitem[{{Bagnato} \bbletal{}(2013){Bagnato}, {Sadovykh}, {Brosse} e
+  {Vos}}]{Bagnato_et_al2013}
+
+\bibbhook\relax
+\textsc{{Bagnato}, A.; {Sadovykh}, A.; {Brosse}, E.; {Vos}, T. E.~J.}\ \ \  The
+  omg uml testing profile in use--an industrial case study for the future
+  internet testing.\ \ \ \capitalize\bblin{}: \textit{2013 17th European
+  Conference on Software Maintenance and Reengineering}, 2013, \bblpp{}
+  457--460.
+\bibehook\relax
+
+\bibitem[{Basili(1992)}]{basili1992software}
+
+\bibbhook\relax
+\textsc{Basili, V.~R.}\ \ \  \emph{Software modeling and measurement: the
+  goal/question/metric paradigm}.\ \ \ \bbltechrep{}, 1992.
+\bibehook\relax
+
+\bibitem[{Beohar e Mousavi(2014{\natexlab{a}})}]{beohar2014input}
+
+\bibbhook\relax
+\textsc{Beohar, H.; Mousavi, M.~R.}\ \ \  Input-output conformance testing
+  based on featured transition systems.\ \ \ \capitalize\bblin{}:
+  \textit{Proceedings of the 29th Annual ACM Symposium on Applied Computing},
+  ACM, 2014{\natexlab{a}}, \bblpp{} 1272--1278.
+\bibehook\relax
+
+\bibitem[{Beohar e Mousavi(2014{\natexlab{b}})}]{beohar2014spinal}
+
+\bibbhook\relax
+\textsc{Beohar, H.; Mousavi, M.~R.}\ \ \  Spinal test suites for software
+  product lines.\ \ \ \textit{arXiv preprint arXiv:1403.7260},
+  2014{\natexlab{b}}.
+\bibehook\relax
+
+\bibitem[{Beohar \bbletal{}(2016)Beohar, Varshosaz e Mousavi}]{beohar2016basic}
+
+\bibbhook\relax
+\textsc{Beohar, H.; Varshosaz, M.; Mousavi, M.~R.}\ \ \  Basic behavioral
+  models for software product lines: Expressiveness and testing pre-orders.\ \
+  \ \textit{Science of Computer Programming}, \bblvol{}~123, \bblpp{}~42--60,
+  2016.
+\bibehook\relax
+
+\bibitem[{Bera \bbletal{}(2015{\natexlab{a}})Bera, OliveiraJr e
+  Colanzi}]{bera2015evidence}
+
+\bibbhook\relax
+\textsc{Bera, M.~H.; OliveiraJr, E.; Colanzi, T.~E.}\ \ \  Evidence-based
+  smarty support for variability identification and representation in component
+  models.\ \ \ \capitalize\bblin{}: \textit{Proceedings of the 17th
+  International Conference on Enterprise Information Systems-Volume 2},
+  SCITEPRESS-Science and Technology Publications, Lda, 2015{\natexlab{a}},
+  \bblpp{} 295--302.
+\bibehook\relax
+
+\bibitem[{Bera(2015)}]{Bera2015}
+
+\bibbhook\relax
+\textsc{Bera, M. H.~G.}\ \ \  \emph{Smartycomponents: um processo para
+  especifica\c c\~ao de arquiteturas de linha de produto de software baseadas
+  em uml.}\ \ \ \bblmthesis{}, Universidade Estadual de Maring\'a, Departamento
+  de Inform\'atica, Programa de P\'{o}s Gradua\c c\~ao em Ci\^encia da
+  Computa\c c\~ao, 2015.
+\bibehook\relax
+
+\bibitem[{Bera \bbletal{}(2015{\natexlab{b}})Bera, OliveiraJr e
+  Colanzi}]{BeraICEIS2015}
+
+\bibbhook\relax
+\textsc{Bera, M. H.~G.; OliveiraJr, E.; Colanzi, T.~E.}\ \ \  Evidence-based
+  smarty support for variability identification and representation in component
+  models.\ \ \ \capitalize\bblin{}: \textit{Proceedings of the 17th
+  International Conference on Enterprise Information Systems - Volume 2:
+  ICEIS,}, 2015{\natexlab{b}}, \bblpp{} 295--302.
+\bibehook\relax
+
+\bibitem[{Bernardino \bbletal{}(2017)Bernardino, Rodrigues, Zorzo e
+  Marchezan}]{Bernardino_et_al2017}
+
+\bibbhook\relax
+\textsc{Bernardino, M.; Rodrigues, E.~M.; Zorzo, A.~F.; Marchezan, L.}\ \ \
+  Systematic mapping study on mbt: tools and models.\ \ \ \textit{IET
+  Software}, \bblvol{}~11, \bblno{}~4, \bblpp{}~141--155, 2017.
+\bibehook\relax
+
+\bibitem[{Booch \bbletal{}(2006)Booch, Rumbaugh e Jacobson}]{booch2006uml}
+
+\bibbhook\relax
+\textsc{Booch, G.; Rumbaugh, J.; Jacobson, I.}\ \ \  \emph{Uml: guia do
+  usu{\'a}rio}.\ \ \ Elsevier Brasil, 2006.
+\bibehook\relax
+
+\bibitem[{Bringmann e Kr{\"a}mer(2008)}]{bringmann2008model}
+
+\bibbhook\relax
+\textsc{Bringmann, E.; Kr{\"a}mer, A.}\ \ \  Model-based testing of automotive
+  systems.\ \ \ \capitalize\bblin{}: \textit{2008 1st international conference
+  on software testing, verification, and validation}, IEEE, 2008, \bblpp{}
+  485--493.
+\bibehook\relax
+
+\bibitem[{Cai e Zeng(2013)}]{cai2013model}
+
+\bibbhook\relax
+\textsc{Cai, X.; Zeng, H.}\ \ \  Model-based test generation for software
+  product line.\ \ \ \capitalize\bblin{}: \textit{Computer and Information
+  Science (ICIS), 2013 IEEE/ACIS 12th International Conference on}, IEEE, 2013,
+  \bblpp{} 347--351.
+\bibehook\relax
+
+\bibitem[{Chen \bbletal{}(2009)Chen, Ali~Babar e Ali}]{Chen_et_al2009}
+
+\bibbhook\relax
+\textsc{Chen, L.; Ali~Babar, M.; Ali, N.}\ \ \  Variability management in
+  software product lines: A systematic review.\ \ \ \capitalize\bblin{}:
+  \textit{Proceedings of the 13th International Software Product Line
+  Conference}, SPLC '09, Pittsburgh, PA, USA: Carnegie Mellon University, 2009,
+  \bblpp{} 81--90 (\textit{SPLC '09}, ).
+\newline Disponível em \url{http://dl.acm.org/citation.cfm?id=1753235.1753247}
+\bibehook\relax
+
+\bibitem[{Chow(1978)}]{chow1978testing}
+
+\bibbhook\relax
+\textsc{Chow, T.~S.}\ \ \  Testing software design modeled by finite-state
+  machines.\ \ \ \textit{IEEE transactions on software engineering}, ,
+  \bblno{}~3, \bblpp{}~178--187, 1978.
+\bibehook\relax
+
+\bibitem[{Cichos \bbletal{}(2011)Cichos, Oster, Lochau e
+  Sch{\"u}rr}]{cichos2011model}
+
+\bibbhook\relax
+\textsc{Cichos, H.; Oster, S.; Lochau, M.; Sch{\"u}rr, A.}\ \ \  Model-based
+  coverage-driven test suite generation for software product lines.\ \ \
+  \capitalize\bblin{}: \textit{International Conference on Model Driven
+  Engineering Languages and Systems}, Springer, 2011, \bblpp{} 425--439.
+\bibehook\relax
+
+\bibitem[{Clements e Northrop(2002)}]{clements2002software}
+
+\bibbhook\relax
+\textsc{Clements, P.; Northrop, L.}\ \ \  \emph{Software product lines}.\ \ \
+  Addison-Wesley,, 2002.
+\bibehook\relax
+
+\bibitem[{Costa(2016)}]{costa2016split}
+
+\bibbhook\relax
+\textsc{Costa, L.~T.}\ \ \  \emph{Split-mbt: A model-based testing method for
+  software product lines}.\ \ \ \bblmthesis{}, Pontif{\'\i}cia Universidade
+  Cat{\'o}lica do Rio Grande do Sul, 2016.
+\bibehook\relax
+
+\bibitem[{Crespo \bbletal{}(2004)Crespo, Silva, Borges, Salviano, Argollo e
+  Jino}]{crespo2004metodologia}
+
+\bibbhook\relax
+\textsc{Crespo, A.~N.; Silva, O.~J.; Borges, C.~A.; Salviano, C.~F.; Argollo,
+  M.; Jino, M.}\ \ \  Uma metodologia para teste de software no contexto da
+  melhoria de processo.\ \ \ \textit{Simp{\'o}sio Brasileiro de Qualidade de
+  Software}, \bblpp{}~271--285, 2004.
+\bibehook\relax
+
+\bibitem[{Da~Silva~Simao \bbletal{}(2008)Da~Silva~Simao, Ambr{\'o}sio, Fabbri,
+  do~Amaral, Martins e Maldonado}]{da2008plavis}
+
+\bibbhook\relax
+\textsc{Da~Silva~Simao, A.; Ambr{\'o}sio, A.~M.; Fabbri, S.; do~Amaral, A.;
+  Martins, E.; Maldonado, J.~C.}\ \ \  Plavis/fsm: an environment to integrate
+  fsm-based testing tools.\ \ \ \capitalize\bblin{}: \textit{Tool Session of
+  XIX Brazilian Symposium on Software Engineering}, Citeseer, 2008, \bblpp{}
+  1--6.
+\bibehook\relax
+
+\bibitem[{Damiani \bbletal{}(2017)Damiani, Faitelson, Gladisch e
+  Tyszberowicz}]{damiani2017novel}
+
+\bibbhook\relax
+\textsc{Damiani, F.; Faitelson, D.; Gladisch, C.; Tyszberowicz, S.}\ \ \  A
+  novel model-based testing approach for software product lines.\ \ \
+  \textit{Software \& Systems Modeling}, \bblvol{}~16, \bblno{}~4,
+  \bblpp{}~1223--1251, 2017.
+\bibehook\relax
+
+\bibitem[{Damiani \bbletal{}(2013)Damiani, Gladisch e
+  Tyszberowicz}]{damiani2013refinement}
+
+\bibbhook\relax
+\textsc{Damiani, F.; Gladisch, C.; Tyszberowicz, S.}\ \ \  Refinement-based
+  testing of delta-oriented product lines.\ \ \ \capitalize\bblin{}:
+  \textit{Proceedings of the 2013 International Conference on Principles and
+  Practices of Programming on the Java Platform: Virtual Machines, Languages,
+  and Tools}, ACM, 2013, \bblpp{} 135--140.
+\bibehook\relax
+
+\bibitem[{Delamaro \bbletal{}(2017)Delamaro, Jino e
+  Maldonado}]{delamaro2017introduccao}
+
+\bibbhook\relax
+\textsc{Delamaro, M.; Jino, M.; Maldonado, J.}\ \ \  \emph{Introdu{\c{c}}{\~a}o
+  ao teste de software}.\ \ \ Elsevier Brasil, 2017.
+\bibehook\relax
+
+\bibitem[{Devroey(2014)}]{devroey2014behavioural}
+
+\bibbhook\relax
+\textsc{Devroey, X.}\ \ \  Behavioural model based testing of software product
+  lines: Research abstract.\ \ \ \capitalize\bblin{}: \textit{18th
+  International Software Product Lines Conference (SPLC'14)}, ACM Press, 2014.
+\bibehook\relax
+
+\bibitem[{Devroey \bbletal{}(2012)Devroey, Cordy, Perrouin, Kang, Schobbens,
+  Heymans, Legay e Baudry}]{devroey2012vision}
+
+\bibbhook\relax
+\textsc{Devroey, X.; Cordy, M.; Perrouin, G.; Kang, E.-Y.; Schobbens, P.-Y.;
+  Heymans, P.; Legay, A.; Baudry, B.}\ \ \  A vision for behavioural
+  model-driven validation of software product lines.\ \ \ \capitalize\bblin{}:
+  \textit{International Symposium On Leveraging Applications of Formal Methods,
+  Verification and Validation}, Springer, 2012, \bblpp{} 208--222.
+\bibehook\relax
+
+\bibitem[{Devroey \bbletal{}(2014{\natexlab{a}})Devroey, Perrouin, Legay,
+  Cordy, Schobbens e Heymans}]{devroey2014coverage}
+
+\bibbhook\relax
+\textsc{Devroey, X.; Perrouin, G.; Legay, A.; Cordy, M.; Schobbens, P.-Y.;
+  Heymans, P.}\ \ \  Coverage criteria for behavioural testing of software
+  product lines.\ \ \ \capitalize\bblin{}: \textit{International Symposium On
+  Leveraging Applications of Formal Methods, Verification and Validation},
+  Springer, 2014{\natexlab{a}}, \bblpp{} 336--350.
+\bibehook\relax
+
+\bibitem[{Devroey \bbletal{}(2014{\natexlab{b}})Devroey, Perrouin e
+  Schobbens}]{devroey2014abstract}
+
+\bibbhook\relax
+\textsc{Devroey, X.; Perrouin, G.; Schobbens, P.-Y.}\ \ \  Abstract test case
+  generation for behavioural testing of software product lines.\ \ \
+  \capitalize\bblin{}: \textit{Proceedings of the 18th International Software
+  Product Line Conference: Companion Volume for Workshops, Demonstrations and
+  Tools-Volume 2}, ACM, 2014{\natexlab{b}}, \bblpp{} 86--93.
+\bibehook\relax
+
+\bibitem[{Devroey \bbletal{}(2015)Devroey, Perrouin, Schobbens e
+  Heymans}]{devroey2015vibes}
+
+\bibbhook\relax
+\textsc{Devroey, X.; Perrouin, G.; Schobbens, P.-Y.; Heymans, P.}\ \ \  Vibes,
+  transition system mutation made easy.\ \ \ \capitalize\bblin{}:
+  \textit{Proceedings of the 37th International Conference on Software
+  Engineering-Volume 2}, IEEE Press, 2015, \bblpp{} 817--818.
+\bibehook\relax
+
+\bibitem[{Do~Carmo~Machado \bbletal{}(2014)Do~Carmo~Machado, Mcgregor,
+  Cavalcanti e De~Almeida}]{do2014strategies}
+
+\bibbhook\relax
+\textsc{Do~Carmo~Machado, I.; Mcgregor, J.~D.; Cavalcanti, Y.~C.; De~Almeida,
+  E.~S.}\ \ \  On strategies for testing software product lines: A systematic
+  literature review.\ \ \ \textit{Information and Software Technology},
+  \bblvol{}~56, \bblno{}~10, \bblpp{}~1183--1199, 2014.
+\bibehook\relax
+
+\bibitem[{Dukaczewski \bbletal{}(2013)Dukaczewski, Schaefer, Lachmann e
+  Lochau}]{dukaczewski2013requirements}
+
+\bibbhook\relax
+\textsc{Dukaczewski, M.; Schaefer, I.; Lachmann, R.; Lochau, M.}\ \ \
+  Requirements-based delta-oriented spl testing.\ \ \ \capitalize\bblin{}:
+  \textit{Product Line Approaches in Software Engineering (PLEASE), 2013 4th
+  International Workshop on}, IEEE, 2013, \bblpp{} 49--52.
+\bibehook\relax
+
+\bibitem[{Engstr{\"o}m e Runeson(2011)}]{engstrom2011software}
+
+\bibbhook\relax
+\textsc{Engstr{\"o}m, E.; Runeson, P.}\ \ \  Software product line testing--a
+  systematic mapping study.\ \ \ \textit{Information and Software Technology},
+  \bblvol{}~53, \bblno{}~1, \bblpp{}~2--13, 2011.
+\bibehook\relax
+
+\bibitem[{Escalona \bbletal{}(2011)Escalona, Gutierrez, Mej{\'\i}as,
+  Arag{\'o}n, Ramos, Torres e Dom{\'\i}nguez}]{escalona2011overview}
+
+\bibbhook\relax
+\textsc{Escalona, M.; Gutierrez, J.~J.; Mej{\'\i}as, M.; Arag{\'o}n, G.; Ramos,
+  I.; Torres, J.; Dom{\'\i}nguez, F.}\ \ \  An overview on test generation from
+  functional requirements.\ \ \ \textit{Journal of Systems and Software},
+  \bblvol{}~84, \bblno{}~8, \bblpp{}~1379--1393, 2011.
+\bibehook\relax
+
+\bibitem[{Farrag(2010)}]{farrag2010colored}
+
+\bibbhook\relax
+\textsc{Farrag, M.}\ \ \  \emph{Colored model based testing for software
+  product lines (cmbt-swpl)}.\ \ \ \bblphdthesis{}, Technical University of
+  Ilmenau, 2010.
+\bibehook\relax
+
+\bibitem[{Feldt \bbletal{}(2018)Feldt, Zimmermann, Bergersen, Falessi,
+  Jedlitschka, Juristo, M{\"u}nch, Oivo, Runeson, Shepperd, Sj{\o}berg e
+  Turhan}]{Feldt_et_al2018}
+
+\bibbhook\relax
+\textsc{Feldt, R.; Zimmermann, T.; Bergersen, G.~R.; Falessi, D.; Jedlitschka,
+  A.; Juristo, N.; M{\"u}nch, J.; Oivo, M.; Runeson, P.; Shepperd, M.;
+  Sj{\o}berg, D. I.~K.; Turhan, B.}\ \ \  Four commentaries on the use of
+  students and professionals in empirical software engineering experiments.\ \
+  \ \textit{Empirical Software Engineering}, \bblvol{}~23, \bblno{}~6,
+  \bblpp{}~3801--3820, 2018.
+\newline Disponível em \url{https://doi.org/10.1007/s10664-018-9655-0}
+\bibehook\relax
+
+\bibitem[{{Feng} \bbletal{}(2007){Feng}, {Liu} e {Kerridge}}]{Feng_et_al2007}
+
+\bibbhook\relax
+\textsc{{Feng}, Y.; {Liu}, X.; {Kerridge}, J.}\ \ \  A product line based
+  aspect-oriented generative unit testing approach to building quality
+  components.\ \ \ \capitalize\bblin{}: \textit{Annual International Computer
+  Software and Applications Conference}, 2007, \bblpp{} 403--408.
+\bibehook\relax
+
+\bibitem[{Fiori \bbletal{}(2012)Fiori, Gimenes, Maldonado e
+  OliveiraJr}]{fiori2012variability}
+
+\bibbhook\relax
+\textsc{Fiori, D.~R.; Gimenes, I.~M.; Maldonado, J.~C.; OliveiraJr, E.}\ \ \
+  Variability management in software product line activity diagrams.\ \ \
+  \capitalize\bblin{}: \textit{DMS}, 2012, \bblpp{} 89--94.
+\bibehook\relax
+
+\bibitem[{Fragal \bbletal{}(2017)Fragal, Simao, Endo e
+  Mousavi}]{fragal2017reducing}
+
+\bibbhook\relax
+\textsc{Fragal, V.~H.; Simao, A.; Endo, A.~T.; Mousavi, M.~R.}\ \ \  Reducing
+  the concretization effort in fsm-based testing of software product lines.\ \
+  \ \capitalize\bblin{}: \textit{2017 IEEE International Conference on Software
+  Testing, Verification and Validation Workshops (ICSTW)}, IEEE, 2017, \bblpp{}
+  329--336.
+\bibehook\relax
+
+\bibitem[{Fujiwara \bbletal{}(1991)Fujiwara, Bochmann, Khendek, Amalou e
+  Ghedamsi}]{fujiwara1991test}
+
+\bibbhook\relax
+\textsc{Fujiwara, S.; Bochmann, G.~v.; Khendek, F.; Amalou, M.; Ghedamsi, A.}\
+  \ \  Test selection based on finite state models.\ \ \ \textit{IEEE
+  Transactions on software engineering}, \bblvol{}~17, \bblno{}~6,
+  \bblpp{}~591--603, 1991.
+\bibehook\relax
+
+\bibitem[{Garc{\'\i}a~Guti{\'e}rrez \bbletal{}(2010)Garc{\'\i}a~Guti{\'e}rrez,
+  Garcia~Carmona, Navas~Baltasar, Parada~G{\'e}lvez, Cuadrado~Latasa e
+  Due{\~n}as~L{\'o}pez}]{Garcia_et_al2010}
+
+\bibbhook\relax
+\textsc{Garc{\'\i}a~Guti{\'e}rrez, B.; Garcia~Carmona, R.; Navas~Baltasar, A.;
+  Parada~G{\'e}lvez, H.~A.; Cuadrado~Latasa, F.; Due{\~n}as~L{\'o}pez, J.~C.}\
+  \ \  An automated model-based testing approach in software product lines
+  using a variability language.\ \ \ \capitalize\bblin{}: \textit{Workshop on
+  Model-Driven Tool and Process Integration}, 2010, \bblpp{} 1--10.
+\bibehook\relax
+
+\bibitem[{Garousi \bbletal{}(2005)Garousi, Briand e
+  Labiche}]{garousi2005control}
+
+\bibbhook\relax
+\textsc{Garousi, V.; Briand, L.~C.; Labiche, Y.}\ \ \  Control flow analysis of
+  uml 2.0 sequence diagrams.\ \ \ \capitalize\bblin{}: \textit{European
+  Conference on Model Driven Architecture-Foundations and Applications},
+  Springer, 2005, \bblpp{} 160--174.
+\bibehook\relax
+
+\bibitem[{Gebizli e S{\"o}zer(2016)}]{gebizli2016model}
+
+\bibbhook\relax
+\textsc{Gebizli, C.~S.; S{\"o}zer, H.}\ \ \  Model-based software product line
+  testing by coupling feature models with hierarchical markov chain usage
+  models.\ \ \ \capitalize\bblin{}: \textit{Software Quality, Reliability and
+  Security Companion (QRS-C), 2016 IEEE International Conference on}, IEEE,
+  2016, \bblpp{} 278--283.
+\bibehook\relax
+
+\bibitem[{Gebizli \bbletal{}(2016)Gebizli, S{\"o}zer e
+  Ercan}]{gebizli2016successive}
+
+\bibbhook\relax
+\textsc{Gebizli, C.~S.; S{\"o}zer, H.; Ercan, A.~{\"O}.}\ \ \  Successive
+  refinement of models for model-based testing to increase system test
+  effectiveness.\ \ \ \capitalize\bblin{}: \textit{Software Testing,
+  Verification and Validation Workshops (ICSTW), 2016 IEEE Ninth International
+  Conference on}, IEEE, 2016, \bblpp{} 263--268.
+\bibehook\relax
+
+\bibitem[{Geraldi \bbletal{}(2015)Geraldi, OliveiraJr, Conte e
+  Steinmacher}]{GeraldiICEIS2015}
+
+\bibbhook\relax
+\textsc{Geraldi, R.~T.; OliveiraJr, E.; Conte, T.; Steinmacher, I.}\ \ \
+  Checklist-based inspection of smarty variability models - proposal and
+  empirical feasibility study.\ \ \ \capitalize\bblin{}: \textit{Proceedings of
+  the 17th International Conference on Enterprise Information Systems - Volume
+  2: ICEIS,}, 2015, \bblpp{} 268--276.
+\bibehook\relax
+
+\bibitem[{Gill e Kemerer(1991)}]{gill1991cyclomatic}
+
+\bibbhook\relax
+\textsc{Gill, G.~K.; Kemerer, C.~F.}\ \ \  Cyclomatic complexity density and
+  software maintenance productivity.\ \ \ \textit{IEEE transactions on software
+  engineering}, \bblvol{}~17, \bblno{}~12, \bblp{}~1284, 1991.
+\bibehook\relax
+
+\bibitem[{Gomaa(2006)}]{gomaa2006designing}
+
+\bibbhook\relax
+\textsc{Gomaa, H.}\ \ \  Designing software product lines with uml 2.0: From
+  use cases to pattern-based software architectures.\ \ \ \capitalize\bblin{}:
+  \textit{Proceedings of the 9th international conference on Reuse of
+  Off-the-Shelf Components}, Springer-Verlag, 2006, \bblpp{} 440--440.
+\bibehook\relax
+
+\bibitem[{Gonenc(1970)}]{gonenc1970method}
+
+\bibbhook\relax
+\textsc{Gonenc, G.}\ \ \  A method for the design of fault detection
+  experiments.\ \ \ \textit{IEEE transactions on Computers}, \bblvol{}~100,
+  \bblno{}~6, \bblpp{}~551--558, 1970.
+\bibehook\relax
+
+\bibitem[{Hasling \bbletal{}(2008)Hasling, Goetz e Beetz}]{hasling2008model}
+
+\bibbhook\relax
+\textsc{Hasling, B.; Goetz, H.; Beetz, K.}\ \ \  Model based testing of system
+  requirements using uml use case models.\ \ \ \capitalize\bblin{}:
+  \textit{Software Testing, Verification, and Validation, 2008 1st
+  international conference on}, IEEE, 2008, \bblpp{} 367--376.
+\bibehook\relax
+
+\bibitem[{Henard \bbletal{}(2013)Henard, Papadakis, Perrouin, Klein e
+  Le~Traon}]{henard2013assessing}
+
+\bibbhook\relax
+\textsc{Henard, C.; Papadakis, M.; Perrouin, G.; Klein, J.; Le~Traon, Y.}\ \ \
+  Assessing software product line testing via model-based mutation: An
+  application to similarity testing.\ \ \ \capitalize\bblin{}: \textit{Software
+  Testing, Verification and Validation Workshops (ICSTW), 2013 IEEE Sixth
+  International Conference on}, IEEE, 2013, \bblpp{} 188--197.
+\bibehook\relax
+
+\bibitem[{Hennicker e Knapp(2007)}]{hennicker2007activity}
+
+\bibbhook\relax
+\textsc{Hennicker, R.; Knapp, A.}\ \ \  Activity-driven synthesis of state
+  machines.\ \ \ \capitalize\bblin{}: \textit{International Conference on
+  Fundamental Approaches to Software Engineering}, Springer, 2007, \bblpp{}
+  87--101.
+\bibehook\relax
+
+\bibitem[{Hennine(1964)}]{hennine1964fault}
+
+\bibbhook\relax
+\textsc{Hennine, F.}\ \ \  Fault detecting experiments for sequential
+  circuits.\ \ \ \capitalize\bblin{}: \textit{1964 Proceedings of the Fifth
+  Annual Symposium on Switching Circuit Theory and Logical Design}, IEEE, 1964,
+  \bblpp{} 95--110.
+\bibehook\relax
+
+\bibitem[{Isa \bbletal{}(2017)Isa, Razak, Jawawi e Fuh}]{isa2017model}
+
+\bibbhook\relax
+\textsc{Isa, M. A.~B.; Razak, S. B.~A.; Jawawi, D. N. B.~A.; Fuh, O.~L.}\ \ \
+  Model-based testing for software product line: A systematic literature
+  review.\ \ \ \textit{International Journal of Software Engineering and
+  Technology}, \bblvol{}~2, \bblno{}~2, 2017.
+\bibehook\relax
+
+\bibitem[{Jay \bbletal{}(2009)Jay, Hale, Smith, Hale, Kraft e
+  Ward}]{jay2009cyclomatic}
+
+\bibbhook\relax
+\textsc{Jay, G.; Hale, J.~E.; Smith, R.~K.; Hale, D.~P.; Kraft, N.~A.; Ward,
+  C.}\ \ \  Cyclomatic complexity and lines of code: Empirical evidence of a
+  stable linear relationship.\ \ \ \textit{JSEA}, \bblvol{}~2, \bblno{}~3,
+  \bblpp{}~137--143, 2009.
+\bibehook\relax
+
+\bibitem[{{Kakarontzas} \bbletal{}(2008){Kakarontzas}, {Stamelos} e
+  {Katsaros}}]{Kakarontzas_et_al2008}
+
+\bibbhook\relax
+\textsc{{Kakarontzas}, G.; {Stamelos}, I.; {Katsaros}, P.}\ \ \  Product line
+  variability with elastic components and test-driven development.\ \ \
+  \capitalize\bblin{}: \textit{International Conference on Computational
+  Intelligence for Modelling Control Automation}, 2008, \bblpp{} 146--151.
+\bibehook\relax
+
+\bibitem[{Keele \bbletal{}(2007)}]{keele2007guidelines}
+
+\bibbhook\relax
+\textsc{Keele, S.; \bbletal{}}\ \ \  Guidelines for performing systematic
+  literature reviews in software engineering.\ \ \ \capitalize\bblin{}:
+  \textit{Technical report, Ver. 2.3 EBSE Technical Report. EBSE}, sn, 2007.
+\bibehook\relax
+
+\bibitem[{Kitchenham(2004)}]{kitchenham2004procedures}
+
+\bibbhook\relax
+\textsc{Kitchenham, B.}\ \ \  Procedures for performing systematic reviews.\ \
+  \ \textit{Keele, UK, Keele University}, \bblvol{}~33, \bblno{} 2004,
+  \bblpp{}~1--26, 2004.
+\bibehook\relax
+
+\bibitem[{Kitchenham \bbletal{}(2015)Kitchenham, Budgen e
+  Brereton}]{kitchenham2015evidence}
+
+\bibbhook\relax
+\textsc{Kitchenham, B.~A.; Budgen, D.; Brereton, P.}\ \ \  \emph{Evidence-based
+  software engineering and systematic reviews}, \bblvol{}~4.\ \ \ CRC press,
+  2015.
+\bibehook\relax
+
+\bibitem[{Knapp \bbletal{}(2014)Knapp, Roggenbach e Schlingloff}]{knapp2014use}
+
+\bibbhook\relax
+\textsc{Knapp, A.; Roggenbach, M.; Schlingloff, B.-H.}\ \ \  On the use of test
+  cases in model-based software product line development.\ \ \
+  \capitalize\bblin{}: \textit{Proceedings of the 18th International Software
+  Product Line Conference-Volume 1}, ACM, 2014, \bblpp{} 247--251.
+\bibehook\relax
+
+\bibitem[{Lachmann \bbletal{}(2017)Lachmann, Beddig, Lity, Schulze e
+  Schaefer}]{lachmann2017risk}
+
+\bibbhook\relax
+\textsc{Lachmann, R.; Beddig, S.; Lity, S.; Schulze, S.; Schaefer, I.}\ \ \
+  Risk-based integration testing of software product lines.\ \ \
+  \capitalize\bblin{}: \textit{Proceedings of the Eleventh International
+  Workshop on Variability Modelling of Software-intensive Systems}, ACM, 2017,
+  \bblpp{} 52--59.
+\bibehook\relax
+
+\bibitem[{Lackner \bbletal{}(2014)Lackner, Thomas, Wartenberg e
+  Wei{\ss}leder}]{lackner2014model}
+
+\bibbhook\relax
+\textsc{Lackner, H.; Thomas, M.; Wartenberg, F.; Wei{\ss}leder, S.}\ \ \
+  Model-based test design of product lines: Raising test design to the product
+  line level.\ \ \ \capitalize\bblin{}: \textit{Software Testing, Verification
+  and Validation (ICST), 2014 IEEE Seventh International Conference on}, IEEE,
+  2014, \bblpp{} 51--60.
+\bibehook\relax
+
+\bibitem[{Lamancha \bbletal{}(2009)Lamancha, Mateo, de~Guzm{\'a}n, Usaola e
+  Velthius}]{Lamancha_et_al2009}
+
+\bibbhook\relax
+\textsc{Lamancha, B.~P.; Mateo, P.~R.; de~Guzm{\'a}n, I.~R.; Usaola, M.~P.;
+  Velthius, M.~P.}\ \ \  Automated model-based testing using the uml testing
+  profile and qvt.\ \ \ \capitalize\bblin{}: \textit{International Workshop on
+  Model-Driven Engineering, Verification and Validation}, ACM, 2009, \bblp{}~6.
+\bibehook\relax
+
+\bibitem[{Lamancha \bbletal{}(2010)Lamancha, Usaola e
+  Velthius}]{Lamancha_et_al2010}
+
+\bibbhook\relax
+\textsc{Lamancha, B.~P.; Usaola, M.~P.; Velthius, M.~P.}\ \ \  A model based
+  testing approach for model-driven development and software product lines.\ \
+  \ \capitalize\bblin{}: \textit{International Conference on Evaluation of
+  Novel Approaches to Software Engineering}, Springer, 2010, \bblpp{} 193--208.
+\bibehook\relax
+
+\bibitem[{Lee \bbletal{}(2012)Lee, Kang e Lee}]{Lee_et_al2012}
+
+\bibbhook\relax
+\textsc{Lee, J.; Kang, S.; Lee, D.}\ \ \  A survey on software product line
+  testing.\ \ \ \capitalize\bblin{}: \textit{International Software Product
+  Line Conference}, SPLC '12, New York, NY, USA: ACM, 2012, \bblpp{} 31--40
+  (\textit{SPLC '12}, ).
+\bibehook\relax
+
+\bibitem[{Li(2013)}]{li2013novel}
+
+\bibbhook\relax
+\textsc{Li, Q.}\ \ \  A novel likert scale based on fuzzy sets theory.\ \ \
+  \textit{Expert Systems with Applications}, \bblvol{}~40, \bblno{}~5,
+  \bblpp{}~1609--1618, 2013.
+\bibehook\relax
+
+\bibitem[{Linden \bbletal{}(2007)Linden, Schmid e Rommes}]{linden2007product}
+
+\bibbhook\relax
+\textsc{Linden, F.; Schmid, K.; Rommes, E.}\ \ \  The product line engineering
+  approach.\ \ \ \textit{Software Product Lines in Action}, \bblpp{}~3--20,
+  2007.
+\bibehook\relax
+
+\bibitem[{Lity \bbletal{}(2012)Lity, Lochau, Schaefer e Goltz}]{Lity_et_al2012}
+
+\bibbhook\relax
+\textsc{Lity, S.; Lochau, M.; Schaefer, I.; Goltz, U.}\ \ \  Delta-oriented
+  model-based spl regression testing.\ \ \ \capitalize\bblin{}:
+  \textit{International Workshop on Product LinE Approaches in Software
+  Engineering}, IEEE Press, 2012, \bblpp{} 53--56.
+\bibehook\relax
+
+\bibitem[{Lity \bbletal{}(2016)Lity, Morbach, Th{\"u}m e
+  Schaefer}]{lity2016applying}
+
+\bibbhook\relax
+\textsc{Lity, S.; Morbach, T.; Th{\"u}m, T.; Schaefer, I.}\ \ \  Applying
+  incremental model slicing to product-line regression testing.\ \ \
+  \capitalize\bblin{}: \textit{International Conference on Software Reuse},
+  Springer, 2016, \bblpp{} 3--19.
+\bibehook\relax
+
+\bibitem[{Lochau e Kamischke(2012)}]{lochau2012parameterized}
+
+\bibbhook\relax
+\textsc{Lochau, M.; Kamischke, J.}\ \ \  Parameterized preorder relations for
+  model-based testing of software product lines.\ \ \ \capitalize\bblin{}:
+  \textit{International Symposium On Leveraging Applications of Formal Methods,
+  Verification and Validation}, Springer, 2012, \bblpp{} 223--237.
+\bibehook\relax
+
+\bibitem[{Lochau \bbletal{}(2012{\natexlab{a}})Lochau, Oster, Goltz e
+  Sch{\"u}rr}]{lochau2012model}
+
+\bibbhook\relax
+\textsc{Lochau, M.; Oster, S.; Goltz, U.; Sch{\"u}rr, A.}\ \ \  Model-based
+  pairwise testing for feature interaction coverage in software product line
+  engineering.\ \ \ \textit{Software Quality Journal}, \bblvol{}~20, \bblno{}
+  3-4, \bblpp{}~567--604, 2012{\natexlab{a}}.
+\bibehook\relax
+
+\bibitem[{Lochau \bbletal{}(2014)Lochau, Peldszus, Kowal e
+  Schaefer}]{Lochau:2014}
+
+\bibbhook\relax
+\textsc{Lochau, M.; Peldszus, S.; Kowal, M.; Schaefer, I.}\ \ \  Model-based
+  testing.\ \ \ \capitalize\bblin{}: \textit{Advanced Lectures of the 14th
+  International School on Formal Methods for Executable Software Models -
+  Volume 8483}, New York, NY, USA: Springer-Verlag New York, Inc., 2014,
+  \bblpp{} 310--342.
+\newline Disponível em \url{http://dx.doi.org/10.1007/978-3-319-07317-0_8}
+\bibehook\relax
+
+\bibitem[{Lochau \bbletal{}(2012{\natexlab{b}})Lochau, Schaefer, Kamischke e
+  Lity}]{lochau2012incremental}
+
+\bibbhook\relax
+\textsc{Lochau, M.; Schaefer, I.; Kamischke, J.; Lity, S.}\ \ \  Incremental
+  model-based testing of delta-oriented software product lines.\ \ \
+  \capitalize\bblin{}: \textit{International Conference on Tests and Proofs},
+  Springer, 2012{\natexlab{b}}, \bblpp{} 67--82.
+\bibehook\relax
+
+\bibitem[{Marcolino \bbletal{}(2014{\natexlab{a}})Marcolino, OliveiraJr e
+  Gimenes}]{MarcolinoICEIS2014}
+
+\bibbhook\relax
+\textsc{Marcolino, A.; OliveiraJr, E.; Gimenes, I.}\ \ \  Towards the
+  effectiveness of the smarty approach for variability management at sequence
+  diagram level.\ \ \ \capitalize\bblin{}: \textit{Proceedings of the 16th
+  International Conference on Enterprise Information Systems - Volume 2:
+  ICEIS,}, 2014{\natexlab{a}}, \bblpp{} 249--256.
+\bibehook\relax
+
+\bibitem[{Marcolino \bbletal{}(2014{\natexlab{b}})Marcolino, OliveiraJr,
+  Gimenes e Barbosa}]{MarcolinoEtAl2014}
+
+\bibbhook\relax
+\textsc{Marcolino, A.; OliveiraJr, E.; Gimenes, I.; Barbosa, E.~F.}\ \ \
+  Empirically based evolution of a variability management approach at uml class
+  level.\ \ \ \capitalize\bblin{}: \textit{2014 IEEE 38th Annual Computer
+  Software and Applications Conference}, 2014{\natexlab{b}}, \bblpp{} 354--363.
+\bibehook\relax
+
+\bibitem[{Marcolino \bbletal{}(2013)Marcolino, OliveiraJr, Gimenes e
+  Maldonado}]{MarcolinoSEKE2013}
+
+\bibbhook\relax
+\textsc{Marcolino, A.; OliveiraJr, E.; Gimenes, I. M.~S.; Maldonado, J.~C.}\ \
+  \  Towards the effectiveness of a variability management approach at use case
+  level.\ \ \ \capitalize\bblin{}: \textit{The 25th International Conference on
+  Software Engineering and Knowledge Engineering, Boston, MA, USA, June 27-29,
+  2013.}, 2013, \bblpp{} 214--219.
+\bibehook\relax
+
+\bibitem[{Marcolino \bbletal{}(2017)Marcolino, OliveiraJr, Gimenes e
+  Barbosa}]{marcolino2017variability}
+
+\bibbhook\relax
+\textsc{Marcolino, A.~S.; OliveiraJr, E.; Gimenes, I.~M.; Barbosa, E.~F.}\ \ \
+  Variability resolution and product configuration with smarty: An experimental
+  study on uml class diagrams.\ \ \ \textit{JCS}, \bblvol{}~13, \bblno{}~8,
+  \bblpp{}~307--319, 2017.
+\bibehook\relax
+
+\bibitem[{McCabe(1976)}]{mccabe1976complexity}
+
+\bibbhook\relax
+\textsc{McCabe, T.~J.}\ \ \  A complexity measure.\ \ \ \textit{IEEE
+  Transactions on software Engineering}, , \bblno{}~4, \bblpp{}~308--320, 1976.
+\bibehook\relax
+
+\bibitem[{de~Morais e Aussem(2010)}]{de2010novel}
+
+\bibbhook\relax
+\textsc{de~Morais, S.~R.; Aussem, A.}\ \ \  A novel markov boundary based
+  feature subset selection algorithm.\ \ \ \textit{Neurocomputing},
+  \bblvol{}~73, \bblno{} 4-6, \bblpp{}~578--584, 2010.
+\bibehook\relax
+
+\bibitem[{Naito e Tsunoyama(1981)}]{naito1981fault}
+
+\bibbhook\relax
+\textsc{Naito, S.; Tsunoyama, M.}\ \ \  Fault detection for sequential machines
+  by transitions tours. ieee fault tolerant comput. symp.\ \ \ \textit{IEEE
+  Computer Soc. Press, pages 238w243}, 1981.
+\bibehook\relax
+
+\bibitem[{Olimpiew(2008)}]{Olimpiew2008}
+
+\bibbhook\relax
+\textsc{Olimpiew, E.~M.}\ \ \  \emph{Model-based testing for software product
+  lines}.\ \ \ \bblphdthesis{}, George Mason University, Fairfax, VA, USA,
+  aAI3310145, 2008.
+\bibehook\relax
+
+\bibitem[{Olimpiew e Gomaa(2005)}]{olimpiew2005model}
+
+\bibbhook\relax
+\textsc{Olimpiew, E.~M.; Gomaa, H.}\ \ \  Model-based testing for applications
+  derived from software product lines.\ \ \ \capitalize\bblin{}: \textit{ACM
+  SIGSOFT Software Engineering Notes}, ACM, 2005, \bblpp{} 1--7.
+\bibehook\relax
+
+\bibitem[{OliveiraJr \bbletal{}(2005)OliveiraJr, Gimenes, Huzita e
+  Maldonado}]{de2005variability}
+
+\bibbhook\relax
+\textsc{OliveiraJr, E.; Gimenes, I.; Huzita, E. H.~M.; Maldonado, J.~C.}\ \ \
+  A variability management process for software product lines.\ \ \
+  \capitalize\bblin{}: \textit{Proceedings of the 2005 conference of the Centre
+  for Advanced Studies on Collaborative research}, IBM Press, 2005, \bblpp{}
+  225--241.
+\bibehook\relax
+
+\bibitem[{OliveiraJr \bbletal{}(2010{\natexlab{a}})OliveiraJr, Gimenes e
+  Maldonado}]{junior2010systematic}
+
+\bibbhook\relax
+\textsc{OliveiraJr, E.; Gimenes, I.~M.; Maldonado, J.~C.}\ \ \  Systematic
+  management of variability in uml-based software product lines.\ \ \
+  \textit{Journal of Universal Computer Science}, \bblvol{}~16, \bblno{}~17,
+  \bblpp{}~2374--2393, 2010{\natexlab{a}}.
+\bibehook\relax
+
+\bibitem[{OliveiraJr \bbletal{}(2013)OliveiraJr, Gimenes, Maldonado, Masiero e
+  Barroca}]{junior2013systematic}
+
+\bibbhook\relax
+\textsc{OliveiraJr, E.; Gimenes, I.~M.; Maldonado, J.~C.; Masiero, P.~C.;
+  Barroca, L.}\ \ \  Systematic evaluation of software product line
+  architectures.\ \ \ \textit{Journal of Universal Computer Science},
+  \bblvol{}~19, \bblno{}~1, \bblpp{}~25--52, 2013.
+\bibehook\relax
+
+\bibitem[{OliveiraJr \bbletal{}(2010{\natexlab{b}})OliveiraJr, Gimenes e
+  Maldonado}]{OliveiraJuniorJUCS2010}
+
+\bibbhook\relax
+\textsc{OliveiraJr, E.; Gimenes, I. M.~S.; Maldonado, J.~C.}\ \ \  Systematic
+  management of variability in uml-based software product lines.\ \ \
+  \textit{{J}ournal of {U}niversal {C}omputer {S}cience {(JUCS)}},
+  \bblvol{}~16, \bblno{}~17, \bblpp{}~2374--2393, 2010{\natexlab{b}}.
+\bibehook\relax
+
+\bibitem[{Oster(2012)}]{oster2012feature}
+
+\bibbhook\relax
+\textsc{Oster, S.}\ \ \  \emph{Feature model-based software product line
+  testing}.\ \ \ \bblphdthesis{}, Technische Universit{\"a}t, 2012.
+\bibehook\relax
+
+\bibitem[{Oster \bbletal{}(2011{\natexlab{a}})Oster, Zink, Lochau e
+  Grechanik}]{oster2011pairwise}
+
+\bibbhook\relax
+\textsc{Oster, S.; Zink, M.; Lochau, M.; Grechanik, M.}\ \ \  Pairwise
+  feature-interaction testing for spls: potentials and limitations.\ \ \
+  \capitalize\bblin{}: \textit{Proceedings of the 15th International Software
+  Product Line Conference, Volume 2}, ACM, 2011{\natexlab{a}}, \bblp{}~6.
+\bibehook\relax
+
+\bibitem[{Oster \bbletal{}(2011{\natexlab{b}})Oster, Zorcic, Markert e
+  Lochau}]{oster2011moso}
+
+\bibbhook\relax
+\textsc{Oster, S.; Zorcic, I.; Markert, F.; Lochau, M.}\ \ \  Moso-polite: tool
+  support for pairwise and model-based software product line testing.\ \ \
+  \capitalize\bblin{}: \textit{Proceedings of the 5th Workshop on Variability
+  Modeling of Software-Intensive Systems}, ACM, 2011{\natexlab{b}}, \bblpp{}
+  79--82.
+\bibehook\relax
+
+\bibitem[{Patel e Shah(2015)}]{patel2015automated}
+
+\bibbhook\relax
+\textsc{Patel, S.; Shah, V.}\ \ \  Automated testing of software-as-a-service
+  configurations using a variability language.\ \ \ \capitalize\bblin{}:
+  \textit{Proceedings of the 19th International Conference on Software Product
+  Line}, ACM, 2015, \bblpp{} 253--262.
+\bibehook\relax
+
+\bibitem[{P{\'e}rez e Kaiser(2010)}]{perez2010bottom}
+
+\bibbhook\relax
+\textsc{P{\'e}rez, A.~M.; Kaiser, S.}\ \ \  Bottom-up reuse for multi-level
+  testing.\ \ \ \textit{Journal of Systems and Software}, \bblvol{}~83,
+  \bblno{}~12, \bblpp{}~2392--2415, 2010.
+\bibehook\relax
+
+\bibitem[{Perrouin \bbletal{}(2010)Perrouin, Sen, Klein, Baudry e
+  Le~Traon}]{perrouin2010automated}
+
+\bibbhook\relax
+\textsc{Perrouin, G.; Sen, S.; Klein, J.; Baudry, B.; Le~Traon, Y.}\ \ \
+  Automated and scalable t-wise test case generation strategies for software
+  product lines.\ \ \ \capitalize\bblin{}: \textit{Software Testing,
+  Verification and Validation (ICST), 2010 Third International Conference on},
+  IEEE, 2010, \bblpp{} 459--468.
+\bibehook\relax
+
+\bibitem[{Petersen \bbletal{}(2015)Petersen, Vakkalanka e
+  Kuzniarz}]{petersen2015guidelines}
+
+\bibbhook\relax
+\textsc{Petersen, K.; Vakkalanka, S.; Kuzniarz, L.}\ \ \  Guidelines for
+  conducting systematic mapping studies in software engineering: An update.\ \
+  \ \textit{Information and Software Technology}, \bblvol{}~64, \bblpp{}~1--18,
+  2015.
+\bibehook\relax
+
+\bibitem[{Petrenko(1994)}]{petrenko1994nondeterministic}
+
+\bibbhook\relax
+\textsc{Petrenko, A.}\ \ \  Nondeterministic state machine in protocol
+  conformance testing.\ \ \ \textit{Protocol Test Systems}, \bblpp{}~363--378,
+  1994.
+\bibehook\relax
+
+\bibitem[{Pinheiro(2012)}]{pinheiro2012subsidios}
+
+\bibbhook\relax
+\textsc{Pinheiro, A.~C.}\ \ \  \emph{Subs{\'\i}dios para a aplica{\c{c}}{\~a}o
+  de m{\'e}todos de gera{\c{c}}{\~a}o de casos de testes baseados em
+  m{\'a}quinas de estados}.\ \ \ \bblphdthesis{}, Universidade de S{\~a}o
+  Paulo, 2012.
+\bibehook\relax
+
+\bibitem[{Pinheiro e Sim{\~a}o(2012)}]{pinheiro2012jplavisfsm}
+
+\bibbhook\relax
+\textsc{Pinheiro, A.~C.; Sim{\~a}o, A. d.~S.}\ \ \  Jplavisfsm: Manual de
+  instru{\c{c}}{\~o}es.\ \ \ 2012.
+\bibehook\relax
+
+\bibitem[{Pohl \bbletal{}(2005)Pohl, B{\"o}ckle e van
+  Der~Linden}]{pohl2005software}
+
+\bibbhook\relax
+\textsc{Pohl, K.; B{\"o}ckle, G.; van Der~Linden, F.~J.}\ \ \  \emph{Software
+  product line engineering: foundations, principles and techniques}.\ \ \
+  Springer Science \& Business Media, 2005.
+\bibehook\relax
+
+\bibitem[{Reales \bbletal{}(2011)Reales, Polo e Caivano}]{Reales_et_al2011}
+
+\bibbhook\relax
+\textsc{Reales, P.; Polo, M.; Caivano, D.}\ \ \  Model based testing in
+  software product lines.\ \ \ \capitalize\bblin{}: \textit{International
+  Conference on Enterprise Information Systems}, Springer, 2011, \bblpp{}
+  270--283.
+\bibehook\relax
+
+\bibitem[{Reis \bbletal{}(2007)Reis, Metzger e Pohl}]{Reis_et_al2007}
+
+\bibbhook\relax
+\textsc{Reis, S.; Metzger, A.; Pohl, K.}\ \ \  Integration testing in software
+  product line engineering: A model-based technique.\ \ \ \capitalize\bblin{}:
+  \textsc{Dwyer, M.~B.; Lopes, A.}, \bbleds{} \textit{Fundamental Approaches to
+  Software Engineering}, Berlin, Heidelberg: Springer Berlin Heidelberg, 2007,
+  \bblpp{} 321--335.
+\bibehook\relax
+
+\bibitem[{Reuys \bbletal{}(2005)Reuys, Kamsties, Pohl e Reis}]{reuys2005model}
+
+\bibbhook\relax
+\textsc{Reuys, A.; Kamsties, E.; Pohl, K.; Reis, S.}\ \ \  Model-based system
+  testing of software product families.\ \ \ \capitalize\bblin{}:
+  \textit{International Conference on Advanced Information Systems
+  Engineering}, Springer, 2005, \bblpp{} 519--534.
+\bibehook\relax
+
+\bibitem[{Rodrigues(2013)}]{rodrigues2013plets}
+
+\bibbhook\relax
+\textsc{Rodrigues, E. d.~M.}\ \ \  Plets: a product line of model-based testing
+  tools.\ \ \ 2013.
+\bibehook\relax
+
+\bibitem[{Rodrigues \bbletal{}(2012)Rodrigues, Zorzo, Nakagawa, Gimenez,
+  Maldonado e de~Oliveira}]{rodrigues2012software}
+
+\bibbhook\relax
+\textsc{Rodrigues, E. d.~M.; Zorzo, A.~F.; Nakagawa, E.; Gimenez, I.;
+  Maldonado, J.; de~Oliveira, F.}\ \ \  A software product line for model-based
+  testing tools.\ \ \ \textit{Journal of Systems and Software}, \bblpp{}~1--26,
+  2012.
+\bibehook\relax
+
+\bibitem[{Sabnani e Dahbura(1988)}]{sabnani1988protocol}
+
+\bibbhook\relax
+\textsc{Sabnani, K.; Dahbura, A.}\ \ \  A protocol test generation procedure.\
+  \ \ \textit{Computer Networks and ISDN systems}, \bblvol{}~15, \bblno{}~4,
+  \bblpp{}~285--297, 1988.
+\bibehook\relax
+
+\bibitem[{Samih e Baudry(2012)}]{samih2012relating}
+
+\bibbhook\relax
+\textsc{Samih, H.; Baudry, B.}\ \ \  Relating variability modeling and
+  model-based testing for software product lines testing.\ \ \
+  \textit{Proceedings of the ICTSS}, \bblpp{}~18--22, 2012.
+\bibehook\relax
+
+\bibitem[{Samih e Bogusch(2014)}]{samih2014mplm}
+
+\bibbhook\relax
+\textsc{Samih, H.; Bogusch, R.}\ \ \  Mplm-matelo product line
+  manager:[relating variability modelling and model-based testing].\ \ \
+  \capitalize\bblin{}: \textit{Proceedings of the 18th International Software
+  Product Line Conference: Companion Volume for Workshops, Demonstrations and
+  Tools-Volume 2}, ACM, 2014, \bblpp{} 138--142.
+\bibehook\relax
+
+\bibitem[{Samih \bbletal{}(2014{\natexlab{a}})Samih, Le~Guen, Bogusch, Acher e
+  Baudry}]{Samih_et_al2014}
+
+\bibbhook\relax
+\textsc{Samih, H.; Le~Guen, H.; Bogusch, R.; Acher, M.; Baudry, B.}\ \ \  An
+  approach to derive usage models variants for model-based testing.\ \ \
+  \capitalize\bblin{}: \textsc{Merayo, M.~G.; de~Oca, E.~M.}, \bbleds{}
+  \textit{Testing Software and Systems}, Berlin, Heidelberg: Springer Berlin
+  Heidelberg, 2014{\natexlab{a}}, \bblpp{} 80--96.
+\bibehook\relax
+
+\bibitem[{Samih \bbletal{}(2014{\natexlab{b}})Samih, Le~Guen, Bogusch, Acher e
+  Baudry}]{samih2014deriving}
+
+\bibbhook\relax
+\textsc{Samih, H.; Le~Guen, H.; Bogusch, R.; Acher, M.; Baudry, B.}\ \ \
+  Deriving usage model variants for model-based testing: an industrial case
+  study.\ \ \ \capitalize\bblin{}: \textit{Engineering of Complex Computer
+  Systems (ICECCS), 2014 19th International Conference on}, IEEE,
+  2014{\natexlab{b}}, \bblpp{} 77--80.
+\bibehook\relax
+
+\bibitem[{SEI(2009)}]{seiagm}
+
+\bibbhook\relax
+\textsc{SEI}\ \ \  The arcade game maker pedagogical product line.\ \ \
+  \textit{https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=485941},
+  2009.
+\bibehook\relax
+
+\bibitem[{Shafique e Labiche(2010)}]{shafique2010systematic}
+
+\bibbhook\relax
+\textsc{Shafique, M.; Labiche, Y.}\ \ \  A systematic review of model based
+  testing tool support.\ \ \ \textit{Carleton University, Canada, Tech. Rep.
+  Technical Report SCE-10-04}, \bblpp{}~01--21, 2010.
+\bibehook\relax
+
+\bibitem[{Shepperd(1988)}]{shepperd1988critique}
+
+\bibbhook\relax
+\textsc{Shepperd, M.}\ \ \  A critique of cyclomatic complexity as a software
+  metric.\ \ \ \textit{Software Engineering Journal}, \bblvol{}~3, \bblno{}~2,
+  \bblpp{}~30--36, 1988.
+\bibehook\relax
+
+\bibitem[{Sidhu e Leung(1989)}]{sidhu1989formal}
+
+\bibbhook\relax
+\textsc{Sidhu, D.~P.; Leung, T.-K.}\ \ \  Formal methods for protocol testing:
+  A detailed study.\ \ \ \textit{IEEE transactions on software engineering},
+  \bblvol{}~15, \bblno{}~4, \bblpp{}~413--426, 1989.
+\bibehook\relax
+
+\bibitem[{Steffens \bbletal{}(2012)Steffens, Oster, Lochau e
+  Fogdal}]{Steffens_et_al2012}
+
+\bibbhook\relax
+\textsc{Steffens, M.; Oster, S.; Lochau, M.; Fogdal, T.}\ \ \  Industrial
+  evaluation of pairwise spl testing with moso-polite.\ \ \
+  \capitalize\bblin{}: \textit{Proceedings of the Sixth International Workshop
+  on Variability Modeling of Software-Intensive Systems}, ACM, 2012, \bblpp{}
+  55--62.
+\bibehook\relax
+
+\bibitem[{Swain \bbletal{}(2010)Swain, Mohapatra e Mall}]{swain2010test}
+
+\bibbhook\relax
+\textsc{Swain, S.~K.; Mohapatra, D.~P.; Mall, R.}\ \ \  Test case generation
+  based on use case and sequence diagram.\ \ \ \textit{International Journal of
+  Software Engineering}, \bblvol{}~3, \bblno{}~2, \bblpp{}~21--52, 2010.
+\bibehook\relax
+
+\bibitem[{Utting e Legeard(2010)}]{utting2010practical}
+
+\bibbhook\relax
+\textsc{Utting, M.; Legeard, B.}\ \ \  \emph{Practical model-based testing: a
+  tools approach}.\ \ \ Elsevier, 2010.
+\bibehook\relax
+
+\bibitem[{Varshosaz \bbletal{}(2015)Varshosaz, Beohar e
+  Mousavi}]{varshosaz2015delta}
+
+\bibbhook\relax
+\textsc{Varshosaz, M.; Beohar, H.; Mousavi, M.~R.}\ \ \  Delta-oriented
+  fsm-based testing.\ \ \ \capitalize\bblin{}: \textit{International Conference
+  on Formal Engineering Methods}, Springer, 2015, \bblpp{} 366--381.
+\bibehook\relax
+
+\bibitem[{Vuong(1989)}]{vuong1989uiov}
+
+\bibbhook\relax
+\textsc{Vuong, S.~T.}\ \ \  The uiov-method for protocol test sequence
+  generation.\ \ \ \capitalize\bblin{}: \textit{Proc. 2nd IFIP Int. Workshop on
+  Protocol Test Systems (IWPTS'89)}, 1989, \bblpp{} 161--175.
+\bibehook\relax
+
+\bibitem[{Wang \bbletal{}(2013{\natexlab{a}})Wang, Ali e
+  Gotlieb}]{wang2013automated}
+
+\bibbhook\relax
+\textsc{Wang, S.; Ali, S.; Gotlieb, A.}\ \ \  Automated product line
+  methodologies to support model-based testing.\ \ \ \capitalize\bblin{}:
+  \textit{Demos/Posters/StudentResearch@ MoDELS}, 2013{\natexlab{a}}, \bblpp{}
+  56--60.
+\bibehook\relax
+
+\bibitem[{Wang \bbletal{}(2013{\natexlab{b}})Wang, Ali, Yue e
+  Liaaen}]{Wang_et_al2013}
+
+\bibbhook\relax
+\textsc{Wang, S.; Ali, S.; Yue, T.; Liaaen, M.}\ \ \  Using feature model to
+  support model-based testing of product lines: an industrial case study.\ \ \
+  \capitalize\bblin{}: \textit{Quality Software (QSIC), 2013 13th International
+  Conference on}, IEEE, 2013{\natexlab{b}}, \bblpp{} 75--84.
+\bibehook\relax
+
+\bibitem[{Warmer e Kleppe(2003)}]{warmer2003object}
+
+\bibbhook\relax
+\textsc{Warmer, J.~B.; Kleppe, A.~G.}\ \ \  \emph{The object constraint
+  language: getting your models ready for mda}.\ \ \ Addison-Wesley
+  Professional, 2003.
+\bibehook\relax
+
+\bibitem[{Weiss e Lai(1999)}]{Weiss:1999:SPE:317887}
+
+\bibbhook\relax
+\textsc{Weiss, D.~M.; Lai, C. T.~R.}\ \ \  \emph{Software product-line
+  engineering: A family-based software development process}.\ \ \ Boston, MA,
+  USA: Addison-Wesley Longman Publishing Co., Inc., 1999.
+\bibehook\relax
+
+\bibitem[{Wei{\ss}leder e Lackner(2013)}]{weissleder2013top}
+
+\bibbhook\relax
+\textsc{Wei{\ss}leder, S.; Lackner, H.}\ \ \  Top-down and bottom-up approach
+  for model-based testing of product lines.\ \ \ \textit{arXiv preprint
+  arXiv:1303.1011}, 2013.
+\bibehook\relax
+
+\bibitem[{Wei{\ss}leder e Schlingloff(2014)}]{weissleder2014evaluation}
+
+\bibbhook\relax
+\textsc{Wei{\ss}leder, S.; Schlingloff, H.}\ \ \  An evaluation of model-based
+  testing in embedded applications.\ \ \ \capitalize\bblin{}: \textit{Software
+  Testing, Verification and Validation (ICST), 2014 IEEE Seventh International
+  Conference on}, IEEE, 2014, \bblpp{} 223--232.
+\bibehook\relax
+
+\bibitem[{Wei{\ss}leder \bbletal{}(2008)Wei{\ss}leder, Sokenou e
+  Schlingloff}]{weissleder2008reusing}
+
+\bibbhook\relax
+\textsc{Wei{\ss}leder, S.; Sokenou, D.; Schlingloff, B.-H.}\ \ \  Reusing state
+  machines for automatic test generation in product lines.\ \ \
+  \capitalize\bblin{}: \textit{1st workshop on model-based testing in practice
+  (MoTiP)}, 2008, \bblp{}~19.
+\bibehook\relax
+
+\bibitem[{Zhang \bbletal{}(2017)Zhang, Ali, Yue e
+  Norgre}]{zhang2017uncertainty}
+
+\bibbhook\relax
+\textsc{Zhang, M.; Ali, S.; Yue, T.; Norgre, R.}\ \ \  Uncertainty-wise
+  evolution of test ready models.\ \ \ \textit{Information and Software
+  Technology}, \bblvol{}~87, \bblpp{}~140--159, 2017.
+\bibehook\relax
+
+\bibitem[{Ziadi \bbletal{}(2003)Ziadi, H{\'e}lou{\"e}t e
+  J{\'e}z{\'e}quel}]{ziadi2003towards}
+
+\bibbhook\relax
+\textsc{Ziadi, T.; H{\'e}lou{\"e}t, L.; J{\'e}z{\'e}quel, J.-M.}\ \ \  Towards
+  a uml profile for software product lines.\ \ \ \capitalize\bblin{}:
+  \textit{International Workshop on Software Product-Family Engineering},
+  Springer, 2003, \bblpp{} 129--139.
+\bibehook\relax
+
+\end{thebibliography}

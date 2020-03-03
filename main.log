@@ -1,0 +1,1811 @@
+This is LuaTeX, Version 1.11.2 (MiKTeX 2.9.7250 64-bit)  (format=lualatex 2019.11.20)  19 FEB 2020 11:45
+ restricted system commands enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2019-10-01> patch level 3
+Lua module: luaotfload-main 2019-11-10 3.11 luaotfload entry point
+Lua module: luaotfload-init 2019-11-10 3.11 luaotfload submodule / initializatio
+n
+Lua module: lualibs 2019-11-06 2.69 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2019-11-06 2.69 ConTeXt Lua libraries -- extended c
+ollection.
+Lua module: luaotfload-log 2019-11-10 3.11 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2019-11-10 3.11 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2019-11-10 3.11 luaotfload submodule / conf
+ig file reader
+luaotfload | conf : Root cache directory is C:/Users/Kleber/AppData/Local/MiKTeX
+/2.9/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2019-10-29.lua” from kpse
+-resolved path “C:/Program Files/MiKTeX 2.9/tex/luatex/luaotfload/fontloader-2
+019-10-29.lua”.
+Lua-only attribute luaotfload@state = 2
+Lua-only attribute luaotfload@noligature = 3
+Lua-only attribute luaotfload@syllabe = 4
+luaotfload | init : Context OpenType loader version “3.11”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Lua module: luaotfload-loaders 2019-11-10 3.11 luaotfload submodule / callback h
+andling
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua module: luaotfload-database 2019-11-10 3.11 luaotfload submodule / database
+Lua module: luaotfload-unicode 2019-11-10 3.11 luaotfload submodule / Unicode he
+lpers
+Lua module: luaotfload-colors 2019-11-10 3.11 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 5
+Lua module: luaotfload-resolvers 2019-11-10 3.11 luaotfload submodule / resolver
+s
+luaotfload | conf : Root cache directory is C:/Users/Kleber/AppData/Local/MiKTeX
+/2.9/luatex-cache/generic/names.
+Lua module: luaotfload-features 2019-11-10 3.11 luaotfload submodule / features
+Lua module: luaotfload-letterspace 2019-11-10 3.11 luaotfload submodule / color
+Lua module: luaotfload-embolden 2019-11-10 3.11 luaotfload submodule / color
+Lua module: luaotfload-notdef 2019-11-10 3.11 luaotfload submodule / color
+Lua module: luaotfload-auxiliary 2019-11-10 3.11 luaotfload submodule / auxiliar
+y functions
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Lua module: luaotfload-multiscript 2019-11-10 3.11 luaotfload submodule / multis
+cript
+Lua module: luaotfload-tounicode 2019-11-10 3.11 luaotfload submodule / tounicod
+e
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 1.375 seconds
+(./icmc.cls
+Document Class: icmc 2000/12/07 v1.0a ICMC document class
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/bk12.clo"
+File: bk12.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/Kleber/AppData/Local/
+MiKTeX/2.9/luatex-cache/generic/names/luaotfload-names.luc)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+ (./caption.sty
+Package: caption 1995/04/05 v1.4b caption package (HS)
+
+Package: caption v1.4b <1995/04/05> (Harald Sommerfeldt)
+\captionmargin=\skip43
+\as@captionbox=\box27
+\as@captionwidth=\skip44
+) (./titlesec.sty
+Package: titlesec 1999/08/04 v2.1.1 Sectioning titles
+) (./fancyhdr.sty
+\headwidth=\dimen103
+) (./float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count89
+\float@exts=\toks14
+\float@box=\box28
+\@float@everytoks=\toks15
+\@floatcapt=\box29
+))
+("C:/Program Files/MiKTeX 2.9/tex/latex/pdflscape/pdflscape.sty"
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/iftex/iftex.sty"
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty"
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 105.
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/luatex.def"
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+)))
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/tools/array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen104
+\ar@mcellbox=\box30
+\extrarowheight=\dimen105
+\NC@list=\toks16
+\extratabsurround=\skip45
+\backup@length=\skip46
+\ar@cellbox=\box31
+) (./algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environ
+ment
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks17
+\c@algorithm=\count90
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty"
+Package: amsmath 2019/11/16 v2.17d AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen106
+))
+("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen107
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box32
+\strutbox@=\box33
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks20
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks21
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks22
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2858.
+LaTeX Info: Redefining \] on input line 2859.
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/tools/afterpage.sty"
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks24
+\AP@partial=\box34
+\AP@footins=\box35
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/appendix/appendix.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count103
+\c@@ppsavesec=\count104
+\c@@ppsaveapp=\count105
+)
+("C:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.sty"
+Package: babel 2020/01/15 3.38 The Babel package
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/babel/switch.def"
+File: switch.def 2020/01/15 3.38 Babel switching mechanism
+)
+("C:/Program Files/MiKTeX 2.9/tex/generic/babel/luababel.def"
+\bbl@readstream=\read1
+\l@afrikaans=\language2
+Package babel Info: Non-standard hyphenation setup on input line 117.
+\l@ancientgreek=\language3
+\l@arabic=\language4
+\l@armenian=\language5
+\l@assamese=\language6
+\l@basque=\language7
+\l@belarusian=\language8
+\l@bengali=\language9
+\l@bokmal=\language10
+\l@bulgarian=\language11
+\l@catalan=\language12
+\l@churchslavonic=\language13
+\l@classiclatin=\language14
+\l@coptic=\language15
+\l@croatian=\language16
+\l@czech=\language17
+\l@danish=\language18
+\l@dutch=\language19
+\l@esperanto=\language20
+\l@estonian=\language21
+\l@ethiopic=\language22
+\l@farsi=\language23
+\l@finnish=\language24
+\l@french=\language25
+\l@friulan=\language26
+\l@galician=\language27
+\l@georgian=\language28
+\l@german=\language29
+\l@german-x-2019-04-04=\language30
+\l@greek=\language31
+\l@gujarati=\language32
+\l@hindi=\language33
+\l@hungarian=\language34
+\l@icelandic=\language35
+\l@indonesian=\language36
+\l@interlingua=\language37
+\l@irish=\language38
+\l@italian=\language39
+\l@kannada=\language40
+\l@kurmanji=\language41
+\l@latin=\language42
+\l@latvian=\language43
+\l@lithuanian=\language44
+\l@liturgicallatin=\language45
+\l@malayalam=\language46
+\l@marathi=\language47
+\l@mongolian=\language48
+\l@mongolianlmc=\language49
+\l@monogreek=\language50
+\l@ngerman=\language51
+\l@ngerman-x-2019-04-04=\language52
+\l@nynorsk=\language53
+\l@occitan=\language54
+\l@oriya=\language55
+\l@pali=\language56
+\l@panjabi=\language57
+\l@piedmontese=\language58
+\l@polish=\language59
+\l@portuguese=\language60
+\l@romanian=\language61
+\l@romansh=\language62
+\l@russian=\language63
+\l@sanskrit=\language64
+\l@serbian=\language65
+\l@serbianc=\language66
+\l@slovak=\language67
+\l@slovenian=\language68
+\l@spanish=\language69
+\l@swedish=\language70
+\l@swissgerman=\language71
+\l@tamil=\language72
+\l@telugu=\language73
+\l@thai=\language74
+\l@turkish=\language75
+\l@turkmen=\language76
+\l@ukenglish=\language77
+\l@ukrainian=\language78
+\l@uppersorbian=\language79
+\l@usenglishmax=\language80
+\l@welsh=\language81
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:/Program Files/MiKTeX 2.9/tex/latex/arabi/bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of 
+babel
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/babel-portuges/portuges.ldf"
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.def"
+File: babel.def 2020/01/15 3.38 Babel common definitions
+\babel@savecnt=\count106
+\U@D=\dimen115
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/babel/luababel.def"
+\bbl@attr@locale=\attribute6
+))
+Package babel Info: \l@brazil = using hyphenrules for portuguese
+(babel)             (\language60) on input line 113.
+Package babel Info: Making " an active character on input line 145.
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/hyph-utf8/loadhyph/loadhyph-pt.tex"
+UTF-8 Portuguese hyphenation patterns
+("C:/Program Files/MiKTeX 2.9/tex/generic/hyph-utf8/patterns/tex/hyph-pt.tex")))
+) ("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: luatex.def on input line 147.
+)
+(./clrscode3e.sty
+Package: clrscode3e 
+\c@codelinenumber=\count107
+\c@indent=\count108
+\digitwidth=\skip50
+\savecode=\box36
+\codeboxwidth=\skip51
+\c@thisindent=\count109
+) (./capaUEM.sty
+
+LaTeX Warning: You have requested package `capaUEM',
+               but the package provides `capaUEMquali'.
+
+Package: capaUEMquali 
+("C:/Program Files/MiKTeX 2.9/tex/latex/tools/calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count110
+\calc@Bcount=\count111
+\calc@Adimen=\dimen116
+\calc@Bdimen=\dimen117
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count112
+\calc@Cskip=\skip54
+))
+("C:/Program Files/MiKTeX 2.9/tex/latex/colortbl/colortbl.sty"
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+\everycr=\toks25
+\minrowclearance=\skip55
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/epstopdf-pkg/epstopdf.sty"
+Package: epstopdf 2019-12-09 v2.10 Conversion with epstopdf on the fly (HO)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/infwarerr/infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/grfext/grfext.sty"
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/kvdefinekeys/kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+("C:/Program Files/MiKTeX 2.9/tex/latex/kvoptions/kvoptions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+)
+("C:/Program Files/MiKTeX 2.9/tex/generic/ltxcmds/ltxcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:/Program Files/MiKTeX 2.9/tex/generic/kvsetkeys/kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+("C:/Program Files/MiKTeX 2.9/tex/latex/pdftexcmds/pdftexcmds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks27
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/epstopdf-pkg/epstopdf-base.sty"
+Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
+5.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+))
+("C:/Program Files/MiKTeX 2.9/tex/latex/tools/enumerate.sty"
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks28
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen118
+\Gin@req@width=\dimen119
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/listings/listings.sty"
+\lst@mode=\count113
+\lst@gtempboxa=\box37
+\lst@token=\toks29
+\lst@length=\count114
+\lst@currlwidth=\dimen120
+\lst@column=\count115
+\lst@pos=\count116
+\lst@lostspace=\dimen121
+\lst@width=\dimen122
+\lst@newlines=\count117
+\lst@lineno=\count118
+\lst@maxwidth=\dimen123
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/listings/lstmisc.sty"
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count119
+\lst@skipnumbers=\count120
+\lst@framebox=\box38
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/listings/listings.cfg"
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/tools/longtable.sty"
+Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
+\LTleft=\skip56
+\LTright=\skip57
+\LTpre=\skip58
+\LTpost=\skip59
+\LTchunksize=\count121
+\LTcapwidth=\dimen124
+\LT@head=\box39
+\LT@firsthead=\box40
+\LT@foot=\box41
+\LT@lastfoot=\box42
+\LT@cols=\count122
+\LT@rows=\count123
+\c@LT@tables=\count124
+\c@LT@chunks=\count125
+\LT@p@ftn=\toks30
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/tools/multicol.sty"
+Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
+\c@tracingmulticols=\count126
+\mult@box=\box43
+\multicol@leftmargin=\dimen125
+\c@unbalance=\count127
+\c@collectmore=\count128
+\doublecol@number=\count129
+\multicoltolerance=\count130
+\multicolpretolerance=\count131
+\full@width=\dimen126
+\page@free=\dimen127
+\premulticols=\dimen128
+\postmulticols=\dimen129
+\multicolsep=\skip60
+\multicolbaselineskip=\skip61
+\partial@page=\box44
+\last@line=\box45
+\maxbalancingoverflow=\dimen130
+\mult@rightbox=\box46
+\mult@grightbox=\box47
+\mult@gfirstbox=\box48
+\mult@firstbox=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\c@minrows=\count132
+\c@columnbadness=\count133
+\c@finalcolumnbadness=\count134
+\last@try=\dimen131
+\multicolovershoot=\dimen132
+\multicolundershoot=\dimen133
+\mult@nat@firstbox=\box67
+\colbreak@box=\box68
+\mc@col@check@num=\count135
+) (./multirow.sty
+\bigstrutjot=\dimen134
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/pdfpages/pdfpages.sty"
+Package: pdfpages 2019/12/17 v0.5p Insert pages of external PDF documents (AM)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/eso-pic/eso-pic.sty"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/atbegshi/atbegshi.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+))
+\AM@pagewidth=\dimen135
+\AM@pageheight=\dimen136
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/pdfpages/ppluatex.def"
+File: ppluatex.def 2019/12/17 v0.5p Pdfpages driver for LuaTeX (AM)
+)
+\AM@pagebox=\box69
+\AM@global@opts=\toks31
+\AM@toc@title=\toks32
+\c@AM@survey=\count136
+\AM@templatesizebox=\box70
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/placeins/placeins.sty"
+Package: placeins 2005/04/18  v 2.2
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/rotating.sty"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count137
+\rotFPtop=\skip62
+\rotFPbot=\skip63
+\rot@float@box=\box71
+\rot@mess@toks=\toks33
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/setspace/setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/carlisle/scalefnt.sty")
+(./subfigure.sty
+Package: subfigure 1995/03/06 v2.0 subfigure package
+
+Package: subfigure 1995/03/06 v2.0
+\c@subfigure=\count138
+\c@lofdepth=\count139
+\c@subtable=\count140
+\c@lotdepth=\count141
+) (./textfit.sty
+Package: textfit 1994/04/15
+\mags@f@r=\count142
+\desired@size=\dimen137
+\r@mainder=\count143
+\m@gstepcount=\count144
+\m@gsteplimit=\count145
+\m@gstepvalue=\count146
+\m@gstepdimen=\dimen138
+) ("C:/Program Files/MiKTeX 2.9/tex/latex/tools/tabularx.sty"
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+\TX@col@width=\dimen139
+\TX@old@table=\dimen140
+\TX@old@col=\dimen141
+\TX@target=\dimen142
+\TX@delta=\dimen143
+\TX@cols=\count147
+\TX@ftn=\toks34
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/tocbibind/tocbibind.sty"
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) ("C:/Program Files/MiKTeX 2.9/tex/latex/url/url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/tools/verbatim.sty"
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks35
+\verbatim@line=\toks36
+\verbatim@in@stream=\read2
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks37
+\inpenc@posthook=\toks38
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+\c@defi=\count148
+\c@propri=\count149
+\c@conce=\count150
+\c@propo=\count151
+ ("C:/Program Files/MiKTeX 2.9/tex/latex/natbib/natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip64
+\bibsep=\skip65
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count152
+) (./geometry.sty
+Package: geometry 1998/04/08 v2.0a Page Geometry
+\geom@cnth=\count153
+\geom@cntv=\count154
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.cfg"))
+\c@capkind=\count155
+ (./main.aux
+(./texto/_agradecimentos.aux) (./texto/_resumo.aux) (./texto/_abstract.aux)
+(./texto/_abreviaturas.aux) (./texto/_introducao.aux)
+(./texto/_fundamentacao.aux) (./texto/_abordagem.aux) (./texto/_avaliacao.aux
+
+LaTeX Warning: Label `tab:pong_movesDS_to_DA' multiply defined.
+
+
+LaTeX Warning: Label `tab:pong_movesDS_to_DA' multiply defined.
+
+
+LaTeX Warning: Label `tab:pong_movesDS_to_DA' multiply defined.
+
+) (./texto/_melhorias.aux) (./texto/_conclusao.aux) (./texto/_MSL.aux)
+(./anexo_A.aux))
+\openout1 = main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 307.
+LaTeX Font Info:    ... okay on input line 307.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 307.
+LaTeX Font Info:    ... okay on input line 307.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 307.
+LaTeX Font Info:    ... okay on input line 307.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 307.
+LaTeX Font Info:    ... okay on input line 307.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 307.
+LaTeX Font Info:    ... okay on input line 307.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 307.
+LaTeX Font Info:    ... okay on input line 307.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 307.
+LaTeX Font Info:    ... okay on input line 307.
+
+("C:/Program Files/MiKTeX 2.9/tex/context/base/mkii/supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count156
+\scratchdimen=\dimen144
+\scratchbox=\box72
+\nofMPsegments=\count157
+\nofMParguments=\count158
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count159
+\MPscratchDim=\dimen145
+\MPnumerator=\count160
+\makeMPintoPDFobject=\count161
+\everyMPtoPDFconversion=\toks40
+)
+\c@lstlisting=\count162
+\AtBeginShipoutBox=\box73
+
+----------------------- Geometry parameters
+mode: a4paper 
+h-parts: 3cm, 455.24411pt, 2cm
+v-parts: 3cm, 702.78308pt, 2cm
+----------------------- Page layout dimensions
+\paperwidth  597.50787pt
+\paperheight 845.04684pt
+\textwidth  455.24411pt
+\textheight 646.9231pt
+\oddsidemargin  13.08827pt
+\evensidemargin 13.08827pt
+\topmargin  13.08827pt
+\headheight 15.51599pt
+\headsep    10.344pt
+\footskip   30.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+[1
+
+
+{C:/Users/Kleber/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 1248) in paragraph at lines 357--357
+[]\TU/lmr/m/n/12 Dis-ser-ta-ção apre-sen-tada ao Pro-grama de
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 357--357
+\TU/lmr/m/n/12 de Tec-no-lo-gia da Uni-ver-si-dade Es-ta-dual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+
+ []
+
+[1
+
+]
+\openout2 = texto/_agradecimentos.aux
+ (./texto/_agradecimentos.tex) [2
+
+
+]
+\openout2 = texto/_resumo.aux
+ (./texto/_resumo.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+) [3
+
+
+
+]
+\openout2 = texto/_abstract.aux
+ (./texto/_abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+[4
+
+
+
+]) (./main.lof
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ ("C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [5
+
+] [6])
+\tf@lof=\write3
+
+\openout3 = main.lof
+ [7]
+(./main.lot [8])
+\tf@lot=\write4
+
+\openout4 = main.lot
+ [9]
+\openout2 = texto/_abreviaturas.aux
+ (./texto/_abreviaturas.tex) [10
+
+] (./main.toc [11
+
+] [12])
+\tf@toc=\write5
+
+\openout5 = main.toc
+
+[13]
+\openout2 = texto/_introducao.aux
+ (./texto/_introducao.tex
+Cap\'{\i }tulo 1.
+
+LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <14.4> not available
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 1.
+
+[14
+
+
+]
+<figuras/roi_traduzido.pdf, id=54, 846.14821pt x 571.02635pt>
+File: figuras/roi_traduzido.pdf Graphic file (type pdf)
+<use figuras/roi_traduzido.pdf>
+Package luatex.def Info: figuras/roi_traduzido.pdf  used on input line 27.
+(luatex.def)             Requested size: 296.15631pt x 199.86221pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15] [16<./figuras/roi_traduzido.pdf>]
+<figuras/fluxo_metodologia.pdf, id=65, 821.34856pt x 596.2275pt>
+File: figuras/fluxo_metodologia.pdf Graphic file (type pdf)
+<use figuras/fluxo_metodologia.pdf>
+Package luatex.def Info: figuras/fluxo_metodologia.pdf  used on input line 61.
+(luatex.def)             Requested size: 328.5336pt x 238.48677pt.
+ [17<./figuras/fluxo_metodologia.pdf>]
+<figuras/ciclo_pesquisa2.pdf, id=71, 845.38435pt x 370.09267pt>
+File: figuras/ciclo_pesquisa2.pdf Graphic file (type pdf)
+<use figuras/ciclo_pesquisa2.pdf>
+Package luatex.def Info: figuras/ciclo_pesquisa2.pdf  used on input line 75.
+(luatex.def)             Requested size: 422.69113pt x 185.04587pt.
+
+[18<./figuras/ciclo_pesquisa2.pdf>]) [19]
+\openout2 = texto/_fundamentacao.aux
+ (./texto/_fundamentacao.tex
+Cap\'{\i }tulo 2.
+[20
+
+
+
+]
+<figuras/lps.pdf, id=86, 424.19379pt x 334.32704pt>
+File: figuras/lps.pdf Graphic file (type pdf)
+<use figuras/lps.pdf>
+Package luatex.def Info: figuras/lps.pdf  used on input line 30.
+(luatex.def)             Requested size: 381.77087pt x 300.89154pt.
+ [21<./figuras/lps.pdf>] [22]
+<figuras/smartyprofile.pdf, id=95, 844.54364pt x 367.92pt>
+File: figuras/smartyprofile.pdf Graphic file (type pdf)
+<use figuras/smartyprofile.pdf>
+Package luatex.def Info: figuras/smartyprofile.pdf  used on input line 54.
+(luatex.def)             Requested size: 675.63583pt x 294.33638pt.
+
+Overfull \hbox (28.71274pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+[23
+
+<./figuras/smartyprofile.pdf>]
+<figuras/smartyprocess.pdf, id=103, 577.40718pt x 496.85625pt>
+File: figuras/smartyprocess.pdf Graphic file (type pdf)
+<use figuras/smartyprocess.pdf>
+Package luatex.def Info: figuras/smartyprocess.pdf  used on input line 67.
+(luatex.def)             Requested size: 346.44698pt x 298.11604pt.
+<figuras/UC_AGM.pdf, id=104, 597.86963pt x 621.7609pt>
+File: figuras/UC_AGM.pdf Graphic file (type pdf)
+<use figuras/UC_AGM.pdf>
+Package luatex.def Info: figuras/UC_AGM.pdf  used on input line 76.
+(luatex.def)             Requested size: 358.72453pt x 373.0594pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24
+
+<./figuras/smartyprocess.pdf>] [25<./figuras/UC_AGM.pdf>]
+<figuras/testelps.pdf, id=115, 745.14786pt x 598.41768pt>
+File: figuras/testelps.pdf Graphic file (type pdf)
+<use figuras/testelps.pdf>
+Package luatex.def Info: figuras/testelps.pdf  used on input line 109.
+(luatex.def)             Requested size: 298.05385pt x 239.36282pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figuras/casotestelps.pdf, id=116, 846.17831pt x 504.65137pt>
+File: figuras/casotestelps.pdf Graphic file (type pdf)
+<use figuras/casotestelps.pdf>
+Package luatex.def Info: figuras/casotestelps.pdf  used on input line 118.
+(luatex.def)             Requested size: 338.46533pt x 201.85696pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figuras/teste.pdf, id=117, 846.3319pt x 329.07843pt>
+File: figuras/teste.pdf Graphic file (type pdf)
+<use figuras/teste.pdf>
+Package luatex.def Info: figuras/teste.pdf  used on input line 125.
+(luatex.def)             Requested size: 338.52675pt x 131.62903pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26] [27<./figuras/testelps.pdf><./figuras/casotestelps.pdf>] [28<./figuras/test
+e.pdf>]
+<figuras/tbm.pdf, id=139, 597.56952pt x 771.8436pt>
+File: figuras/tbm.pdf Graphic file (type pdf)
+<use figuras/tbm.pdf>
+Package luatex.def Info: figuras/tbm.pdf  used on input line 161.
+(luatex.def)             Requested size: 239.02356pt x 308.73196pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figuras/fsm.pdf, id=140, 848.06636pt x 283.91771pt>
+File: figuras/fsm.pdf Graphic file (type pdf)
+<use figuras/fsm.pdf>
+Package luatex.def Info: figuras/fsm.pdf  used on input line 174.
+(luatex.def)             Requested size: 424.03214pt x 141.9585pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29] [30<./figuras/tbm.pdf><./figuras/fsm.pdf>] [31]
+LaTeX Font Info:    Calculating math sizes for size <7.20007> on input line 202.
+
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.60004> not available
+(Font)              size <5> substituted on input line 202.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.60004> not available
+(Font)              size <5> substituted on input line 202.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.60004> not available
+(Font)              size <5> substituted on input line 202.
+
+[32
+
+] [33] [34] [35]
+<figuras/roadmap.pdf, id=171, 845.08122pt x 416.23906pt>
+File: figuras/roadmap.pdf Graphic file (type pdf)
+<use figuras/roadmap.pdf>
+Package luatex.def Info: figuras/roadmap.pdf  used on input line 262.
+(luatex.def)             Requested size: 676.0659pt x 332.9917pt.
+
+Overfull \hbox (29.1428pt too wide) in paragraph at lines 262--263
+ [][] 
+ []
+
+[36
+
+
+<./figuras/roadmap.pdf>]
+<figuras/splitmbt.pdf, id=177, 843.7101pt x 455.88919pt>
+File: figuras/splitmbt.pdf Graphic file (type pdf)
+<use figuras/splitmbt.pdf>
+Package luatex.def Info: figuras/splitmbt.pdf  used on input line 278.
+(luatex.def)             Requested size: 455.24411pt x 245.98868pt.
+ [37
+
+<./figuras/splitmbt.pdf>]
+<figuras/costa1.pdf, id=183, 561.9103pt x 847.14091pt>
+File: figuras/costa1.pdf Graphic file (type pdf)
+<use figuras/costa1.pdf>
+Package luatex.def Info: figuras/costa1.pdf  used on input line 291.
+(luatex.def)             Requested size: 280.95445pt x 423.56943pt.
+<figuras/costa3.pdf, id=184, 843.7101pt x 283.6176pt>
+File: figuras/costa3.pdf Graphic file (type pdf)
+<use figuras/costa3.pdf>
+Package luatex.def Info: figuras/costa3.pdf  used on input line 300.
+(luatex.def)             Requested size: 455.24411pt x 153.03436pt.
+ [38<./figuras/costa1.pdf>] [39<./figuras/costa3.pdf>] [40] [41] [42]
+<figuras/plavis.pdf, id=207, 719.68875pt x 527.72156pt>
+File: figuras/plavis.pdf Graphic file (type pdf)
+<use figuras/plavis.pdf>
+Package luatex.def Info: figuras/plavis.pdf  used on input line 392.
+(luatex.def)             Requested size: 395.83003pt x 290.24776pt.
+<figuras/plavis2.pdf, id=208, 498.36188pt x 404.26031pt>
+File: figuras/plavis2.pdf Graphic file (type pdf)
+<use figuras/plavis2.pdf>
+Package luatex.def Info: figuras/plavis2.pdf  used on input line 399.
+(luatex.def)             Requested size: 398.69003pt x 323.40869pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[43<./figuras/plavis.pdf>] [44<./figuras/plavis2.pdf>]
+<figuras/login_exemple_da.pdf, id=219, 737.154pt x 594.58536pt>
+File: figuras/login_exemple_da.pdf Graphic file (type pdf)
+<use figuras/login_exemple_da.pdf>
+Package luatex.def Info: figuras/login_exemple_da.pdf  used on input line 430.
+(luatex.def)             Requested size: 442.29582pt x 356.75397pt.
+<figuras/login_example_ds.pdf, id=220, 844.44183pt x 585.2274pt>
+File: figuras/login_example_ds.pdf Graphic file (type pdf)
+<use figuras/login_example_ds.pdf>
+Package luatex.def Info: figuras/login_example_ds.pdf  used on input line 440.
+(luatex.def)             Requested size: 422.21988pt x 292.61298pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[45<./figuras/login_exemple_da.pdf>]) [46<./figuras/login_example_ds.pdf>]
+\openout2 = texto/_abordagem.aux
+
+(./texto/_abordagem.tex
+Cap\'{\i }tulo 3.
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <17.28> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 9.
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <14.4> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 14.
+[47
+
+
+
+] [48]
+<figuras/roadmapcaminho2.pdf, id=240, 844.94069pt x 415.0707pt>
+File: figuras/roadmapcaminho2.pdf Graphic file (type pdf)
+<use figuras/roadmapcaminho2.pdf>
+Package luatex.def Info: figuras/roadmapcaminho2.pdf  used on input line 39.
+(luatex.def)             Requested size: 675.95348pt x 332.05699pt.
+
+Overfull \hbox (29.03038pt too wide) in paragraph at lines 39--40
+ [][] 
+ []
+
+[49
+
+<./figuras/roadmapcaminho2.pdf>]
+<figuras/ciclo_pesquisafinal.pdf, id=246, 845.38435pt x 346.19638pt>
+File: figuras/ciclo_pesquisafinal.pdf Graphic file (type pdf)
+<use figuras/ciclo_pesquisafinal.pdf>
+Package luatex.def Info: figuras/ciclo_pesquisafinal.pdf  used on input line 48.
+
+(luatex.def)             Requested size: 422.69113pt x 173.09776pt.
+ [50
+
+<./figuras/ciclo_pesquisafinal.pdf>]
+<figuras/atividade_metamodelo.pdf, id=255, 847.49623pt x 488.75398pt>
+File: figuras/atividade_metamodelo.pdf Graphic file (type pdf)
+<use figuras/atividade_metamodelo.pdf>
+Package luatex.def Info: figuras/atividade_metamodelo.pdf  used on input line 72
+.
+(luatex.def)             Requested size: 423.74709pt x 244.37639pt.
+<figuras/sequencia_metamodelo.pdf, id=256, 846.91406pt x 453.94594pt>
+File: figuras/sequencia_metamodelo.pdf Graphic file (type pdf)
+<use figuras/sequencia_metamodelo.pdf>
+Package luatex.def Info: figuras/sequencia_metamodelo.pdf  used on input line 83
+.
+(luatex.def)             Requested size: 423.456pt x 226.97241pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[51<./figuras/atividade_metamodelo.pdf>]
+<figuras/diag_sequencia.pdf, id=262, 846.96024pt x 452.42526pt>
+File: figuras/diag_sequencia.pdf Graphic file (type pdf)
+<use figuras/diag_sequencia.pdf>
+Package luatex.def Info: figuras/diag_sequencia.pdf  used on input line 92.
+(luatex.def)             Requested size: 423.47908pt x 226.21207pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figuras/sequencia_result_map.pdf, id=263, 594.58536pt x 728.03795pt>
+File: figuras/sequencia_result_map.pdf Graphic file (type pdf)
+<use figuras/sequencia_result_map.pdf>
+Package luatex.def Info: figuras/sequencia_result_map.pdf  used on input line 12
+5.
+(luatex.def)             Requested size: 237.82993pt x 291.21pt.
+[52<./figuras/sequencia_metamodelo.pdf><./figuras/diag_sequencia.pdf>] [53<./fig
+uras/sequencia_result_map.pdf>]
+<figuras/etapa1_ds_to_da.pdf, id=280, 847.165pt x 356.6655pt>
+File: figuras/etapa1_ds_to_da.pdf Graphic file (type pdf)
+<use figuras/etapa1_ds_to_da.pdf>
+Package luatex.def Info: figuras/etapa1_ds_to_da.pdf  used on input line 157.
+(luatex.def)             Requested size: 423.58145pt x 178.3323pt.
+ [54]
+<figuras/exemploDS.pdf, id=286, 845.827pt x 589.31267pt>
+File: figuras/exemploDS.pdf Graphic file (type pdf)
+<use figuras/exemploDS.pdf>
+Package luatex.def Info: figuras/exemploDS.pdf  used on input line 168.
+(luatex.def)             Requested size: 397.53874pt x 276.97699pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figuras/exemploDA.pdf, id=287, 843.4943pt x 476.982pt>
+File: figuras/exemploDA.pdf Graphic file (type pdf)
+<use figuras/exemploDA.pdf>
+Package luatex.def Info: figuras/exemploDA.pdf  used on input line 181.
+(luatex.def)             Requested size: 463.9233pt x 262.3409pt.
+
+Overfull \hbox (8.67918pt too wide) in paragraph at lines 181--182
+ [][] 
+ []
+
+[55<./figuras/etapa1_ds_to_da.pdf>] [56<./figuras/exemploDS.pdf><./figuras/exemp
+loDA.pdf>]
+<figuras/exemploTAG.pdf, id=303, 709.14937pt x 402.75468pt>
+File: figuras/exemploTAG.pdf Graphic file (type pdf)
+<use figuras/exemploTAG.pdf>
+Package luatex.def Info: figuras/exemploTAG.pdf  used on input line 192.
+(luatex.def)             Requested size: 354.57382pt x 201.37685pt.
+
+Underfull \hbox (badness 1412) in paragraph at lines 203--203
+[]\TU/lmr/m/n/12 Va-lo-res dos atri-bu-tos de pa-ra-me-tri-za-ção do DA para 
+uti-li-za-ção em
+ []
+
+[57<./figuras/exemploTAG.pdf>]
+<figuras/etapa2_da_to_caso.pdf, id=309, 847.165pt x 323.54175pt>
+File: figuras/etapa2_da_to_caso.pdf Graphic file (type pdf)
+<use figuras/etapa2_da_to_caso.pdf>
+Package luatex.def Info: figuras/etapa2_da_to_caso.pdf  used on input line 230.
+(luatex.def)             Requested size: 440.52834pt x 168.24268pt.
+<figuras/splitcarregamento.pdf, id=310, 657.95813pt x 511.9125pt>
+File: figuras/splitcarregamento.pdf Graphic file (type pdf)
+<use figuras/splitcarregamento.pdf>
+Package luatex.def Info: figuras/splitcarregamento.pdf  used on input line 240.
+(luatex.def)             Requested size: 394.77792pt x 307.14987pt.
+ [58<./figuras/etapa2_da_to_caso.pdf>]
+<figuras/splitvalidacao.pdf, id=319, 594.72188pt x 447.17062pt>
+File: figuras/splitvalidacao.pdf Graphic file (type pdf)
+<use figuras/splitvalidacao.pdf>
+Package luatex.def Info: figuras/splitvalidacao.pdf  used on input line 248.
+(luatex.def)             Requested size: 327.09804pt x 245.9446pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figuras/splitestrutura.pdf, id=320, 596.2275pt x 449.42906pt>
+File: figuras/splitestrutura.pdf Graphic file (type pdf)
+<use figuras/splitestrutura.pdf>
+Package luatex.def Info: figuras/splitestrutura.pdf  used on input line 257.
+(luatex.def)             Requested size: 327.92613pt x 247.18674pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figuras/splitgerado.pdf, id=321, 423.83344pt x 68.50594pt>
+File: figuras/splitgerado.pdf Graphic file (type pdf)
+<use figuras/splitgerado.pdf>
+Package luatex.def Info: figuras/splitgerado.pdf  used on input line 267.
+(luatex.def)             Requested size: 317.87428pt x 51.37932pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figuras/splitcasodeteste.pdf, id=322, 822.82407pt x 456.20438pt>
+File: figuras/splitcasodeteste.pdf Graphic file (type pdf)
+<use figuras/splitcasodeteste.pdf>
+Package luatex.def Info: figuras/splitcasodeteste.pdf  used on input line 276.
+(luatex.def)             Requested size: 452.55464pt x 250.91318pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[59<./figuras/splitcarregamento.pdf>] [60<./figuras/splitvalidacao.pdf><./figura
+s/splitestrutura.pdf>] [61<./figuras/splitgerado.pdf><./figuras/splitcasodeteste
+.pdf>]) [62]
+\openout2 = texto/_avaliacao.aux
+ (./texto/_avaliacao.tex
+Cap\'{\i }tulo 4.
+[63
+
+
+
+] [64]
+<figuras/hipoteses.pdf, id=355, 565.15138pt x 507.81718pt>
+File: figuras/hipoteses.pdf Graphic file (type pdf)
+<use figuras/hipoteses.pdf>
+Package luatex.def Info: figuras/hipoteses.pdf  used on input line 50.
+(luatex.def)             Requested size: 386.96027pt x 347.7132pt.
+ [65<./figuras/hipoteses.pdf>] [66] [67]
+<figuras/1_Play_Selected_Game.pdf, id=405, 511.83371pt x 599.65872pt>
+File: figuras/1_Play_Selected_Game.pdf Graphic file (type pdf)
+<use figuras/1_Play_Selected_Game.pdf>
+Package luatex.def Info: figuras/1_Play_Selected_Game.pdf  used on input line 94
+.
+(luatex.def)             Requested size: 341.43307pt x 400.03075pt.
+
+Overfull \hbox (22.57591pt too wide) in paragraph at lines 106--115
+[][] 
+ []
+
+[68<./figuras/1_Play_Selected_Game.pdf>]
+<figuras/2_Save_Game.pdf, id=411, 626.81789pt x 141.79022pt>
+File: figuras/2_Save_Game.pdf Graphic file (type pdf)
+<use figuras/2_Save_Game.pdf>
+Package luatex.def Info: figuras/2_Save_Game.pdf  used on input line 122.
+(luatex.def)             Requested size: 455.24411pt x 102.97809pt.
+ [69<./figuras/2_Save_Game.pdf>]
+Overfull \hbox (4.37926pt too wide) in paragraph at lines 134--134
+[]|\TU/lmr/bx/n/12 Passo| 
+ []
+
+
+Overfull \hbox (4.85545pt too wide) in paragraph at lines 135--135
+[]|[]| 
+ []
+
+
+Overfull \hbox (0.79944pt too wide) in paragraph at lines 137--137
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.85545pt too wide) in paragraph at lines 138--138
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.27945pt too wide) in paragraph at lines 140--140
+[]|[]| 
+ []
+
+
+Overfull \hbox (6.5208pt too wide) in paragraph at lines 132--142
+[][] 
+ []
+
+<figuras/3_pong_Moves.pdf, id=418, 119.34387pt x 309.53542pt>
+File: figuras/3_pong_Moves.pdf Graphic file (type pdf)
+<use figuras/3_pong_Moves.pdf>
+Package luatex.def Info: figuras/3_pong_Moves.pdf  used on input line 148.
+(luatex.def)             Requested size: 91.04742pt x 236.15619pt.
+[70<./figuras/3_pong_Moves.pdf>]
+Overfull \hbox (4.37926pt too wide) in paragraph at lines 160--160
+[]|\TU/lmr/bx/n/12 Passo| 
+ []
+
+
+Overfull \hbox (0.99782pt too wide) in paragraph at lines 163--163
+[]|[]| 
+ []
+
+
+Overfull \hbox (20.74716pt too wide) in paragraph at lines 158--165
+[][] 
+ []
+
+[71]
+<figuras/1_loadGame_LP_View2.pdf, id=428, 589.31267pt x 845.827pt>
+File: figuras/1_loadGame_LP_View2.pdf Graphic file (type pdf)
+<use figuras/1_loadGame_LP_View2.pdf>
+Package luatex.def Info: figuras/1_loadGame_LP_View2.pdf  used on input line 184
+.
+(luatex.def)             Requested size: 341.43307pt x 490.06375pt.
+ [72]
+<figuras/1_Play_Selected_Game_DS_to_DA2.pdf, id=432, 415.08595pt x 795.53682pt>
+File: figuras/1_Play_Selected_Game_DS_to_DA2.pdf Graphic file (type pdf)
+<use figuras/1_Play_Selected_Game_DS_to_DA2.pdf>
+Package luatex.def Info: figuras/1_Play_Selected_Game_DS_to_DA2.pdf  used on inp
+ut line 195.
+(luatex.def)             Requested size: 286.806pt x 549.71004pt.
+ [73<./figuras/1_loadGame_LP_View2.pdf>]
+Overfull \hbox (19.68593pt too wide) in paragraph at lines 208--218
+[][] 
+ []
+
+[74<./figuras/1_Play_Selected_Game_DS_to_DA2.pdf>] [75]
+<figuras/2_saveGame_LP_View.pdf, id=448, 811.07115pt x 596.82172pt>
+File: figuras/2_saveGame_LP_View.pdf Graphic file (type pdf)
+<use figuras/2_saveGame_LP_View.pdf>
+Package luatex.def Info: figuras/2_saveGame_LP_View.pdf  used on input line 226.
+
+(luatex.def)             Requested size: 567.74594pt x 417.77235pt.
+ [76
+
+<./figuras/2_saveGame_LP_View.pdf>]
+<figuras/2_saveGame_LP_View_DS_to_DA2.pdf, id=454, 555.26407pt x 779.9824pt>
+File: figuras/2_saveGame_LP_View_DS_to_DA2.pdf Graphic file (type pdf)
+<use figuras/2_saveGame_LP_View_DS_to_DA2.pdf>
+Package luatex.def Info: figuras/2_saveGame_LP_View_DS_to_DA2.pdf  used on input
+ line 237.
+(luatex.def)             Requested size: 364.19667pt x 511.60036pt.
+ [77
+
+<./figuras/2_saveGame_LP_View_DS_to_DA2.pdf>]
+
+LaTeX Warning: Float too large for page by 36.38332pt on input line 265.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[78]
+<figuras/3_DS_pong_moves_1_2.pdf, id=463, 475.00461pt x 845.75473pt>
+File: figuras/3_DS_pong_moves_1_2.pdf Graphic file (type pdf)
+<use figuras/3_DS_pong_moves_1_2.pdf>
+Package luatex.def Info: figuras/3_DS_pong_moves_1_2.pdf  used on input line 273
+.
+(luatex.def)             Requested size: 318.66948pt x 567.38832pt.
+ [79
+
+
+<./figuras/3_DS_pong_moves_1_2.pdf>]
+<figuras/3_DS_pong_moves_2.pdf, id=471, 845.48271pt x 367.86736pt>
+File: figuras/3_DS_pong_moves_2.pdf Graphic file (type pdf)
+<use figuras/3_DS_pong_moves_2.pdf>
+Package luatex.def Info: figuras/3_DS_pong_moves_2.pdf  used on input line 282.
+(luatex.def)             Requested size: 634.11049pt x 275.89984pt.
+ [80
+
+<./figuras/3_DS_pong_moves_2.pdf>]
+<figuras/3_pong_moves_DS_to_DA1.pdf, id=480, 338.48457pt x 845.48271pt>
+File: figuras/3_pong_moves_DS_to_DA1.pdf Graphic file (type pdf)
+<use figuras/3_pong_moves_DS_to_DA1.pdf>
+Package luatex.def Info: figuras/3_pong_moves_DS_to_DA1.pdf  used on input line 
+295.
+(luatex.def)             Requested size: 206.47528pt x 515.74371pt.
+ [81
+
+<./figuras/3_pong_moves_DS_to_DA1.pdf>]
+<figuras/3_pong_moves_DS_to_DA2.pdf, id=488, 845.41345pt x 292.9605pt>
+File: figuras/3_pong_moves_DS_to_DA2.pdf Graphic file (type pdf)
+<use figuras/3_pong_moves_DS_to_DA2.pdf>
+Package luatex.def Info: figuras/3_pong_moves_DS_to_DA2.pdf  used on input line 
+303.
+(luatex.def)             Requested size: 591.78539pt x 205.07094pt.
+ [82
+
+<./figuras/3_pong_moves_DS_to_DA2.pdf>] [83
+
+
+] [84] [85] [86] [87
+
+] [88] [89] [90]) [91]
+\openout2 = texto/_melhorias.aux
+
+(./texto/_melhorias.tex
+Cap\'{\i }tulo 5.
+[92
+
+
+
+] [93]
+<figuras/DSlimitacao.pdf, id=530, 846.28572pt x 370.54436pt>
+File: figuras/DSlimitacao.pdf Graphic file (type pdf)
+<use figuras/DSlimitacao.pdf>
+Package luatex.def Info: figuras/DSlimitacao.pdf  used on input line 50.
+(luatex.def)             Requested size: 455.24411pt x 199.32767pt.
+<figuras/DAlimitacao.pdf, id=531, 844.60143pt x 487.60469pt>
+File: figuras/DAlimitacao.pdf Graphic file (type pdf)
+<use figuras/DAlimitacao.pdf>
+Package luatex.def Info: figuras/DAlimitacao.pdf  used on input line 59.
+(luatex.def)             Requested size: 455.24411pt x 262.81898pt.
+ [94<./figuras/DSlimitacao.pdf>] [95<./figuras/DAlimitacao.pdf>]
+[96] [97]) [98]
+\openout2 = texto/_conclusao.aux
+ (./texto/_conclusao.tex
+Cap\'{\i }tulo 6.
+[99
+
+
+
+] [100]) [101] (./main.bbl (./babelbst.tex) [102
+
+
+] [103] [104] [105] [106]
+[107] [108] [109] [110] [111] [112]
+Underfull \hbox (badness 3646) in paragraph at lines 1050--1054
+[]\TU/lmr/m/sc/12 SEI   \TU/lmr/m/n/12 The ar-cade game ma-ker pe-da-go-gi-cal 
+pro-duct line.   \TU/lmr/m/it/12 https://-re-sour-
+ []
+
+[113]) [114]
+\openout2 = texto/_MSL.aux
+ (./texto/_MSL.tex
+Ap\^endice A.
+<figuras/sm_process.pdf, id=607, 849.1725pt x 211.57645pt>
+File: figuras/sm_process.pdf Graphic file (type pdf)
+<use figuras/sm_process.pdf>
+Package luatex.def Info: figuras/sm_process.pdf  used on input line 21.
+(luatex.def)             Requested size: 424.5852pt x 105.78795pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[115
+
+
+] [116<./figuras/sm_process.pdf>]
+<figuras/search_process.pdf, id=616, 722.7pt x 406.51875pt>
+File: figuras/search_process.pdf Graphic file (type pdf)
+<use figuras/search_process.pdf>
+Package luatex.def Info: figuras/search_process.pdf  used on input line 61.
+(luatex.def)             Requested size: 397.48622pt x 223.586pt.
+ [117<./figuras/search_process.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[118] [119]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[120] [121]
+<figuras/selection_process.pdf, id=646, 683.08148pt x 274.53967pt>
+File: figuras/selection_process.pdf Graphic file (type pdf)
+<use figuras/selection_process.pdf>
+Package luatex.def Info: figuras/selection_process.pdf  used on input line 313.
+(luatex.def)             Requested size: 409.85205pt x 164.72507pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[122] [123<./figuras/selection_process.pdf>] [124]
+Underfull \hbox (badness 1259) in paragraph at lines 506--506
+[]|\TU/lmr/m/n/10.95 An Over-view on Test Ge-ne-ra-tion from
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 508--508
+[]|\TU/lmr/m/n/10.95 Ba-sic Beha-vi-o-ral Mo-dels for Soft-ware
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 514--514
+[]|\TU/lmr/m/n/10.95 In-cLing:Ef-fi-ci-ent Product-Line Tes-ting
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 524--524
+[]|\TU/lmr/m/n/10.95 Re-du-cing the Con-cre-ti-za-tion Ef-fort in
+ []
+
+[125]
+Underfull \vbox (badness 10000) detected at line 532
+ []
+
+[126] [127]
+Overfull \hbox (38.9454pt too wide) in alignment at lines 551--554
+ [][][][][] 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 556--556
+ \TU/lmr/m/n/10.95 S24| 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 556--556
+ \TU/lmr/m/n/10.95 S36| 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 558--558
+ \TU/lmr/m/n/10.95 S37| 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 560--560
+ \TU/lmr/m/n/10.95 S10| 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 560--560
+ \TU/lmr/m/n/10.95 S38| 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 562--562
+ \TU/lmr/m/n/10.95 S10| 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 562--562
+ \TU/lmr/m/n/10.95 S39| 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 564--564
+ \TU/lmr/m/n/10.95 S40| 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 566--566
+ \TU/lmr/m/n/10.95 S20| 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 566--566
+ \TU/lmr/m/n/10.95 S41| 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 568--568
+ \TU/lmr/m/n/10.95 S42| 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 570--570
+ \TU/lmr/m/n/10.95 S20| 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 570--570
+ \TU/lmr/m/n/10.95 S43| 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 572--572
+ \TU/lmr/m/n/10.95 S21| 
+ []
+
+
+Overfull \hbox (0.86908pt too wide) in paragraph at lines 572--572
+ \TU/lmr/m/n/10.95 S44| 
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 574--574
+[]|\TU/lmr/m/n/10.95 An ap-pro-ach to de-rive usage mo-dels va-ri-ants for
+ []
+
+
+Overfull \hbox (38.9454pt too wide) in alignment at lines 554--576
+ [][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 576
+ []
+
+[128
+
+] [129
+
+]
+<figuras/extraction_process.pdf, id=682, 614.51282pt x 185.26213pt>
+File: figuras/extraction_process.pdf Graphic file (type pdf)
+<use figuras/extraction_process.pdf>
+Package luatex.def Info: figuras/extraction_process.pdf  used on input line 661.
+
+(luatex.def)             Requested size: 368.71054pt x 111.15811pt.
+ [130<./figuras/extraction_process.pdf>] [131]
+<figuras/analysis_process.pdf, id=699, 613.44482pt x 257.8712pt>
+File: figuras/analysis_process.pdf Graphic file (type pdf)
+<use figuras/analysis_process.pdf>
+Package luatex.def Info: figuras/analysis_process.pdf  used on input line 733.
+(luatex.def)             Requested size: 368.06973pt x 154.7239pt.
+ [132]
+<figuras/quantidadeano.pdf, id=703, 745.91263pt x 408.31506pt>
+File: figuras/quantidadeano.pdf Graphic file (type pdf)
+<use figuras/quantidadeano.pdf>
+Package luatex.def Info: figuras/quantidadeano.pdf  used on input line 781.
+(luatex.def)             Requested size: 372.9554pt x 204.15703pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[133<./figuras/analysis_process.pdf>] [134<./figuras/quantidadeano.pdf>]
+Overfull \hbox (55.2249pt too wide) in alignment at lines 797--809
+ [][][][][][][][] 
+ []
+
+
+Overfull \hbox (55.2249pt too wide) in alignment at lines 809--825
+ [][][][][][][][] 
+ []
+
+
+Overfull \hbox (55.2249pt too wide) in alignment at lines 825--846
+ [][][][][][][][] 
+ []
+
+
+Overfull \hbox (55.2249pt too wide) in alignment at lines 846--866
+ [][][][][][][][] 
+ []
+
+
+Overfull \hbox (55.2249pt too wide) in alignment at lines 866--871
+ [][][][][][][][] 
+ []
+
+[135
+
+]
+<figuras/chart_domains.pdf, id=731, 748.93703pt x 464.24953pt>
+File: figuras/chart_domains.pdf Graphic file (type pdf)
+<use figuras/chart_domains.pdf>
+Package luatex.def Info: figuras/chart_domains.pdf  used on input line 907.
+(luatex.def)             Requested size: 374.46759pt x 232.12419pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[136
+
+] [137<./figuras/chart_domains.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[138]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[139] [140]
+<figuras/chart_levels_types.pdf, id=754, 750.47066pt x 465.5547pt>
+File: figuras/chart_levels_types.pdf Graphic file (type pdf)
+<use figuras/chart_levels_types.pdf>
+Package luatex.def Info: figuras/chart_levels_types.pdf  used on input line 1093
+.
+(luatex.def)             Requested size: 375.2344pt x 232.77678pt.
+ [141<./figuras/chart_levels_types.pdf>] [142]
+<figuras/bubble_approachXautomation.pdf, id=767, 703.23016pt x 354.5534pt>
+File: figuras/bubble_approachXautomation.pdf Graphic file (type pdf)
+<use figuras/bubble_approachXautomation.pdf>
+Package luatex.def Info: figuras/bubble_approachXautomation.pdf  used on input l
+ine 1140.
+(luatex.def)             Requested size: 386.77779pt x 195.00497pt.
+<figuras/bubble_Teste_level_automation.pdf, id=768, 845.19765pt x 597.1911pt>
+File: figuras/bubble_Teste_level_automation.pdf Graphic file (type pdf)
+<use figuras/bubble_Teste_level_automation.pdf>
+Package luatex.def Info: figuras/bubble_Teste_level_automation.pdf  used on inpu
+t line 1149.
+(luatex.def)             Requested size: 464.86014pt x 328.45612pt.
+
+Overfull \hbox (9.61603pt too wide) in paragraph at lines 1149--1150
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figuras/chart_artifacts.pdf, id=769, 749.59047pt x 466.20885pt>
+File: figuras/chart_artifacts.pdf Graphic file (type pdf)
+<use figuras/chart_artifacts.pdf>
+Package luatex.def Info: figuras/chart_artifacts.pdf  used on input line 1196.
+(luatex.def)             Requested size: 374.79431pt x 233.10385pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[143<./figuras/bubble_approachXautomation.pdf>] [144<./figuras/bubble_Teste_leve
+l_automation.pdf>] [145<./figuras/chart_artifacts.pdf>] [146
+
+] [147
+
+]
+<figuras/artefatoXlevelsXmodels.pdf, id=816, 844.36755pt x 363.84833pt>
+File: figuras/artefatoXlevelsXmodels.pdf Graphic file (type pdf)
+<use figuras/artefatoXlevelsXmodels.pdf>
+Package luatex.def Info: figuras/artefatoXlevelsXmodels.pdf  used on input line 
+1283.
+(luatex.def)             Requested size: 717.71582pt x 309.27254pt.
+
+Overfull \hbox (70.79272pt too wide) in paragraph at lines 1283--1284
+ [][] 
+ []
+
+[148
+
+<./figuras/artefatoXlevelsXmodels.pdf>]
+<figuras/bubble_typeXvariability.pdf, id=824, 844.95676pt x 597.432pt>
+File: figuras/bubble_typeXvariability.pdf Graphic file (type pdf)
+<use figuras/bubble_typeXvariability.pdf>
+Package luatex.def Info: figuras/bubble_typeXvariability.pdf  used on input line
+ 1324.
+(luatex.def)             Requested size: 422.47734pt x 298.71527pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[149
+
+] [150<./figuras/bubble_typeXvariability.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[151]
+<figuras/validacaoXlocalIngles.pdf, id=841, 844.95676pt x 597.432pt>
+File: figuras/validacaoXlocalIngles.pdf Graphic file (type pdf)
+<use figuras/validacaoXlocalIngles.pdf>
+Package luatex.def Info: figuras/validacaoXlocalIngles.pdf  used on input line 1
+421.
+(luatex.def)             Requested size: 422.47734pt x 298.71527pt.
+ [152<./figuras/validacaoXlocalIngles.pdf>] [153] [154]
+<figuras/guiaestudo.pdf, id=857, 845.559pt x 432.9264pt>
+File: figuras/guiaestudo.pdf Graphic file (type pdf)
+<use figuras/guiaestudo.pdf>
+Package luatex.def Info: figuras/guiaestudo.pdf  used on input line 1482.
+(luatex.def)             Requested size: 676.44814pt x 346.3416pt.
+
+Overfull \hbox (29.52504pt too wide) in paragraph at lines 1482--1483
+ [][] 
+ []
+
+[155
+
+<./figuras/guiaestudo.pdf>]
+<figuras/estagioguia1.pdf, id=863, 596.11711pt x 779.22073pt>
+File: figuras/estagioguia1.pdf Graphic file (type pdf)
+<use figuras/estagioguia1.pdf>
+Package luatex.def Info: figuras/estagioguia1.pdf  used on input line 1497.
+(luatex.def)             Requested size: 298.05783pt x 389.6094pt.
+ [156
+
+<./figuras/estagioguia1.pdf>]
+<figuras/estagioguia2.pdf, id=869, 376.59735pt x 846.04245pt>
+File: figuras/estagioguia2.pdf Graphic file (type pdf)
+<use figuras/estagioguia2.pdf>
+Package luatex.def Info: figuras/estagioguia2.pdf  used on input line 1506.
+(luatex.def)             Requested size: 188.2982pt x 423.02019pt.
+<figuras/estagioguia3.pdf, id=870, 803.63329pt x 596.2845pt>
+File: figuras/estagioguia3.pdf Graphic file (type pdf)
+<use figuras/estagioguia3.pdf>
+Package luatex.def Info: figuras/estagioguia3.pdf  used on input line 1513.
+(luatex.def)             Requested size: 482.18369pt x 357.77347pt.
+
+Overfull \hbox (26.93958pt too wide) in paragraph at lines 1513--1514
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[157<./figuras/estagioguia2.pdf>] [158<./figuras/estagioguia3.pdf>]) [159]
+\openout2 = anexo_A.aux
+
+(./anexo_A.tex
+Ap\^endice B.
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <24.88> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 1.
+[160
+
+
+
+]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!htb') on input line 10.
+
+<figuras/SMartyProfile5_2.pdf, id=888, 842.42027pt x 369.38pt>
+File: figuras/SMartyProfile5_2.pdf Graphic file (type pdf)
+<use figuras/SMartyProfile5_2.pdf>
+Package luatex.def Info: figuras/SMartyProfile5_2.pdf  used on input line 14.
+(luatex.def)             Requested size: 625.99068pt x 455.24777pt.
+
+LaTeX Warning: Float too large for page by 23.01566pt on input line 15.
+
+[161<./figuras/SMartyProfile5_2.pdf>]
+Overfull \hbox (15.54277pt too wide) in paragraph at lines 39--40
+\TU/lmr/m/n/12 qua-tros es-te-reó-ti-pos ($\OML/cmm/m/it/12 << [] >>$\TU/lmr/m
+/n/12 , $\OML/cmm/m/it/12 << [] >>$\TU/lmr/m/n/12 , $\OML/cmm/m/it/12 << [] >>$
+
+ []
+
+[162
+
+
+] [163]
+<figuras/SMarty_Versao_Total_editado.pdf, id=900, 784.43062pt x 331.2375pt>
+File: figuras/SMarty_Versao_Total_editado.pdf Graphic file (type pdf)
+<use figuras/SMarty_Versao_Total_editado.pdf>
+Package luatex.def Info: figuras/SMarty_Versao_Total_editado.pdf  used on input 
+line 67.
+(luatex.def)             Requested size: 455.24538pt x 284.54027pt.
+ [164<./figuras/SMarty_Versao_Total_editado.pdf>]
+<figuras/AGM_Class_Variability_Model.pdf, id=906, 633.11531pt x 337.26pt>
+File: figuras/AGM_Class_Variability_Model.pdf Graphic file (type pdf)
+<use figuras/AGM_Class_Variability_Model.pdf>
+Package luatex.def Info: figuras/AGM_Class_Variability_Model.pdf  used on input 
+line 78.
+(luatex.def)             Requested size: 455.25337pt x 284.53154pt.
+) [165<./figuras/AGM_Class_Variability_Model.pdf>] (./main.aux (./texto/_agrade
+cimentos.aux)
+(./texto/_resumo.aux) (./texto/_abstract.aux) (./texto/_abreviaturas.aux)
+(./texto/_introducao.aux) (./texto/_fundamentacao.aux) (./texto/_abordagem.aux) (./texto/_avaliacao.aux) (./texto/_melhorias.aux) (./texto/_conclusao.aux)
+(./texto/_MSL.aux) (./anexo_A.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.39996pt have occurred.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+)
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 355 (\begingroup)
+### bottom level
+
+Here is how much of LuaTeX's memory you used:
+ 10078 strings out of 493869
+ 156261,319454 words of node,token memory allocated
+ 792 words of node memory still in use:
+   6 hlist, 2 vlist, 3 rule, 14 glue, 4 kern, 1 glyph, 38 attribute, 76 glue_spe
+c, 20 attribute_list, 2 write nodes
+   avail lists: 2:6668,3:616,4:71,5:781,6:234,7:10364,8:77,9:2638,10:30,11:716
+ 13323 multiletter control sequences out of 65536+200000
+ 126 fonts using 10521591 bytes
+ 38i,18n,46p,2218b,776s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/program files/miktex 2.9/fonts/opentype/public/lm/lmroman6-bold.otf><c:/prog
+ram files/miktex 2.9/fonts/opentype/public/lm/lmroman6-regular.otf><c:/program f
+iles/miktex 2.9/fonts/opentype/public/lm/lmroman8-italic.otf><c:/program files/m
+iktex 2.9/fonts/opentype/public/lm/lmmono8-regular.otf><c:/program files/miktex 
+2.9/fonts/opentype/public/lm/lmroman8-bold.otf><c:/program files/miktex 2.9/font
+s/opentype/public/lm/lmmono12-regular.otf><c:/program files/miktex 2.9/fonts/ope
+ntype/public/lm/lmromancaps10-regular.otf><c:/program files/miktex 2.9/fonts/ope
+ntype/public/lm/lmroman10-italic.otf><c:/program files/miktex 2.9/fonts/opentype
+/public/lm/lmroman10-bold.otf><c:/program files/miktex 2.9/fonts/opentype/public
+/lm/lmmono10-regular.otf><c:/program files/miktex 2.9/fonts/opentype/public/lm/l
+mroman10-regular.otf><c:/program files/miktex 2.9/fonts/opentype/public/lm/lmrom
+an8-regular.otf><c:/program files/miktex 2.9/fonts/opentype/public/lm/lmsans10-b
+oldoblique.otf><c:/program files/miktex 2.9/fonts/opentype/public/lm/lmroman7-bo
+ld.otf><c:/program files/miktex 2.9/fonts/opentype/public/lm/lmroman7-regular.ot
+f><c:/program files/miktex 2.9/fonts/opentype/public/lm/lmsans10-bold.otf><c:/pr
+ogram files/miktex 2.9/fonts/opentype/public/lm/lmsans17-oblique.otf><c:/program
+ files/miktex 2.9/fonts/opentype/public/lm/lmroman12-italic.otf><c:/program file
+s/miktex 2.9/fonts/opentype/public/lm/lmroman12-bold.otf><c:/program files/mikte
+x 2.9/fonts/opentype/public/lm/lmroman10-bolditalic.otf><c:/program files/miktex
+ 2.9/fonts/opentype/public/lm/lmroman12-regular.otf><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/s
+ymbols/msam7.pfb>
+Output written on main.pdf (166 pages, 18647428 bytes).
+
+PDF statistics: 1054 PDF objects out of 1200 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+

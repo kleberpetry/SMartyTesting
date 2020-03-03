@@ -1,0 +1,30 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+A level-1 auxiliary file: texto/_agradecimentos.aux
+A level-1 auxiliary file: texto/_resumo.aux
+A level-1 auxiliary file: texto/_abstract.aux
+A level-1 auxiliary file: texto/_abreviaturas.aux
+A level-1 auxiliary file: texto/_introducao.aux
+A level-1 auxiliary file: texto/_fundamentacao.aux
+A level-1 auxiliary file: texto/_abordagem.aux
+A level-1 auxiliary file: texto/_avaliacao.aux
+A level-1 auxiliary file: texto/_melhorias.aux
+A level-1 auxiliary file: texto/_conclusao.aux
+The style file: icmc2.bst
+A level-1 auxiliary file: texto/_MSL.aux
+A level-1 auxiliary file: anexo_A.aux
+Database file #1: texto/RevisaoLiteratura.bib
+Warning--I didn't find a database entry for ""
+Warning--empty institution in basili1992software
+`volume' is a missing field, not a string, for entry Chen_et_al2009
+while executing---line 1570 of file icmc2.bst
+Warning--Last access date missing in Chen_et_al2009
+Warning--there's a number but no volume in chow1978testing
+Warning--Last access date missing in Feldt_et_al2018
+Warning--empty pages in keele2007guidelines
+`volume' is a missing field, not a string, for entry Lee_et_al2012
+while executing---line 1570 of file icmc2.bst
+Warning--Last access date missing in Lochau:2014
+Warning--there's a number but no volume in mccabe1976complexity
+Warning--empty journal in pinheiro2012jplavisfsm
+Warning--empty journal in rodrigues2013plets
+(There were 2 error messages)

@@ -1,213 +1,311 @@
-\chapter{SMartyTesting}
-\label{sec:abordagem}
+\chapter{A Abordagem SMartyTesting}
+\label{cap3:abordagemsmartytesting}
 \pagestyle{plain}
 
 \section{Considerações Iniciais}
 
-Neste capitulo é apresentado uma abordagem que auxilia na geração de sequências de teste em tempo de modelagem, dentro da engenharia de domínio a partir de modelos UML. Tais sequências de teste poderão ser utilizadas para a geração de casos de teste, que em um segundo momento poderão ser aplicados na engenharia de aplicação. Denominada \textit{SMartyTesting}, um perfil de validação \textit{SMarty}, tem por objetivo auxiliar o arquiteto de software com a geração de sequências de teste a partir de diagramas de sequência, onde o diagrama é convertido para máquina de estado, após este processo é realizado a geração da sequência de teste, isso é feito para todos os produtos derivados de uma linha de produto de software, considerando suas variabilidades.
+Neste tópico é apresentada uma abordagem que auxilia na geração de sequências de teste na Engenharia de Domínio de LPS a partir de modelos \textit{SMarty}. Tais sequências de teste podem ser utilizadas para a geração de casos de teste que, em um segundo momento, podem ser usados na Engenharia de Aplicação. Denominada \textit{SMartyTesting}, a abordagem auxilia na geração de sequências de teste a partir de diagramas de sequência modelados com base em casos de uso e seus fluxos básicos e alternativos, em que o diagrama é convertido para um segundo artefato, diagrama de atividades, que é o requisito de entrada da abordagem SPLiT-MBt. Assim, é realizada a geração de sequências de teste contendo variabilidade. Dessa forma, as sequências de teste podem ser reutilizadas para cada produto a ser testado, aproveitando os benefícios de SPLiT-MBt.
 
-Para esta seção ser mais produtiva recomendamos a leitura da Seção \ref{sec:fundamentacao}, logo em seguida conhecer mais sobre a abordagem de gerenciamento de variabilidade \textit{SMarty},   
+\section{Caracterização da Abordagem \textit{SMartyTesting}}
+\label{cap3sec:caracterizacao_smarty}
 
-\section{Caracterização da Abordagem SMartyTesting}
-\label{caracterizacao_smarty}
+Nesta seção são abordados os elementos que caracterizam a abordagem \textit{SMartyTesting} como modelos, processos e ferramentas.
 
-\subsection{Motivação de Pesquisa}
+\subsection{Definição do Processo Adotado pela Abordagem \textit{SMartyTesting}}
+\label{cap3subsec:definicaoabordagem}
 
-Apesar de teste de software ser altamente difundido, assim como o conceito de LPS, sempre encontramos pontos onde devemos tomar atenção com relação ao resultado final do produto, isso impacta diretamente na qualidade e custo de um produto de software, principalmente em se tratando de uma LPS \cite{engstrom2011testing}. Além do fator teste em uma LPS, devemos considerar as particularidades individuais de cada produto gerado, e assim temos um ponto que demanda atenção, que é a variabilidade. Além de um sério problema na questão de gerenciamento das mesmas, impactando diretamente nas métricas e formas de medição de qualidade \cite{junior2013systematic}. 
+Na \ref{fig:roadmap} (Tópico \ref{cap2:fundamentacao}) pode-se observar a quantidade de possibilidades e caminhos que podem ser direcionados aos objetivos desejados por este trabalho, partindo de um modelo inicial para sequência de teste/caso de teste.
 
-Como foi relatado na Seção \ref{sec:introducao}  existe uma desafio muito grande na geração de testes para produtos derivados de LPS, tanto pela quantidade de produtos semelhantes, como também por suas particularidades que diferem um dos outros. Sobre esse ponto, consideramos que a variabilidade será gerenciada utilizando \textit{SMarty}, visto que ele já possui um perfil de verificação, assim motivando a criação de um perfil voltado para a validação, completando o ciclo de teste da abordagem \textit{SMarty}.
+Para a abordagem \textit{SMartyTesting}, com base na hipótese estabelecida no tópico \ref{cap1:introducao}, foi definido o seguinte processo de teste, de acordo com a \ref{fig:roadmapcaminho}.
 
-Outro ponto que motiva a pesquisa por uma abordagem de geração de testes a partir de modelo é a geração automatizada de código, que também faz uso de modelos UML. Um exemplo é o trabalho de \citealp{kundu2013automatic}, assim com também a geração de casos de teste a partir de modelos \cite{panthi2013automatic,sarma2007automatic,sokenou2006generating}, porém nestes casos não são apresentados evidências de que sejam voltados para LPS e isso pode ser um fator de implicação para o não aproveitamento de tais trabalhos.
+Em um estágio inicial partindo de um diagrama de casos de uso e um diagrama de sequência já modelados por \textit{SMarty}, segue para um segundo estágio, que no caso, para \textit{SMartyTesting} é um estágio obrigatório. No segundo estágio é realizada uma conversão para um artefato intermediário, nesse caso, um diagrama de atividades.
 
-Conforme a motivação apresentada, este projeto de dissertação tem como objetivo especificar a abordagem \textit{SMartyTesting} que permita utilizar TBM em nível de sistema, considerando especificamente diagramas de sequência pelo alto grau de representação de variabilidade onde tais artefatos sejam modelados por \textbf{\textit{SMarty}}. Com objetivos específicos tem-se:
+O gerenciamento da variabilidade fica a cargo de \textit{SMarty}, e a ferramenta de apoio para a geração de sequências é a SPLiT-MBt, assim, indo para o terceiro estágio que é o processo de automatização e geração da sequência, onde é utilizada a SPLiT-MBt.
 
+\subsection{Modelos Utilizados}
+
+A abordagem \textit{SMartyTesting} utiliza os seguintes modelos no apoio ao teste de LPS:
 \begin{itemize}
-	\item investigar na literatura soluções que envolvam tais artefatos UML em TBM para LPS;
-	\item especificar uma abordagem de transformação de modelos e geração de sequências de testes, e;
-	\item avaliar empiricamente a abordagem \textit{SMartyTesting}.
-\end{itemize} 
-
-\section{Metodologia de Desenvolvimento}
-\label{sec:repres_e_fob}
-
-Para atingir o objetivo proposto neste trabalho, será necessário realizar as etapas apresentadas na \ref{fig:fluxometodo}.
-
-\begin{figure}[htb]
-	\centering
-	\includegraphics[scale=0.40]{fluxo_metodologia.pdf}
-	\caption{Etapas da Metodologia de Desenvolvimento de Pesquisa}
-	\label{fig:fluxometodo}
-\end{figure}
-
-\begin{itemize}
-	\item \textbf{Revisão Bibliográfica:} Estudo dos conceitos sobre os principais temas que farão parte do objetivos da pesquisa, como: Perfis UML, Diagramas de caso de uso e sequência, teste em LPS, TBM, conceitos de LPS, gerenciamento de variabilidade, a abordagem \textit{SMarty} que está no Anexo \ref{Abordagem_SMarty}. 
-	
-	\item \textbf{Estudo secundário:} Realização de uma Revisão Sistemática de Literatura (RSL), de estudos primários, onde o tema é TBM para LPS, que encontra-se no Apêndice \ref{sec:MSL}. A análise dos estudos da RSL permitiu a identificação de formatos diferenciados de aplicação de TBM em LPS.
-	
-	\item \textbf{Proposta da Técnica \textit{SMartyTesting}:} Elaborar e apresentar a proposta da técnica \textit{SMartyTesting} que visa a utilização de TBM para LPS modeladas usando \textit{SMarty} para geração de casos de teste em nível de sistema a partir de um modelo formal.
-	
-	\item \textbf{Exemplo de aplicação da Técnica \textit{SMartyTesting}:} Utilização da LPS acadêmica \textit{Arcade Game Maker}(AGM) para aplicar a técnica \textit{SMartyTesting} para a aprendizagem dos conceitos de SPL através de uma abordagem prática. Esta LPS pode ser usada para derivar três jogos eletrônicos diferentes; Bowling, Brickles e Pong, que são usados pela comunidade científica para avaliar e validar suas abordagens \textcolor{red}{colocar uma referencia de onde ele pode obter a lps AGM} \cite{costa2016split}.
-	
-	\item \textbf{Avaliação Qualitativa da Técnica \textit{SMartyTesting}:} trata dos estudos empíricos que serão conduzidos com a finalidade de validar \textit{SMartyTesting} em relação a geração de casos de teste a partir de modelos \textit{SMarty} utilizando-se de diagrama de caso de uso e sequência. Nas avaliações serão utilizadas as LPS \textit{Mobile Media}(MM) e M-SPLlearning ** ou plets.
-	
-	\item \textbf{Redação e Publicação de Resultados:} é escrita e submissão de artigos sobre a técnica proposta e os estudos empíricos conduzidos, bem a escrita e publicação sobre a RSL gerada como estudo secundário, além da escrita e defesa da dissertação.
-	
-	
+	\item \textbf{Diagramas de Casos de Uso:} representam a modelagem dos requisitos de uma LPS contendo variabilidade na representação gráfica e consideram os fluxos básicos e alternativos como fonte de informação para a modelagem de diagramas de sequência;
+	\item \textbf{Diagramas de Sequência:} são usados pela abordagem por permitir a representação de fluxos e procedimentos em um baixo nível de abstração, muito próximo ao código-fonte e com mais detalhes sobre as variabilidades;
+	\item \textbf{Diagramas de Atividades:} usados como artefatos  de entrada para a conversão em MEF, porém com maior nível de abstração que um diagrama de sequência.
 \end{itemize}
 
-\subsection{Ciclo de Desenvolvimento}
-
-contextualizar o ciclo de teste pesquisado
-
-posicionar o leitor onde esta nossa abordagem
-
-\subsection{RoadMap teste TBM em LPS}
-
-apresenta o os caminhos possíveis encontrados no mapeamento e o qual foi o escolhido e porque
-
-
-
-\subsection{Conversão de Sequência para Atividade}
-apresentar o motivo de diagrama de sequencia ser o escolhido
-
-porque a conversão para atividade
-
-possibilidade de conversão para maquina de estado
-
-apresentar de forma detalhada o mapeamento
-
-
-
-\subsection{Geração de Sequências de Teste}
-
-falar o que é geração de sequencia de teste
-
-falar sobre os metodos de geração de sequencia W, HSI etc
-
-falar sobre a ferramenta plavis
-
-apresentar como é o processo da split mbt
-
-explicar o porque foi escolhido a split
-
-
-
-\subsection{Feramentas Adaptadas (SPLit-MbT)}
-
-porque foi selecionado a split e todos os detalhes de seu funcionamento
-
-
-\subsection{Ferramentas e Caminho Escolhido *****}
-Neste trabalho estamos em análise para algumas ATLs de conversão, uma para a primeira etapa \textit{Convert UML Sequence Diagram to UML State Machine } que está sendo testada, e uma para a segunda,  já a segunda deverá ser implementada, devido as particularidades da geração de sequência de teste contendo variabilidade, além da ATL, outras ferramentas estão sendo utilizadas, como o Eclipse, UML \textit{Designer}. A \ref{fig:roadmap} apresenta o caminho que optamos dentro do contexto levantado pelo mapeamento sistemático da literatura apresentado no Anexo \ref{sec:MSL}.
-
+A \ref{fig:ciclopesquisafinal} ilustra o processo com destaque aos diagramas usados pela abordagem.
 
 \begin{landscape}
-	
-	\begin{figure}[htb]
+	\begin{figure}[h!]
 		\centering
-		\includegraphics[scale=0.30]{road_map.pdf}
-		\caption{Guia de direcionamento de processo de TBM em LPS}
-		\label{fig:roadmap}
+		\includegraphics[scale=0.80]{roadmapcaminho2.pdf}
+		\caption{Processo de geração de sequência de teste com \textit{SMartyTesting} (instância da \ref{fig:roadmap} )}
+		\label{fig:roadmapcaminho}
 	\end{figure}
-	
 \end{landscape}
 
 
-
-
-\subsection{Desafios Encontrados}
-A literatura apresenta muitas soluções para teste de LPS, porém muitas delas não possuem foco na variabilidade quando o assunto é uma LPS. Assim, um dos fatores motivantes é considerar variabilidade na decisão de teste. Outro ponto motivante é a abordagem \textit{SMarty} \cite{junior2010systematic} que permite a representação de variabilidade em modelos iniciais do ciclo de vida de LPS. Quando se fala em teste, a literatura apresenta várias soluções voltadas a LPS, dentre elas o TBM, embora trabalhe com MEF, seria interessante que pudesse ser trabalhado o teste com artefatos do tipo casos de uso, diagramas de sequência e de atividades, além de diagramas de estado que já é bastante utilizado. Assim, entende-se como uma oportunidade que pesquise o TBM em conjunto \textit{SMarty} para utilização em casos de uso e diagrama de sequência, para se obter casos de teste que possam ser utilizados a nível de sistema.
-
-\citealp{costa2016split, olimpiew2008model} apresentam alguns desafios na geração de testes a partir de modelos em uma LPS, um ciclo de criação que perfaz desde o modelo inicial até o caso de teste. Devido as particularidades de cada modelo, se faz necessário adaptações a respeito, um exemplo é onde \citealp{costa2016split} estende a máquina de estado finito, pois ela não possui suporte para variabilidade e para garantir que a variabilidade fosse mantida isso se fez necessário. \citealp{olimpiew2008model} também faz de forma semelhante a em sua abordagem CaDeT, modificando parte dos itens para poder contemplar o objetivo da proposta.
-
-\textit{SMartyTesting} não seria diferente, houve a necessidade de se encontrar ferramentas que fizessem o apoio automatizado do processo. Sendo assim buscamos procurar a linguagem de transformação de modelos é usada para definir como um conjunto de modelos de origem é mapeado com o objetivo de criar um conjunto de modelos de destino. A linguagem define como as operações básicas sobre os modelos podem ser realizadas usando um conjunto especíco de construções de linguagem. A criação de linguagens especícas para transformação de modelos é uma abordagem que foi tomada pela indústria de software e comunidade de pesquisa. Como resultado,diversas linguagens de transformação de modelos têm sido propostas \citealp{allilaire2006atl}.
-
-\subsubsection{Limitações de Uso}
-
-apresentar as limitações de uso em relação a pesquisa e os suportes que as ferramentas possuem
-
-limitações do mapeamento e da split
-
-\subsubsection{Ameaças ao Funcionamento}
-
-apresentar as ameaças relacionadas as limitações de uso e interpretação do usuário
-
-Mesmo havendo um embasamento de todo o estudo apresentado aqui a partir da MSL, ainda podemos constatar que podem surgir ameaças ao funcionamento da abordagem quando o assunto é a conversão dos artefatos. Por optarmos trabalhar com diagramas de sequência como ponto de partida, a ATL de conversão trabalha com um metamodelo UML, se o arquiteto de software modelar diagramas que não atendem a quantidade minima de informações necessárias no diagrama, isso pode mascarar itens, ou criar processos equivocados. Um exemplo seria a representação de um laço de repetição de forma diferente do convencional, que da forma como for representado o retorno, poderá gerar uma sequencia de teste como uma outra operação diferente de um laço de repetição. Sendo assim, devemos apresentar ao utilizador um padrão mínimo para que a seja obtido o resultado esperado.
-
-
-\section{Especificação da Abordagem SMartyTesting}
-\label{especificacao_smarty}
-Nesta Seção é apresentado de forma mais detalhada a abordagem \textit{SMartyTesting}, para um bom entendimento se faz obrigatório a leitura da Seção \ref{caracterizacao_smarty}.
-
-\subsection{Etapa 1 - Mapeamento de Diagrama de Sequência para Diagrama de Atividade}
-
-explicar de forma detalhada o mapeamento de sequencia para atividade
-
-
-
-
-
-Como mencionado na Seção \ref{sec:porque_sequencia} a opção por diagramas de sequência se deve ao fato de ele possibilitar uma maior riqueza de informações a respeito do modelo.
-A escolha por diagrama de estado na geração de sequência de teste se deve ao fato de ele ser um dos modelos formais mais utilizados em TBM. Além disso ele é uma boa alternativa para projetar componente de teste, pois podem ser aplicáveis em qualquer modelo de especificação descrevendo um número finito de estados, outro ponto é que ele também é o mais adequado para gerar sequências de teste, uma vez que optamos por esse caminho \cite{costa2016split}.
-
-
-\subsection{ATLs de Conversão UML}
-
-falar sobre algumas ATLs de conversão e os limitadores da utilização deste recurso
-
-Foram encontradas duas ATLs de conversão a primeira \textit{UML Sequence Diagrams to Statechart Diagram} \footnote[1]{Disponível em:http://www.st.ewi.tudelft.nl/basgraaf/ - Acessado em 20/03/2019} onde a documentação de utilização é extremamente confusa e de difícil configuração, foram feitos tentes de conversão de diagramas de exemplos que estavam no pacote, mas não foi obtido o resultado esperado. Já a segunda também \textit{open-source}, é chamada de \textit{Convert UML Sequence Diagram to UML State Machine} \footnote[1]{Disponível em: https://github.com/slashburn/mdd-project - Acessado em 10/04/2019} que possui uma documentação um pouco mais detalhadas em comparação a anterior, foram realizados teste iniciais com os exemplos contidos no pacote onde ouve exito de conversão \cite{hennicker2007activity}.
-
-Este pacote utiliza uma linguagem de conversão \textit{Query/View/Transformation} (QVT), QVT é uma linguagem usada para transformar (meta) modelos. Ele usa OCL (Linguagem de Restrição de Objeto) estendida em combinação com uma linguagem específica de domínio: Relações, Core ou Operacional. Este último é uma linguagem imperativa, enquanto os outros dois são declarativos, ela é implementada no Eclipse.
-
-\textit{Convert UML Sequence Diagram to UML State Machine} possui suporte a arquivos com extensão UML, sendo assim a quantidade de ferramentas que poderiam auxiliar na concepção de diagramas que pudessem ser convertidos ficou um pouco limitada, devido a outras existentes utilizarem formatos próprios de saída, a princípio não realizamos uma busca por conversões de formato para obter uma abrangência maior, ao invés disso procuramos uma ferramenta que fosse robusta e pudesse entregar o proposto. Sendo assim, optamos por realizar testes como o \textit{UML Designer}  \footnote[2]{Disponível em: http://www.umldesigner.org/download/ - Acessado em 10/04/2019}.
-
-\subsubsection{Convert UML Sequence Diagram to UML State Machine}
-\textit{Convert UML Sequence Diagram to UML State Machine} se mostra compatível com \textit{SMarty}, pois em sua conversão apresenta um arquivo de extensão \textit{notation} ainda não foram realizados testes com artefatos modelados por \textit{SMarty} mas baseado nas documentações o resultado pode ser satisfatório. Na \ref{fig:SM_etapa1} apresenta uma visão do ciclo da primeira etapa de forma mais resumida, sendo assim na primeira etapa ficou definido a seguinte sequência de ações, onde grande parte automatizada. 
-
-Partindo do pressuposto que o artefato seja diagrama de sequência e também modelado no formato \textit{SMarty}, é feito a entrada do artefato em extensão UML, na IDE eclipse através da ATL \textit{Convert UML Sequence Diagram to UML State Machine} é realizado as configurações pré-definidas e após a conversão é gerado dois arquivos, um com extensão \textit{notation} e outro UML.
-
-
-\begin{figure}[htb]
+\begin{figure}[h!]
 	\centering
-	\includegraphics[scale=0.50]{smartytesting_etapa1.pdf}
+	\includegraphics[scale=0.50]{ciclo_pesquisafinal.pdf}
+	\caption{Passos para a geração de sequências de teste usando \textit{SMartyTesting}}
+	\label{fig:ciclopesquisafinal}
+\end{figure}
+
+
+\subsection{Conversão de Diagramas de Sequência para Diagramas de Atividades}
+\label{cap3subsec:conversaosequencia}
+
+
+A conversão de diagramas de sequência para diagramas de atividades foi uma opção restritiva pelo fato de a ferramenta SPLiT-MBt ter como entrada diagramas de atividades. Embora também seja um diagrama de comunicação, o diagrama de atividades demonstra mais o fluxo de controle de uma atividade para outra, assim como a concorrência das atividades. Pode-se dizer que, enquanto o diagrama de sequência está mais próximo de métodos e do código-fonte, o diagrama de atividades está mais próximo dos casos de uso em termos de abstração.
+
+Os dois diagramas são equivalentes quando se trata de elementos de representação, um exemplo é que em um diagrama de sequência, uma condicional de decisão pode ser representada por um diagrama de atividades, assim como quando um método, em um diagrama de sequência envia uma mensagem concorrente, criando uma bifurcação (\textit{fork}). 
+
+Baseado no estudo de \citet{garousi2005control}, outro fator para a utilização de conversão de sequência para atividade é que não se corre o risco de perder propriedades no mapeamento, mantendo as características de variabilidades que foram estendidas no diagrama de sequência. Porém, é necessária uma validação desse mapeamento, o que foi feito por \citet{swain2010test}, sendo portanto, uma oportunidade para validação também com \textit{SMartyTesting}.
+
+Por esses fatores é que se optou pela conversão de diagramas de sequência para atividades, aproveitando a validação da abordagem em uma ferramenta já desenvolvida SPLiT-MBt, que tem suporte à variabilidade, enquadrando-se no escopo deste trabalho.
+
+A proposta de \citet{garousi2005control} consiste de uma metodologia de análise de fluxo de controle baseada em diagramas de sequência (DS) da UML 2.0. Essa técnica pode ser usada durante o ciclo de desenvolvimento e em outras abordagens de teste que façam compreensão e execução de modelos. Entre muitas aplicações, essa técnica pode ser usada em sistemas baseados em DS. 
+
+Com base nos diagramas de atividades bem definidos, a proposta \textit{Control Flow Analysis of UML 2.0 Sequence Diagrams} (CCFG) \cite{garousi2005control} apresenta um metamodelo do diagrama de atividades estendido (\ref{fig:mapeamento2}), para apoiar a análise de fluxo de controle dos diagramas de sequência. Assim, pode-se definir um mapeamento baseado em \textit{Object Constraint Language} (OCL) \cite{warmer2003object} que é uma linguagem declarativa para descrever as regras que se aplicam aos modelos UML.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.50]{atividade_metamodelo.pdf}
+	\caption{Control Flow Analysis of UML 2.0 Sequence Diagrams metamodel (Diagramas de Atividades estendido) \cite{garousi2005control}}
+	\label{fig:mapeamento2}
+\end{figure}
+
+A aplicação de OCL é realizada formalmente e verificável com regras de consistência entre um DS e um CCFG (diagramas de atividades estendido), em que CCFG possui todas as classes e associações necessárias, assim como suporte aos caminhos de fluxo de controle simultâneos (concorrência), que são uma generalização do conceito convencional de caminho de fluxo de controle \cite{garousi2005control}. 
+
+O mapeamento consiste da utilização de um metamodelo DS (\ref{fig:mapeamento3}) e um conjunto de regras que deve ser utilizado na conversão, em que o metamodelo CCFG (\ref{fig:mapeamento2}) é considerado como validador.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.50]{sequencia_metamodelo.pdf}
+	\caption{Metamodelo de diagramas de sequência UML \cite{garousi2005control}}
+	\label{fig:mapeamento3}
+\end{figure}
+
+Como exemplo, tem-se diagramas de sequência (\ref{fig:mapeamento1}) que aparenta mensagens assíncronas. Para realizar o mapeamento para atividades (CCFG) foi utilizado um conjunto de regras criadas a partir dos metamodelos \cite{garousi2005control}. As regras são apresentadas na \ref{tab:regrasmapeamento}. Com isso, o processo de mapeamento deu origem ao diagrama de atividades apresentado na \ref{fig:mapeamento4}.   
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.50]{diag_sequencia.pdf}
+	\caption{Um diagrama de sequência com mensagens assíncronas \cite{garousi2005control}}
+	\label{fig:mapeamento1}
+\end{figure}
+
+
+\begin{table}[h!]
+	\centering
+	\caption{Regras utilizadas para a conversão de DS para DA \cite{garousi2005control}}
+	\label{tab:regrasmapeamento}
+	\begin{tabular}{c|l|l}
+		\hline
+		\textbf{N°} & \multicolumn{1}{c|}{\textbf{Recurso do DS}} & \multicolumn{1}{c}{\textbf{Recurso do CCFG (Atividades)}} \\ \hline
+		1 & Interaction & Activity \\ \hline
+		2 & First message end & \begin{tabular}[c]{@{}l@{}}Flow between InitialNode\\ and first control node\end{tabular} \\ \hline
+		3 & SynchCall/SynchSignal & CallNode \\ \hline
+		4 & AsynchCall or AsynchSignal & \begin{tabular}[c]{@{}l@{}}(CallNode+ForkNode) or\\ ReplyNode\end{tabular} \\ \hline
+		5 & \begin{tabular}[c]{@{}l@{}}Message SendEvent and\\ ReceiveEvent\end{tabular} & ControlFlow \\ \hline
+		6 & Lifeline & ObjectPartition \\ \hline
+		7 & par CombinedFragment & ForkNode \\ \hline
+		8 & loop CombinedFragment & DecisionNode \\ \hline
+		9 & alt/opt CombinedFragment & DecisionNode \\ \hline
+		10 & break CombinedFragment & ActivityEdge \\ \hline
+		11 & Last message ends & \begin{tabular}[c]{@{}l@{}}Flow between end control\\ nodes and FinalNode\end{tabular} \\ \hline
+		12 & InteractionOccurrence & Control Flow across CCFGs \\ \hline
+		13 & Polymorphic message & DecisionNode \\ \hline
+		14 & Nested InteractionFragmen & Nested CCFGs \\ \hline
+	\end{tabular}
+\end{table}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.40]{sequencia_result_map.pdf}
+	\caption{Resultado do mapeamento do DS da \ref{fig:mapeamento1}. Traduzido de \citet{garousi2005control}}
+	\label{fig:mapeamento4}
+\end{figure}
+
+Para a validação da abordagem \textit{SMartyTesting} foi realizada a conversão manual dos DSs para DAs utilizando a ferramenta \textit{Astah professional 6}\footnote[1]{Disponível em: http://astah.net/download - Acessado em 20/10/2019}. Ao final da criação dos diagramas, os mesmos foram exportados com extensão XML, para serem utilizados na segunda etapa por SPLiT-MBt.
+
+  
+\subsection{Ferramenta Utilizada}
+\label{cap3sec:ferramenta_utilizada_split}
+
+
+SPLiT-MBt faz o uso do método de geração HSI. A razão para a escolha desse método se deve ao fato de ser um dos métodos menos restritivos em relação às propriedades que as MEFs devem ter. Por exemplo, o HSI é capaz de interpretar MEFs completas e parciais \cite{petrenko1994nondeterministic}. 
+
+Além disso, o método HSI permite cobertura total de falhas existentes e gera sequências de teste menores que outros métodos, o que contribui para a otimização do processo de teste. Esses fatores são muito relevantes no contexto da LPS, porque quanto maior o número de \textit{features} de uma LPS, maior é o número de casos de teste necessários para testar produtos da LPS \cite{engstrom2011software}.
+
+Como houve necessidade de se estender a abordagem por causa da variabilidade, para gerar sequências de teste a partir de uma versão estendida do HSI, foi necessário aplicar o método considerando as informações de variabilidade presentes no MEF. 
+
+A SPLiT-MBt aceita, inicialmente, um arquivo de entrada em formato \textit{eXtensible Markup Language} (XML), faz a leitura do arquivo e valida todos os requisitos de entrada do artefato. Caso esteja correto, monta-se a estrutura e, assim que o usuário clica na opção de geração, SPLiT-MBt converte o DA em MEF em tempo de execução e realiza o processo de geração de sequências de teste.
+
+
+\section{Especificação da Abordagem \textit{SMartyTesting}}
+\label{cap3sec:especificacao_smarty}
+Nesta seção é apresentado cada passo da abordagem \textit{SMartyTesting}. Neste trabalho, parte-se do princípio de que a modelagem de casos de uso tenha dado origem aos diagramas de sequência.
+
+\subsection{Etapa 1 - Mapeamento de Diagramas de Sequência para Diagramas de Atividades}
+\label{cap3subsec:etapa1}
+
+Nesta primeira etapa foi realizado o mapeamento dos diagramas de sequência (DS) para o de atividades estendido (DA). Para tanto, foi usada a LPS AGM. A etapa 1 é ilustrada na \ref{fig:SM_etapa1}. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.50]{etapa1_ds_to_da.pdf}
 	\caption{Ciclo da etapa 1}
 	\label{fig:SM_etapa1}
 \end{figure}
 
 
-\subsection{Etapa 2 - Geração de Sequência de Teste com apoio da ferramenta SPLit-MbT}
-\label{etapa2}
-
-explicar de forma detalhada a geração da sequencia de teste utilizando a split
+O DS foi modelado considerando a abordagem \textit{SMarty} utilizando a ferramenta \textit{Cameo Enterprise Architecture} versão 19 \footnote{\url{https://www.nomagic.com/products/cameo-enterprise-architecture}}. Depois de modelado o diagrama de sequência e todas as suas propriedades (\ref{fig:exemploDS}), o engenheiro de software deverá construir um novo diagrama de atividades, porém levando em consideração as regras da \ref{tab:regrasmapeamento} e as propriedades do diagrama de sequência criado.
 
 
-Após a conversão do artefato para máquina de estado contendo a variabilidade, idealizamos a geração de sequências de teste, onde será possível verificar todas as possíveis combinações e coberturas do artefato. O desafio inicial é como realizar a geração de sequência de teste a partir de máquina de estado, para isso desenvolvemos uma pesquisa a respeito. Realizamos também uma análise para entender se seria vantagem a geração de caso de teste diretamente do artefato de máquina de estado, onde poucos trabalhos foram reportados \cite{aggarwal2012test,dalepiane2014implementation,samuel2008automatic}, porém, nenhuma deles aborda LPS. 
-
-Na busca por modelos de conversão \citealp{costa2016split} relata os principais métodos com suporte a diagrama de máquinas de estado,  TT, UIO, DS, W or HSI, porém alguns deles não seriam possíveis de utilização em LPS, no estudo ele relata que o HSI foi o método que contém mais características favoráveis a utilização em LPS. Também um dos métodos menos restritivos em relação às propriedades que as máquinas de estado devem ter, outro detalhe é que, iremos realizar uma avaliação para comparar os dados obtidos com o trabalho de \citealp{costa2016split}. 
-
-Um outro exemplo é que o HSI é capaz de interpretar MEF completas e parciais.sendo assim, iremos buscar implementar tal método para geração de sequências de teste através de diagramas de máquinas de estado.
-
-\begin{figure}[htb]
+\begin{figure}[h!]
 	\centering
-	\includegraphics[scale=0.50]{smartytesting_etapa2.pdf}
+	\includegraphics[scale=0.47]{exemploDS.pdf}
+	\caption{Diagramas de sequência ilustrando o caso de uso \textit{game menu} da AGM}
+	\label{fig:exemploDS}
+\end{figure}
+
+Neste trabalho utilizou-se outra ferramenta (IDE) de modelagem para a criação do modelo convertido de DS para DA, a ferramenta utilizada foi a \textit{Astah} versão 6. Optou-se por essa versão a fim de demonstrar que mesmo com IDEs diferentes para modelagem, pode-se chegar ao mesmo resultado esperado.
+
+A criação do DA deve levar em consideração o uso das regras de mapeamento contidas na \ref{tab:regrasmapeamento}, as propriedades de variabilidade são mantidas sem a resolução, a fim de serem transportadas às sequências de teste para serem reutilizadas. A \ref{fig:exemploDA} apresenta o resultado da conversão do DS da \ref{fig:exemploDS}.
+
+Na execução da construção do DA deve-se levar em consideração os requisitos necessários que serão utilizados na Etapa 2. O arquivo do artefato modelado deve ser exportado da ferramenta em formato XML, que é o formato de entrada suportado por SPLiT-MBt.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.55]{exemploDA.pdf}
+	\caption{Diagramas de atividades resultante do mapeamento do DS da \ref{fig:exemploDS}}
+	\label{fig:exemploDA}
+\end{figure}
+
+Para a utilização do arquivo do artefato de DA, antes da exportação pela IDE, devem ser levadas em consideração algumas características. Uma delas é a parametrização das transições do DA, necessárias para utilização na ferramenta SPLiT-MBt. Deve ser levado em consideração também o estereótipo da atividade que está sendo modelada fazendo uso de \textit{SMarty}.
+
+Esses parâmetros são informações referentes às transições no DA. Assim, tem-se a transição da atividade, na que está contida a \textit{tag} identificando qual é a ação (\textit{TDaction}) e o resultado esperado (\textit{TDexpectedResult}) e, por fim, os valores (\textit{Values}) que são adicionados conforme as especificações do DA. A \ref{fig:exemploTAG} apresenta uma visão dessa configuração necessária. 
+
+\begin{figure}[H]
+	%\centering
+	\includegraphics[scale=0.50]{exemploTAG.pdf}
+	\caption{Exemplificação da parametrização dos \textit{controlflows} de um diagrama de atividades usando SPLiT-MBt \cite{costa2016split}}
+	\label{fig:exemploTAG}
+\end{figure}
+
+Seguindo essa parametrização necessária, a \ref{tab:valores_tag} apresenta todos os parâmetros das transições do DA resultante do mapeamento.
+
+
+%\begin{landscape}
+	\begin{table}[H]
+	    \footnotesize
+		\caption{Valores dos atributos de parametrização do DA para utilização em SPLiT-MBt}
+		\label{tab:valores_tag}
+		\begin{tabular}{l|l|l}
+			\hline
+			\textbf{Transição das Atividades} & \textbf{Tags} & \textbf{Valores} \\ \hline
+			\begin{tabular}[c]{@{}l@{}}1- Estágio Inicial \\ para LoadGame\end{tabular} & \begin{tabular}[c]{@{}l@{}}TDaction\\ TDexpectedResult\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Game Player faz o carregamento do jogo\\ - Jogo carrega\end{tabular} \\ \hline
+			\begin{tabular}[c]{@{}l@{}}2- LoadGame \\ para getNumRecords\end{tabular} & \begin{tabular}[c]{@{}l@{}}TDaction\\ TDexpectedResult\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Game menu faz acesso ao dados de pontuação\\ - Consegue acesso ao dados de pontuação\end{tabular} \\ \hline
+			\begin{tabular}[c]{@{}l@{}}3- getNumRecords \\ para return\end{tabular} & \begin{tabular}[c]{@{}l@{}}TDaction\\ TDexpectedResult\end{tabular} & \begin{tabular}[c]{@{}l@{}}- recordStore retorna os dados\\ - Dados de pontuação são retornados\end{tabular} \\ \hline
+			\begin{tabular}[c]{@{}l@{}}4- Decision node para \\ bw instanceof GameMenu\end{tabular} & \begin{tabular}[c]{@{}l@{}}TDaction\\ TDexpectedResult\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Opção bw é selecionada\\ - Acesso aos recurso da opção bw\end{tabular} \\ \hline
+			5- return & \begin{tabular}[c]{@{}l@{}}TDaction\\ TDexpectedResult\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Retorno da opção bw\\ - Retorne ao menu de opções\end{tabular} \\ \hline
+			\begin{tabular}[c]{@{}l@{}}6- Decision node para \\ bigm instanceof GameMenu\end{tabular} & \begin{tabular}[c]{@{}l@{}}TDaction\\ TDexpectedResult\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Opção bigm é selecionada\\ - Acesso aos recurso da opção bigm\end{tabular} \\ \hline
+			7- return & \begin{tabular}[c]{@{}l@{}}TDaction\\ TDexpectedResult\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Retorno da opção bigm\\ - Retorne ao menu de opções\end{tabular} \\ \hline
+			\begin{tabular}[c]{@{}l@{}}8- Decision node para \\ pgm instanceof GameMenu\end{tabular} & \begin{tabular}[c]{@{}l@{}}TDaction\\ TDexpectedResult\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Opção pgm é selecionada\\ - Acesso aos recurso da opção pgm\end{tabular} \\ \hline
+			9- return & \begin{tabular}[c]{@{}l@{}}TDaction\\ TDexpectedResult\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Retorno da opção pgm\\ - Retorne ao menu de opções\end{tabular} \\ \hline
+			10- return & \begin{tabular}[c]{@{}l@{}}TDaction\\ TDexpectedResult\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Retorno da informação ao Game Player\\ - Player recebe retorno da ação escolhida\end{tabular} \\ \hline
+		\end{tabular}
+	\end{table}
+%\end{landscape}
+
+
+\subsection{Etapa 2 - Geração de Sequências de Teste}
+\label{cap3subsec:etapa2}
+
+Na segunda etapa considera-se que o DS já tenha sido mapeado e convertido para DA, conforme o fluxo apresentado na \ref{fig:SM_etapa2}. Dado o mapeamento de conversão realizado faz-se a geração de sequências de casos de teste. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.52]{etapa2_da_to_caso.pdf}
 	\caption{Ciclo da etapa 2}
 	\label{fig:SM_etapa2}
 \end{figure}
 
 
-\subsection{Solução da Variabilidade na Engenharia de Domínio}
+De posse do arquivo XML gerado, inicia-se o carregamento do arquivo na ferramenta (\ref{fig:split_carregamento}). Após o arquivo ser carregado pela aplicação, faz-se a verificação da estrutura do arquivo XML (\ref{fig:split_validacao}).
 
-explicar que a variabilidade fica para ser resolvida na engenharia de aplicação
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.60]{splitcarregamento.pdf}
+	\caption{Tela de carregamento de arquivo da ferramenta SPLiT-MBt}
+	\label{fig:split_carregamento}
+\end{figure}
 
-Um dos objetivos deste trabalho é o gerenciamento da variabilidade na geração dos casos de teste. Analisando estudos resultantes da MSL no Anexo \ref{sec:MSL} observamos que quando se abordado produtos derivados a variabilidade sempre é deixada para ser resolvida na engenharia de aplicação, principalmente se houver o interesse no reaproveitamento do caso de teste. Pois um dos principais argumento é que se houver o reaproveitamento pode haver leves variações no ponto de variabilidade o que implicaria em um retrabalho na solução da variabilidade já resolvida.
 
-Seguindo essa premissa, o caso de teste será gerado contendo a variabilidade, sem a solução. Estará documentado a variabilidade e suas particularidades, mas sem a solução devida, ficando a cargo do responsável em qual etapa da engenharia de aplicação será realizada a solução. 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.55]{splitvalidacao.pdf}
+	\caption{Validação da estrutura do arquivo carregado pela SPLiT-MBt}
+	\label{fig:split_validacao}
+\end{figure}
+
+Após a validação do arquivo que é carregado, pode ser observada a sua estrutura usando a própria ferramenta (\ref{fig:split_estrutura}), com isso pode-se realizar a geração de casos de teste e, quando não houver erros na geração, a mensagem de sucesso é apresentada (\ref{fig:split_gerado}).  
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.55]{splitestrutura.pdf}
+	\caption{Apresentação da estrutura do arquivo XML}
+	\label{fig:split_estrutura}
+\end{figure}
 
 
-\section{Exemplo de Aplicação}
-\label{exemplo_aplicao_smarty}
+No momento da geração a ferramenta faz a conversão do DA em MEFs estendidas para suportar variabilidade. Essa conversão é realizada em tempo de execução, assim, não há acesso a nenhum arquivo ou processo, tornando a execução um processo interno da ferramenta.
 
-ilustrar a utilização com um diagrama
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.75]{splitgerado.pdf}
+	\caption{Mensagem de sucesso na geração dos casos de teste}
+	\label{fig:split_gerado}
+\end{figure}
+
+Após a geração, é possível exportar um arquivo XLSx, que é umdos formatos de extensão aceitados pelo Excel, (\ref{fig:split_casodeteste}) que pode ser utilizado em ferramentas de teste que fazem uso de \textit{scripts}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.55]{splitcasodeteste.pdf}
+	\caption{Arquivo XLSx com os casos de testes gerados}
+	\label{fig:split_casodeteste}
+\end{figure}
+\newpage
+\subsection{Resolução da Variabilidade}
+\label{cap3subsec:solucao_variabilidade}
+
+\textit{SMartyTesting} trata inicialmente a resolução da variabilidade no mesmo formato que SPLiT-MBt trata, onde as sequências de casos de teste são geradas contendo a variabilidade sem a resolução. Isso é importante quando se aborda a questão da reutilização, uma vez que quando novos produtos são gerados, a variabilidade pode sofrer alterações, ou haver mais pontos de variação. 
+
+A viabilidade se torna desconhecida justamente por essa diferenciação que pode ser extensa, muitas instâncias e, quando se fala em reaproveitamento, a diferença pode sofrer um aumento e diferenciação, o que torna inviável a solução durante a modelagem.
+
+Nesse caso, \textit{SMartyTesting} gera as sequências de teste com a variabilidade sem resolução, para que o engenheiro de software faça a tomada de decisão na engenharia de aplicação, analisando a melhor solução para a resolução da variabilidade contida.   
+
+
+\subsection{Limitações de Uso da SPLiT-MBt}
+\label{cap3subsec:limitacoes}
+
+Por se estar utilizando ferramentas de apoio de terceiros, era previsto que limitações poderiam ser encontradas. Nesse caso, foram encontradas limitações em ambas as etapas.
+
+Na primeira, com relação à utilização da notação \textit{SMarty} no mapeamento de conversão, pois \textit{Control Flow Analysis of UML 2.0 Sequence Diagrams} não cita soluções sobre variabilidade, embora, não sejam encontrados obstáculos sobre notações na utilização, a limitação ocorre somente por não ter uma regra explícita sobre notação de variabilidade.
+
+Já na segunda etapa, envolvendo a aplicação de SPLiT-MBt, as limitações são mais significativas, embora não tenham influenciado nas validações. As limitações estão ligadas diretamente à estrutura do metamodelo do diagrama de atividades (\ref{fig:mapeamento2}).
+
+SPLiT-MBt não fornece suporte a dois itens de \textit{ControlNode}, \textit{ForkNode} e \textit{JoinNode}, em testes com programação concorrente (atividades simultâneas). 
+
+Outro ponto de limitação está ligado à continuidade de uma atividade após um \textit{DecisionNode} em que não são aceitas sub atividades a não ser que seja um estado de \textit{Merge}. Assim, considera-se isso uma não conformidade com sub-sistemas representados no artefato de entrada, um exemplo seria um \textit{InitialNode} vide (\ref{fig:mapeamento4}).  
+
+Em um processo que não seja automatizado pode haver ameaças ao funcionamento, nesse caso a primeira etapa. Por esse motivo, é recomendado em trabalhos futuros a implementação e automatização de todos os processos do início ao fim do ciclo.
+
+Pode-se considerar outra ameaça ao funcionamento da \textit{Control Flow Analysis of UML 2.0 Sequence Diagrams}, a metodologia de mapeamento. Por  não conter uma regra explícita sobre variabilidade, pode-se entender que a interpretação errada de uma das regras ocasione um erro de conversão. 
+
 
 \section{Considerações Finais}
-\label{consideracoes_smarty}
+\label{cap3sec:consideracoes_smarty}
+Neste tópico foi apresentada a estrutura de utilização da abordagem \textit{SMartyTesting}, partindo da caracterização da abordagem, a definição dos processos e o porquê das escolhas dos artefatos utilizados. Foi apresentado o modelo de conversão de DS para DA e as ferramentas utilizadas nas etapas posteriores. Na especificação detalhada, as duas etapas, em que se conta com o artefato de entrada DS, faz-se conversão para DA que é o artefato de entrada para a etapa seguinte. 
